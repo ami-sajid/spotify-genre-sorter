@@ -124,7 +124,15 @@ class EnvRefreshTokenCache(CacheHandler):
 
 
 def make_client() -> spotipy.Spotify:
-    refresh = os.getenv("SPOTIFY_REFRESH_TOKEN")
+    refresh = os.getenv("SPOTIFY_REFRESH_TOKEN") or ""
+    refresh = refresh.strip().strip("\"'")
+    if refresh.startswith("SPOTIFY_REFRESH_TOKEN="):
+        refresh = refresh.split("=", 1)[1]
+    refresh = "".join(refresh.split())  # drop any hidden whitespace/newlines
+    log.info(
+        "Token length=%d, client id ends with ...%s",
+        len(refresh), (os.getenv("SPOTIPY_CLIENT_ID") or "")[-4:],
+    )
     if not refresh:
         sys.exit("SPOTIFY_REFRESH_TOKEN is not set. Run `python spotify_genre_sorter.py auth` once.")
     auth = SpotifyOAuth(
