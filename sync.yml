@@ -1,0 +1,66 @@
+name: Spotify genre sync
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours (UTC); off-minute avoids top-of-hour queues
+  workflow_dispatch:          # "Run workflow" button in the Actions tab
+    inputs:
+      dry_run:
+        description: "Dry run (change nothing)"
+        type: boolean
+        default: false
+      full_rescan:
+        description: "Re-scan ALL liked songs (ignore watermark)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # needed to commit state/state.json
+
+concurrency:
+  group: spotify-genre-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20   # backstop if Spotify rate-limits us hard
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Sync liked songs into genre playlists
+        env:
+          SPOTIPY_CLIENT_ID: ${{ secrets.SPOTIPY_CLIENT_ID }}
+          SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIPY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          # Optional tuning: Settings -> Secrets and variables -> Actions -> Variables
+          SORTER_PLAYLIST_PREFIX: ${{ vars.SORTER_PLAYLIST_PREFIX }}
+          SORTER_MAX_GENRES: ${{ vars.SORTER_MAX_GENRES }}
+          SORTER_ALL_ARTISTS: ${{ vars.SORTER_ALL_ARTISTS }}
+          SORTER_GENRE_ALLOWLIST: ${{ vars.SORTER_GENRE_ALLOWLIST }}
+          SORTER_MAX_ARTIST_LOOKUPS: ${{ vars.SORTER_MAX_ARTIST_LOOKUPS }}
+          SORTER_PUBLIC: ${{ vars.SORTER_PUBLIC }}
+        run: >
+          python spotify_genre_sorter.py sync
+          ${{ inputs.dry_run && '--dry-run' || '' }}
+          ${{ inputs.full_rescan && '--full' || '' }}
+
+      - name: Commit updated state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/state.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update sync state"
+            git pull --rebase --autostash
+            git push
+          fi
