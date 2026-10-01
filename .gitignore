@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 .env
 *.tmp
+refresh_token.txt

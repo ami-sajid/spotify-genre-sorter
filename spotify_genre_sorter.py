@@ -124,22 +124,24 @@ class EnvRefreshTokenCache(CacheHandler):
 
 
 def make_client() -> spotipy.Spotify:
-    refresh = os.getenv("SPOTIFY_REFRESH_TOKEN") or ""
-    refresh = refresh.strip().strip("\"'")
+    refresh = (os.getenv("SPOTIFY_REFRESH_TOKEN") or "").strip().strip("\"'")
     if refresh.startswith("SPOTIFY_REFRESH_TOKEN="):
         refresh = refresh.split("=", 1)[1]
-    refresh = "".join(refresh.split())  # drop any hidden whitespace/newlines
-    log.info(
-        "Token length=%d, client id ends with ...%s",
-        len(refresh), (os.getenv("SPOTIPY_CLIENT_ID") or "")[-4:],
-    )
+    refresh = "".join(refresh.split())  # drop hidden spaces/newlines
     if not refresh:
         sys.exit("SPOTIFY_REFRESH_TOKEN is not set. Run `python spotify_genre_sorter.py auth` once.")
+    if not re.fullmatch(r"[A-Za-z0-9_\-]{80,250}", refresh):
+        sys.exit(
+            f"SPOTIFY_REFRESH_TOKEN looks wrong (length {len(refresh)}; a real one is ~130 "
+            "characters of letters, digits, - and _ only). Re-copy it from refresh_token.txt."
+        )
+    log.info("Refresh token format OK (length %d).", len(refresh))
     auth = SpotifyOAuth(
         scope=SCOPE,
         redirect_uri=_env("SPOTIPY_REDIRECT_URI", DEFAULT_REDIRECT_URI),
         cache_handler=EnvRefreshTokenCache(refresh),
         open_browser=False,
+        requests_timeout=20,
     )
     # spotipy retries 429/5xx and honours Retry-After; the workflow timeout is the backstop.
     return spotipy.Spotify(
@@ -184,8 +186,11 @@ def cmd_auth() -> int:
     refresh = resp.json().get("refresh_token")
     if not refresh:
         sys.exit("Spotify returned no refresh token.")
-    print("\nSuccess. Store this as the SPOTIFY_REFRESH_TOKEN secret (treat it like a password):\n")
-    print(f"SPOTIFY_REFRESH_TOKEN={refresh}\n")
+    out = Path("refresh_token.txt")
+    out.write_text(refresh + "\n", encoding="utf-8")
+    print(f"\nSuccess. Your refresh token was saved to:\n  {out.resolve()}\n")
+    print("Open that file in Notepad, press Ctrl+A then Ctrl+C, and paste it as the")
+    print("SPOTIFY_REFRESH_TOKEN secret. Treat it like a password and delete the file afterwards.\n")
     return 0
 
 
