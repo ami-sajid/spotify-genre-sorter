@@ -20,9 +20,9 @@ Optional tuning (all have defaults)
     SORTER_MAX_GENRES          3      max genre playlists per song
     SORTER_ALL_ARTISTS         false  use every artist on a song, not just the first
     SORTER_GENRE_ALLOWLIST     ""     comma-separated; empty = every genre
-    SORTER_MAX_ARTIST_LOOKUPS  300    max new artist lookups per run (backfill spreads over runs)
+    SORTER_MAX_ARTIST_LOOKUPS  100    max new artist lookups per run (backfill spreads over runs)
     SORTER_GENRE_CACHE_DAYS    60
-    SORTER_REQUEST_DELAY       0.25   seconds between artist lookups
+    SORTER_REQUEST_DELAY       1.0    seconds between artist lookups
     SORTER_PUBLIC              false  make created playlists public
 """
 from __future__ import annotations
@@ -41,6 +41,8 @@ from pathlib import Path
 
 import requests
 import spotipy
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from spotipy.cache_handler import CacheHandler, MemoryCacheHandler
 from spotipy.exceptions import SpotifyException
 from spotipy.oauth2 import SpotifyOAuth
@@ -87,9 +89,9 @@ class Config:
             max_genres=int(_env("SORTER_MAX_GENRES", "3")),
             all_artists=_flag("SORTER_ALL_ARTISTS"),
             allowlist={g.strip().lower() for g in _env("SORTER_GENRE_ALLOWLIST").split(",") if g.strip()},
-            max_artist_lookups=int(_env("SORTER_MAX_ARTIST_LOOKUPS", "300")),
+            max_artist_lookups=int(_env("SORTER_MAX_ARTIST_LOOKUPS", "100")),
             genre_cache_days=int(_env("SORTER_GENRE_CACHE_DAYS", "60")),
-            request_delay=float(_env("SORTER_REQUEST_DELAY", "0.25")),
+            request_delay=float(_env("SORTER_REQUEST_DELAY", "1.0")),
             public=_flag("SORTER_PUBLIC"),
             lastfm_key=_env("LASTFM_API_KEY"),
         )
@@ -123,6 +125,19 @@ class EnvRefreshTokenCache(CacheHandler):
         self._token = dict(token_info)
 
 
+def build_session() -> requests.Session:
+    """Retry 5xx only. 429 is deliberately NOT retried: Spotify can send a Retry-After of many
+    hours, and sleeping that long just hangs the job. We stop, save progress, resume next run."""
+    session = requests.Session()
+    session.mount("https://", HTTPAdapter(max_retries=Retry(
+        total=5, status=5, backoff_factor=1.0,
+        status_forcelist=(500, 502, 503, 504),
+        allowed_methods=frozenset(["GET", "POST", "PUT", "DELETE"]),
+        respect_retry_after_header=False,
+    )))
+    return session
+
+
 def make_client() -> spotipy.Spotify:
     refresh = (os.getenv("SPOTIFY_REFRESH_TOKEN") or "").strip().strip("\"'")
     if refresh.startswith("SPOTIFY_REFRESH_TOKEN="):
@@ -143,10 +158,8 @@ def make_client() -> spotipy.Spotify:
         open_browser=False,
         requests_timeout=20,
     )
-    # spotipy retries 429/5xx and honours Retry-After; the workflow timeout is the backstop.
-    return spotipy.Spotify(
-        auth_manager=auth, requests_timeout=20, retries=5, status_retries=5, backoff_factor=1.0
-    )
+    session = build_session()
+    return spotipy.Spotify(auth_manager=auth, requests_session=session, requests_timeout=20)
 
 
 def cmd_auth() -> int:
@@ -437,9 +450,18 @@ def genres_for_track(track: dict, resolver: GenreResolver, cfg: Config) -> list[
     return genres[: cfg.max_genres]
 
 
+def retry_after_text(exc: SpotifyException) -> str:
+    try:
+        secs = int((exc.headers or {}).get("Retry-After", 0))
+    except (TypeError, ValueError):
+        secs = 0
+    return f"about {secs / 3600:.1f} h" if secs else "unknown"
+
+
 def sync(cfg: Config, dry_run: bool, full: bool) -> int:
     state = load_state(cfg.state_path)
     before = json.dumps(state, sort_keys=True)
+    rate_limited: SpotifyException | None = None
     errors = 0      # real failures -> non-zero exit
     deferred = False  # songs postponed by the lookup budget -> normal, retried next run
     try:
@@ -456,6 +478,10 @@ def sync(cfg: Config, dry_run: bool, full: bool) -> int:
             try:
                 genres = genres_for_track(track, resolver, cfg)
             except SpotifyException as exc:
+                if exc.http_status == 429:
+                    rate_limited = exc
+                    deferred = True
+                    break
                 log.error("Genre lookup failed for %r: %s", track["name"], exc)
                 errors += 1
                 continue
@@ -479,6 +505,10 @@ def sync(cfg: Config, dry_run: bool, full: bool) -> int:
             try:
                 added += index.add(index.ensure(genre), ids)
             except SpotifyException as exc:
+                if exc.http_status == 429:
+                    rate_limited = exc
+                    deferred = True
+                    break
                 log.error("Failed updating %r playlist: %s", genre, exc)
                 errors += 1
         log.info(
@@ -498,10 +528,15 @@ def sync(cfg: Config, dry_run: bool, full: bool) -> int:
                     state["watermark"], state["watermark_ids"] = newest, sorted(ids)
                 elif newest == old:
                     state["watermark_ids"] = sorted(ids | set(state.get("watermark_ids", [])))
+        if rate_limited:
+            log.warning(
+                "Spotify rate limit hit (Retry-After %s). Progress is saved; the next run resumes.",
+                retry_after_text(rate_limited),
+            )
         return 1 if errors else 0
     finally:
         # Always persist the genre cache, even after a crash, so progress isn't lost.
-        if not dry_run and json.dumps(state, sort_keys=True) != before:
+        if json.dumps(state, sort_keys=True) != before:
             save_state(cfg.state_path, state)
             log.info("State saved to %s", cfg.state_path)
 
@@ -549,6 +584,12 @@ def main() -> int:
             return cmd_check(cfg)
         return sync(cfg, dry_run=args.dry_run, full=args.full)
     except SpotifyException as exc:
+        if exc.http_status == 429:
+            log.warning(
+                "Spotify is rate-limiting this app (Retry-After %s). Nothing changed; "
+                "the next run will try again.", retry_after_text(exc),
+            )
+            return 0
         log.error("Spotify API error: %s", exc)
         return 1
     except requests.RequestException as exc:

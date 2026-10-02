@@ -59,7 +59,7 @@ Then run it again without dry run. After that it runs every 6 hours (edit the `c
 If **Settings -> Actions -> General -> Workflow permissions** is set to read-only and the state commit fails, switch it to *Read and write*.
 
 ## Backfilling a big library
-Each run does at most 300 new artist lookups (`SORTER_MAX_ARTIST_LOOKUPS`) to stay under Spotify's rate limits. A big library backfills over several runs. Progress is cached, and the watermark only advances once every song in a batch is handled, so nothing is skipped. Click **Run workflow** a few times to speed it up.
+Each run does at most 100 new artist lookups (`SORTER_MAX_ARTIST_LOOKUPS`), one per second, to stay under Spotify's rate limits. A big library backfills over several runs. Progress is cached, and the watermark only advances once every song in a batch is handled, so nothing is skipped. Click **Run workflow** again after each run finishes to speed it up; don't start two at once. A dry run saves its genre lookups too, so they aren't wasted.
 
 ## Tuning (Settings -> Secrets and variables -> Actions -> **Variables**)
 
@@ -70,7 +70,8 @@ Each run does at most 300 new artist lookups (`SORTER_MAX_ARTIST_LOOKUPS`) to st
 | `SORTER_GENRE_ALLOWLIST` | empty (all) | e.g. `rock,pop,hip hop,electronic` to avoid hundreds of micro-genre playlists |
 | `SORTER_ALL_ARTISTS` | false | use every artist on a song, not just the first |
 | `SORTER_PUBLIC` | false | create public playlists |
-| `SORTER_MAX_ARTIST_LOOKUPS` | 300 | per-run lookup budget |
+| `SORTER_MAX_ARTIST_LOOKUPS` | 100 | per-run lookup budget |
+| `SORTER_REQUEST_DELAY` | 1.0 | seconds between artist lookups (raise it if you hit rate limits) |
 
 Existing playlists match by name (case-insensitive) and only if you own them. With no prefix, a playlist you already named "Rock" will start receiving songs.
 Spotify's genres are very granular ("bangla indie", "dark trap"), so set an allowlist or a low `SORTER_MAX_GENRES` if you'd rather have a handful of big playlists.
@@ -81,7 +82,7 @@ Spotify's genres are very granular ("bangla indie", "dark trap"), so set an allo
 - **403 on playlist calls:** old spotipy. Make sure `requirements.txt` resolves to 2.26+.
 - **403 on everything:** the app owner's Premium lapsed.
 - **Most songs "had no genre":** set `LASTFM_API_KEY`, then run once with **Full re-scan** ticked (already-sorted songs are skipped automatically).
-- **Job hits the 20-minute timeout:** Spotify is rate-limiting you. Lower `SORTER_MAX_ARTIST_LOOKUPS`; the next run resumes.
+- **Log says "Spotify rate limit hit (Retry-After about N h)":** Spotify temporarily blocked the app for sending too many requests. The script stops immediately and saves its progress. Wait out the time shown (it can be many hours), don't run anything else with the same Client ID meanwhile, then run again. If it keeps happening, raise `SORTER_REQUEST_DELAY` to 2 and lower `SORTER_MAX_ARTIST_LOOKUPS` to 50.
 - To wipe progress, delete `state/state.json` in the repo.
 
 ## Not on GitHub Actions?
