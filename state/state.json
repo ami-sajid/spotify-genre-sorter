@@ -1,0 +1,16 @@
+{
+ "artist_genres": {
+  "44TGR1CzjKBxSHsSEy7bi9": {
+   "fetched": "2026-10-02T12:38:23+00:00",
+   "genres": [
+    "indie",
+    "alternative"
+   ],
+   "name": "Woodkid",
+   "source": "lastfm"
+  }
+ },
+ "version": 1,
+ "watermark": null,
+ "watermark_ids": []
+}
