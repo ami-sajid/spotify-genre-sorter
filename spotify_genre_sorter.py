@@ -12,7 +12,7 @@ Runtime credentials (environment variables)
     SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET   your Spotify app
     SPOTIFY_REFRESH_TOKEN                      printed by `auth`
     SPOTIPY_REDIRECT_URI                       only used by `auth` (default http://127.0.0.1:8888/callback)
-    LASTFM_API_KEY                             optional genre fallback (see README)
+    LASTFM_API_KEY                             genre source for apps where Spotify returns no genres
 
 Optional tuning (all have defaults)
     SORTER_STATE_PATH          state/state.json
@@ -20,9 +20,11 @@ Optional tuning (all have defaults)
     SORTER_MAX_GENRES          3      max genre playlists per song
     SORTER_ALL_ARTISTS         false  use every artist on a song, not just the first
     SORTER_GENRE_ALLOWLIST     ""     comma-separated; empty = every genre
-    SORTER_MAX_ARTIST_LOOKUPS  100    max new artist lookups per run (backfill spreads over runs)
+    SORTER_GENRE_SOURCE        auto   auto | lastfm | spotify  (auto = lastfm if LASTFM_API_KEY is set)
+    SORTER_MAX_ARTIST_LOOKUPS  1000   max new artist lookups per run (100 when using Spotify lookups)
     SORTER_GENRE_CACHE_DAYS    60
-    SORTER_REQUEST_DELAY       1.0    seconds between artist lookups
+    SORTER_REQUEST_DELAY       0.3    seconds between artist lookups (1.0 when using Spotify lookups)
+    SORTER_SPOTIFY_DELAY       1.0    seconds between Spotify list/write calls (keeps under rate limits)
     SORTER_PUBLIC              false  make created playlists public
 """
 from __future__ import annotations
@@ -80,20 +82,33 @@ class Config:
     request_delay: float
     public: bool
     lastfm_key: str
+    genre_source: str
+    spotify_delay: float
 
     @classmethod
     def from_env(cls) -> "Config":
+        lastfm_key = _env("LASTFM_API_KEY").strip()
+        source = _env("SORTER_GENRE_SOURCE", "auto").strip().lower()
+        if source == "auto":
+            source = "lastfm" if lastfm_key else "spotify"
+        if source not in {"lastfm", "spotify"}:
+            sys.exit("SORTER_GENRE_SOURCE must be auto, lastfm or spotify.")
+        if source == "lastfm" and not lastfm_key:
+            sys.exit("SORTER_GENRE_SOURCE=lastfm needs LASTFM_API_KEY.")
+        lastfm_first = source == "lastfm"
         return cls(
             state_path=Path(_env("SORTER_STATE_PATH", "state/state.json")),
             playlist_prefix=_env("SORTER_PLAYLIST_PREFIX"),
             max_genres=int(_env("SORTER_MAX_GENRES", "3")),
             all_artists=_flag("SORTER_ALL_ARTISTS"),
             allowlist={g.strip().lower() for g in _env("SORTER_GENRE_ALLOWLIST").split(",") if g.strip()},
-            max_artist_lookups=int(_env("SORTER_MAX_ARTIST_LOOKUPS", "100")),
+            max_artist_lookups=int(_env("SORTER_MAX_ARTIST_LOOKUPS", "1000" if lastfm_first else "100")),
             genre_cache_days=int(_env("SORTER_GENRE_CACHE_DAYS", "60")),
-            request_delay=float(_env("SORTER_REQUEST_DELAY", "1.0")),
+            request_delay=float(_env("SORTER_REQUEST_DELAY", "0.3" if lastfm_first else "1.0")),
             public=_flag("SORTER_PUBLIC"),
-            lastfm_key=_env("LASTFM_API_KEY"),
+            lastfm_key=lastfm_key,
+            genre_source=source,
+            spotify_delay=float(_env("SORTER_SPOTIFY_DELAY", "1.0")),
         )
 
 
@@ -247,6 +262,10 @@ def normalize_genre(g: str) -> str:
     return re.sub(r"\s+", " ", g.strip().lower())
 
 
+class LastfmError(Exception):
+    """Last.fm failed (bad key, rate limit, outage). Never cached as 'no genres'."""
+
+
 def lastfm_genres(session: requests.Session, api_key: str, artist_name: str) -> list[str]:
     """Top Last.fm tags for an artist, filtered down to plausible genres."""
     try:
@@ -258,11 +277,16 @@ def lastfm_genres(session: requests.Session, api_key: str, artist_name: str) -> 
             },
             timeout=15,
         )
-        r.raise_for_status()
-        tags = r.json().get("toptags", {}).get("tag", [])
+        data = r.json()
     except (requests.RequestException, ValueError) as exc:
-        log.warning("Last.fm lookup failed for %r: %s", artist_name, exc)
-        return []
+        raise LastfmError(f"request failed: {type(exc).__name__}") from exc
+    if isinstance(data, dict) and "error" in data:
+        if data["error"] == 6:  # artist not found: a real "no genres" answer
+            return []
+        raise LastfmError(f"error {data['error']}: {data.get('message')}")
+    tags = ((data or {}).get("toptags") or {}).get("tag", [])
+    if isinstance(tags, dict):  # Last.fm returns a bare object when there is one tag
+        tags = [tags]
     out = []
     for tag in tags:
         name = normalize_genre(tag.get("name", ""))
@@ -282,6 +306,7 @@ class GenreResolver:
     def __init__(self, sp: spotipy.Spotify, cfg: Config, cache: dict):
         self.sp, self.cfg, self.cache = sp, cfg, cache
         self.lookups = 0
+        self.failures = 0  # consecutive Last.fm failures
         self.session = requests.Session()
         self._warned_missing = False
 
@@ -292,10 +317,27 @@ class GenreResolver:
             return False
         return datetime.now(timezone.utc) - fetched < timedelta(days=self.cfg.genre_cache_days)
 
+    def _usable(self, entry: dict) -> bool:
+        if not self._fresh(entry):
+            return False
+        # Empty results from Spotify get a second chance once Last.fm is configured.
+        if not entry.get("genres") and self.cfg.lastfm_key and entry.get("source") != "lastfm":
+            return False
+        return True
+
+    def _lastfm(self, artist_name: str) -> list[str]:
+        try:
+            genres = lastfm_genres(self.session, self.cfg.lastfm_key, artist_name)
+        except LastfmError:
+            self.failures += 1
+            raise
+        self.failures = 0
+        return genres
+
     def get(self, artist_id: str, artist_name: str) -> list[str] | None:
         """[] = looked up, no genres. None = lookup budget exhausted (defer the track)."""
         entry = self.cache.get(artist_id)
-        if entry and self._fresh(entry):
+        if entry and self._usable(entry):
             return entry["genres"]
         if self.lookups >= self.cfg.max_artist_lookups:
             return None
@@ -309,6 +351,10 @@ class GenreResolver:
         return genres
 
     def _lookup(self, artist_id: str, artist_name: str) -> tuple[list[str], str]:
+        if self.cfg.genre_source == "lastfm":
+            # Spotify's artist endpoint returns no genres for this app, so skip it entirely
+            # (saves rate limit). The artist name already came with the liked-songs response.
+            return self._lastfm(artist_name), "lastfm"
         genres, source = [], "spotify"
         try:
             artist = self.sp.artist(artist_id)  # single-artist endpoint; the batch one is gone
@@ -326,14 +372,14 @@ class GenreResolver:
             )
         if not genres and self.cfg.lastfm_key:
             time.sleep(0.2)
-            fallback = lastfm_genres(self.session, self.cfg.lastfm_key, artist_name)
+            fallback = self._lastfm(artist_name)
             if fallback:
                 return fallback, "lastfm"
         return genres, source
 
 
 # --------------------------------------------------------------------------- liked songs
-def fetch_new_likes(sp: spotipy.Spotify, state: dict, full: bool) -> list[dict]:
+def fetch_new_likes(sp: spotipy.Spotify, state: dict, full: bool, delay: float = 0.0) -> list[dict]:
     """Page through liked songs (newest first) and stop at the watermark."""
     watermark = None if full else state.get("watermark")
     seen_at_wm = set(state.get("watermark_ids", []))
@@ -365,6 +411,7 @@ def fetch_new_likes(sp: spotipy.Spotify, state: dict, full: bool) -> list[dict]:
             })
         if reached_old or not results.get("next"):
             break
+        time.sleep(delay)
         results = sp.next(results)
     log.info("Fetched %d new liked song(s) in %d page(s).", len(new), pages)
     return new
@@ -376,6 +423,7 @@ class PlaylistIndex:
 
     def __init__(self, sp: spotipy.Spotify, cfg: Config, dry_run: bool):
         self.sp, self.cfg, self.dry_run = sp, cfg, dry_run
+        self.delay = cfg.spotify_delay
         self.me = sp.current_user()["id"]
         self.by_name: dict[str, str] = {}
         self._contents: dict[str, set[str]] = {}
@@ -384,6 +432,8 @@ class PlaylistIndex:
             for pl in results.get("items", []):
                 if pl and (pl.get("owner") or {}).get("id") == self.me:
                     self.by_name.setdefault(pl["name"].casefold(), pl["id"])
+            if results.get("next"):
+                time.sleep(self.delay)
             results = sp.next(results) if results.get("next") else None
         log.info("Found %d playlist(s) owned by you.", len(self.by_name))
 
@@ -404,6 +454,7 @@ class PlaylistIndex:
             )
             log.info("Created playlist %r", name)
             self.by_name[key] = created["id"]
+            time.sleep(self.delay)
         self._contents[self.by_name[key]] = set()
         return self.by_name[key]
 
@@ -417,6 +468,8 @@ class PlaylistIndex:
                     obj = row.get("item") or row.get("track")
                     if isinstance(obj, dict) and obj.get("id"):
                         ids.add(obj["id"])
+                if results.get("next"):
+                    time.sleep(self.delay)
                 results = self.sp.next(results) if results.get("next") else None
             self._contents[playlist_id] = ids
         return self._contents[playlist_id]
@@ -433,6 +486,7 @@ class PlaylistIndex:
             chunk = fresh[i:i + 100]
             self.sp.playlist_add_items(playlist_id, [f"spotify:track:{t}" for t in chunk])
             have.update(chunk)
+            time.sleep(self.delay)
         return len(fresh)
 
 
@@ -466,7 +520,7 @@ def sync(cfg: Config, dry_run: bool, full: bool) -> int:
     deferred = False  # songs postponed by the lookup budget -> normal, retried next run
     try:
         sp = make_client()
-        tracks = fetch_new_likes(sp, state, full)
+        tracks = fetch_new_likes(sp, state, full, cfg.spotify_delay)
         if not tracks:
             log.info("Nothing new. Done.")
             return 0
@@ -477,6 +531,14 @@ def sync(cfg: Config, dry_run: bool, full: bool) -> int:
         for track in tracks:
             try:
                 genres = genres_for_track(track, resolver, cfg)
+            except LastfmError as exc:
+                errors += 1
+                log.error("Last.fm lookup failed: %s", exc)
+                if resolver.failures >= 3:
+                    log.error("Last.fm keeps failing (bad API key or outage?). Stopping lookups this run.")
+                    deferred = True
+                    break
+                continue
             except SpotifyException as exc:
                 if exc.http_status == 429:
                     rate_limited = exc
@@ -495,7 +557,7 @@ def sync(cfg: Config, dry_run: bool, full: bool) -> int:
                 plan[g].append(track["id"])
         if deferred:
             log.info(
-                "Artist-lookup budget (%d) reached; remaining songs will be picked up next run.",
+                "Lookup budget (%d) reached or lookups stopped; remaining songs are picked up next run.",
                 cfg.max_artist_lookups,
             )
 
@@ -553,12 +615,19 @@ def cmd_check(cfg: Config) -> int:
         data = sp.artist(artist["id"])
         has_field = "genres" in data
         print(f"  {artist['name']}: `genres` field present={has_field} value={data.get('genres')}")
+    if cfg.lastfm_key:
+        name = page["items"][0]["track"]["artists"][0]["name"]
+        try:
+            tags = lastfm_genres(requests.Session(), cfg.lastfm_key, name)
+            print(f"Last.fm test for {name}: {tags}")
+        except LastfmError as exc:
+            print(f"Last.fm test FAILED: {exc}")
     owned = sum(
         1 for pl in sp.current_user_playlists(limit=50).get("items", [])
         if pl and (pl.get("owner") or {}).get("id") == me["id"]
     )
     print(f"Playlists owned by you (first page): {owned}")
-    print(f"Last.fm fallback: {'enabled' if cfg.lastfm_key else 'not configured'}")
+    print(f"Genre source: {cfg.genre_source} (Last.fm key {'set' if cfg.lastfm_key else 'NOT set'})")
     return 0
 
 

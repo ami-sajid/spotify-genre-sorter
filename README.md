@@ -9,7 +9,8 @@ Private playlists by default. State lives in `state/state.json` in your repo.
 - **The app owner needs Spotify Premium.** Since February 2026 a Development Mode app stops working without it.
 - Development Mode allows 5 users per app. Fine for personal use.
 - Batch artist lookups (`GET /artists?ids=`) were removed, so this script fetches artists one at a time and caches them. Playlist calls use the new `/items` endpoints (spotipy 2.26+ does this for you).
-- **Artist `genres` is the one uncertain field.** Spotify's changelog doesn't list it as removed, but some developers report it missing for Development Mode apps. Step 4 below tests your app. If it's missing, the script falls back to Last.fm tags (free key, step 4).
+- **Artist `genres` may be missing for your app.** Spotify's changelog doesn't list it as removed, but some Development Mode apps get none. Step 4 tests yours. If it's missing, set a free Last.fm key: the script then takes genres from Last.fm and skips Spotify's artist endpoint entirely, which also saves your rate limit.
+- **Spotify rate limits are strict and can block an app for many hours.** The script paces its calls and stops cleanly when it gets blocked.
 
 ## Setup (about 15 minutes)
 
@@ -40,7 +41,7 @@ Create a **private** repo and upload everything in this folder, keeping `.github
 export SPOTIFY_REFRESH_TOKEN=...
 python spotify_genre_sorter.py check
 ```
-It prints whether Spotify returns a `genres` field for your liked artists. If it says `present=False` (or values are mostly empty), get a free key at https://www.last.fm/api/account/create and add it as `LASTFM_API_KEY` in step 5.
+It prints whether Spotify returns a `genres` field for your liked artists. If it says `present=False` (or values are mostly empty), get a free key at https://www.last.fm/api/account/create (any app name, leave the callback URL blank) and add it as `LASTFM_API_KEY` in step 5. With the key set, `check` also prints a Last.fm test result.
 
 ### 5. Add secrets in GitHub
 Repo -> **Settings -> Secrets and variables -> Actions -> New repository secret**:
@@ -50,7 +51,7 @@ Repo -> **Settings -> Secrets and variables -> Actions -> New repository secret*
 | `SPOTIPY_CLIENT_ID` | from step 1 |
 | `SPOTIPY_CLIENT_SECRET` | from step 1 |
 | `SPOTIFY_REFRESH_TOKEN` | from step 2 |
-| `LASTFM_API_KEY` | optional fallback |
+| `LASTFM_API_KEY` | genre source if Spotify returns none (recommended) |
 
 ### 6. First run
 **Actions -> Spotify genre sync -> Run workflow**, tick **Dry run** first and read the log.
@@ -59,7 +60,7 @@ Then run it again without dry run. After that it runs every 6 hours (edit the `c
 If **Settings -> Actions -> General -> Workflow permissions** is set to read-only and the state commit fails, switch it to *Read and write*.
 
 ## Backfilling a big library
-Each run does at most 100 new artist lookups (`SORTER_MAX_ARTIST_LOOKUPS`), one per second, to stay under Spotify's rate limits. A big library backfills over several runs. Progress is cached, and the watermark only advances once every song in a batch is handled, so nothing is skipped. Click **Run workflow** again after each run finishes to speed it up; don't start two at once. A dry run saves its genre lookups too, so they aren't wasted.
+With a Last.fm key, genre lookups don't touch Spotify at all, so a big library usually backfills in one or two runs (up to 1,000 artist lookups per run, ~10 minutes). Without it, Spotify lookups are capped at 100 per run, one per second, and a library takes many runs. Progress is cached, and the watermark only advances once every song in a batch is handled, so nothing is skipped. Click **Run workflow** again if the log says the lookup budget was reached. A dry run saves its genre lookups too, so they aren't wasted.
 
 ## Tuning (Settings -> Secrets and variables -> Actions -> **Variables**)
 
@@ -70,8 +71,10 @@ Each run does at most 100 new artist lookups (`SORTER_MAX_ARTIST_LOOKUPS`), one 
 | `SORTER_GENRE_ALLOWLIST` | empty (all) | e.g. `rock,pop,hip hop,electronic` to avoid hundreds of micro-genre playlists |
 | `SORTER_ALL_ARTISTS` | false | use every artist on a song, not just the first |
 | `SORTER_PUBLIC` | false | create public playlists |
-| `SORTER_MAX_ARTIST_LOOKUPS` | 100 | per-run lookup budget |
-| `SORTER_REQUEST_DELAY` | 1.0 | seconds between artist lookups (raise it if you hit rate limits) |
+| `SORTER_GENRE_SOURCE` | auto | `auto` (Last.fm if a key is set), `lastfm` or `spotify` |
+| `SORTER_MAX_ARTIST_LOOKUPS` | 1000 (100 for Spotify lookups) | per-run lookup budget |
+| `SORTER_REQUEST_DELAY` | 0.3 (1.0 for Spotify lookups) | seconds between artist lookups |
+| `SORTER_SPOTIFY_DELAY` | 1.0 | seconds between Spotify list/write calls (raise to 2 if you hit rate limits) |
 
 Existing playlists match by name (case-insensitive) and only if you own them. With no prefix, a playlist you already named "Rock" will start receiving songs.
 Spotify's genres are very granular ("bangla indie", "dark trap"), so set an allowlist or a low `SORTER_MAX_GENRES` if you'd rather have a handful of big playlists.
@@ -81,8 +84,9 @@ Spotify's genres are very granular ("bangla indie", "dark trap"), so set an allo
 - **`invalid_grant` on refresh:** the token was revoked or rotated. Re-run `auth`, update the secret.
 - **403 on playlist calls:** old spotipy. Make sure `requirements.txt` resolves to 2.26+.
 - **403 on everything:** the app owner's Premium lapsed.
-- **Most songs "had no genre":** set `LASTFM_API_KEY`, then run once with **Full re-scan** ticked (already-sorted songs are skipped automatically).
-- **Log says "Spotify rate limit hit (Retry-After about N h)":** Spotify temporarily blocked the app for sending too many requests. The script stops immediately and saves its progress. Wait out the time shown (it can be many hours), don't run anything else with the same Client ID meanwhile, then run again. If it keeps happening, raise `SORTER_REQUEST_DELAY` to 2 and lower `SORTER_MAX_ARTIST_LOOKUPS` to 50.
+- **Most songs "had no genre":** set `LASTFM_API_KEY`; artists that earlier came back empty from Spotify are looked up again automatically.
+- **"Last.fm keeps failing":** the Last.fm API key is wrong or Last.fm is down. Re-copy the key (the API key, not the shared secret).
+- **Log says "Spotify rate limit hit (Retry-After about N h)":** Spotify temporarily blocked the app for sending too many requests. The script stops immediately and saves its progress. Wait out the time shown (it can be many hours), don't run anything else with the same Client ID meanwhile, then run again. If it keeps happening, set `SORTER_SPOTIFY_DELAY` to 2.
 - To wipe progress, delete `state/state.json` in the repo.
 
 ## Not on GitHub Actions?
