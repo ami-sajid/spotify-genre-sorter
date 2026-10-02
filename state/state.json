@@ -28,6 +28,32 @@
    "name": "Lupe Fiasco",
    "source": "lastfm"
   },
+  "021q1fOEcfqxtlCtJs868v": {
+   "fetched": "2026-10-02T15:54:09+00:00",
+   "genres": [
+    "j-pop",
+    "japanese"
+   ],
+   "name": "Mink",
+   "source": "lastfm"
+  },
+  "027TpXKGwdXP7iwbjUSpV8": {
+   "fetched": "2026-10-02T15:54:08+00:00",
+   "genres": [
+    "indie rock",
+    "indie pop"
+   ],
+   "name": "The Walters",
+   "source": "lastfm"
+  },
+  "02CSsXlCyOTZgxKnmxweqc": {
+   "fetched": "2026-10-02T15:56:45+00:00",
+   "genres": [
+    "lo-fi"
+   ],
+   "name": "Lo-Fi Luke",
+   "source": "lastfm"
+  },
   "02kJSzxNuaWGqwubyUba0Z": {
    "fetched": "2026-10-02T15:09:09+00:00",
    "genres": [
@@ -35,6 +61,24 @@
     "rap"
    ],
    "name": "G-Eazy",
+   "source": "lastfm"
+  },
+  "037oCHf26WEq5mR05NoOO7": {
+   "fetched": "2026-10-02T15:57:11+00:00",
+   "genres": [
+    "pop",
+    "rap",
+    "composer"
+   ],
+   "name": "Pritom Hasan",
+   "source": "lastfm"
+  },
+  "048LktY5zMnakWq7PTtFrz": {
+   "fetched": "2026-10-02T15:57:31+00:00",
+   "genres": [
+    "rnb"
+   ],
+   "name": "CKay",
    "source": "lastfm"
   },
   "04gDigrS5kc9YWfZHwBETP": {
@@ -65,6 +109,24 @@
    "name": "Grimes",
    "source": "lastfm"
   },
+  "05YVYeV4HxYp5rrWalvuE1": {
+   "fetched": "2026-10-02T15:54:23+00:00",
+   "genres": [
+    "jazz",
+    "smooth jazz"
+   ],
+   "name": "Grover Washington, Jr.",
+   "source": "lastfm"
+  },
+  "05djG1WXlJcAxOJ4tEl3fr": {
+   "fetched": "2026-10-02T15:57:19+00:00",
+   "genres": [
+    "bangladesh",
+    "bangladeshi"
+   ],
+   "name": "Krishnokoli Islam",
+   "source": "lastfm"
+  },
   "05etL4pzWd6TSv1x5WrlG3": {
    "fetched": "2026-10-02T15:27:59+00:00",
    "genres": [
@@ -82,6 +144,20 @@
    "name": "Slipknot",
    "source": "lastfm"
   },
+  "05meCOTJHShssEbMVMO8cf": {
+   "fetched": "2026-10-02T15:57:14+00:00",
+   "genres": [],
+   "name": "m00nst3p",
+   "source": "lastfm"
+  },
+  "06E8jfHz6oAX4ZdyV6Lnx1": {
+   "fetched": "2026-10-02T15:56:58+00:00",
+   "genres": [
+    "nu metal"
+   ],
+   "name": "Popeye",
+   "source": "lastfm"
+  },
   "06HL4z0CvFAxyc27GXpf02": {
    "fetched": "2026-10-02T15:09:31+00:00",
    "genres": [
@@ -91,12 +167,26 @@
    "name": "Taylor Swift",
    "source": "lastfm"
   },
+  "06bDwgCHeMAwhgI8il4Y5k": {
+   "fetched": "2026-10-02T15:54:51+00:00",
+   "genres": [
+    "pop punk"
+   ],
+   "name": "Set It Off",
+   "source": "lastfm"
+  },
   "06eRdiCBgFUhiuFjei0eH2": {
    "fetched": "2026-10-02T15:36:22+00:00",
    "genres": [
     "heavy metal"
    ],
    "name": "Warfaze",
+   "source": "lastfm"
+  },
+  "06mgm4eGlY1VOc3PSKEu52": {
+   "fetched": "2026-10-02T15:55:08+00:00",
+   "genres": [],
+   "name": "Mahib Ahsan",
    "source": "lastfm"
   },
   "06wWda9NZKtf5jUMPqFlOe": {
@@ -109,6 +199,24 @@
    "name": "B.E.R.",
    "source": "lastfm"
   },
+  "07QEuhtrNmmZ0zEcqE9SF6": {
+   "fetched": "2026-10-02T15:57:32+00:00",
+   "genres": [
+    "electronic",
+    "indie"
+   ],
+   "name": "Owl City",
+   "source": "lastfm"
+  },
+  "07vycW8ICLf5hKb22PFWXw": {
+   "fetched": "2026-10-02T15:54:12+00:00",
+   "genres": [
+    "soundtrack",
+    "video game music"
+   ],
+   "name": "Marcin Przybyłowicz",
+   "source": "lastfm"
+  },
   "08GQAI4eElDnROBrJRGE0X": {
    "fetched": "2026-10-02T15:20:21+00:00",
    "genres": [
@@ -116,6 +224,14 @@
     "rock"
    ],
    "name": "Fleetwood Mac",
+   "source": "lastfm"
+  },
+  "08WRjJPbPqSEOkFuc99ymW": {
+   "fetched": "2026-10-02T15:56:30+00:00",
+   "genres": [
+    "guitar"
+   ],
+   "name": "Eddie van der Meer",
    "source": "lastfm"
   },
   "0AkpPlFLnr0VQwZQeMGht0": {
@@ -128,11 +244,52 @@
    "name": "Modjo",
    "source": "lastfm"
   },
+  "0C8ZW7ezQVs4URX5aX7Kqx": {
+   "fetched": "2026-10-02T15:56:22+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Selena Gomez",
+   "source": "lastfm"
+  },
+  "0CEFCo8288kQU7mJi25s6E": {
+   "fetched": "2026-10-02T15:55:30+00:00",
+   "genres": [
+    "rapcore"
+   ],
+   "name": "Hollywood Undead",
+   "source": "lastfm"
+  },
+  "0Ca8QNi2jA2pemnFC6Rydj": {
+   "fetched": "2026-10-02T15:55:15+00:00",
+   "genres": [
+    "instrumental",
+    "progressive metal"
+   ],
+   "name": "Bernth",
+   "source": "lastfm"
+  },
   "0CfWqoscYrJ4jBg1ZoC5S8": {
-   "fetched": "2026-10-02T15:09:13+00:00",
+   "fetched": "2026-10-02T15:53:33+00:00",
    "genres": [],
    "name": "Pop Club",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "0Dr1io6kdNlJcVIQ01lgnQ": {
+   "fetched": "2026-10-02T15:54:52+00:00",
+   "genres": [
+    "rnb"
+   ],
+   "name": "Fabian Secon",
+   "source": "lastfm"
+  },
+  "0E02VcvA5p1ndkLdqWD5JB": {
+   "fetched": "2026-10-02T15:57:06+00:00",
+   "genres": [
+    "bollywood"
+   ],
+   "name": "Ankit Tiwari",
+   "source": "lastfm"
   },
   "0ECwFtbIWEVNwjlrfc6xoL": {
    "fetched": "2026-10-02T15:21:33+00:00",
@@ -178,6 +335,82 @@
    "name": "Indila",
    "source": "lastfm"
   },
+  "0FJgCEndUymtcCw641LnxX": {
+   "fetched": "2026-10-02T15:55:12+00:00",
+   "genres": [
+    "folk",
+    "indie",
+    "pop"
+   ],
+   "name": "23 TheMiracle",
+   "source": "lastfm"
+  },
+  "0FbITua8XJRt8mrnAF1Noh": {
+   "fetched": "2026-10-02T15:53:56+00:00",
+   "genres": [],
+   "name": "Hits Different",
+   "source": "lastfm"
+  },
+  "0G8iubd5gKv5vdPnmHRaxT": {
+   "fetched": "2026-10-02T15:54:46+00:00",
+   "genres": [
+    "instrumental"
+   ],
+   "name": "Yutaka Yamada",
+   "source": "lastfm"
+  },
+  "0GIxnPuJrbOyBfyYkMzJRo": {
+   "fetched": "2026-10-02T15:57:15+00:00",
+   "genres": [],
+   "name": "ABRZY",
+   "source": "lastfm"
+  },
+  "0I6yADrmeyvw66g7yjkqIF": {
+   "fetched": "2026-10-02T15:54:00+00:00",
+   "genres": [
+    "electronic",
+    "brony"
+   ],
+   "name": "The Living Tombstone",
+   "source": "lastfm"
+  },
+  "0JG9WzIbD9hnhGVaIMPAJB": {
+   "fetched": "2026-10-02T15:56:58+00:00",
+   "genres": [
+    "rockabilly",
+    "garage rock",
+    "progressive rock"
+   ],
+   "name": "The Tree",
+   "source": "lastfm"
+  },
+  "0K05TDnN7xPwIHDOwD2YYs": {
+   "fetched": "2026-10-02T15:54:53+00:00",
+   "genres": [
+    "japanese",
+    "pop"
+   ],
+   "name": "Mili",
+   "source": "lastfm"
+  },
+  "0K87f3owemzI8NUCoEIXOB": {
+   "fetched": "2026-10-02T15:55:06+00:00",
+   "genres": [
+    "indie pop",
+    "pop"
+   ],
+   "name": "vaultboy",
+   "source": "lastfm"
+  },
+  "0Khn06ciCEk0SvcdZty81P": {
+   "fetched": "2026-10-02T15:54:19+00:00",
+   "genres": [
+    "eurodance",
+    "swedish"
+   ],
+   "name": "SMiLE.dk",
+   "source": "lastfm"
+  },
   "0L8ExT028jH3ddEcZwqJJ5": {
    "fetched": "2026-10-02T15:07:53+00:00",
    "genres": [
@@ -195,6 +428,12 @@
     "disco"
    ],
    "name": "ABBA",
+   "source": "lastfm"
+  },
+  "0LyfQWJT6nXafLPZqxe9Of": {
+   "fetched": "2026-10-02T15:56:27+00:00",
+   "genres": [],
+   "name": "",
    "source": "lastfm"
   },
   "0NIPkIjTV8mB795yEIiPYL": {
@@ -215,6 +454,15 @@
    "name": "Eurythmics",
    "source": "lastfm"
   },
+  "0OEYE03fBF2VoTBxGuaUxL": {
+   "fetched": "2026-10-02T15:55:24+00:00",
+   "genres": [
+    "rap",
+    "trap"
+   ],
+   "name": "Chri$tian Gate$",
+   "source": "lastfm"
+  },
   "0Ow8MydWjcGjXmHgX3Xuyv": {
    "fetched": "2026-10-02T15:35:44+00:00",
    "genres": [
@@ -222,6 +470,14 @@
     "united states"
    ],
    "name": "Darkrose",
+   "source": "lastfm"
+  },
+  "0PCCGZ0wGLizHt2KZ7hhA2": {
+   "fetched": "2026-10-02T15:53:53+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Artemas",
    "source": "lastfm"
   },
   "0PFtn5NtBbbUNbU9EAmIWF": {
@@ -241,6 +497,18 @@
    "name": "FINO",
    "source": "lastfm"
   },
+  "0PT4CxgGdroBgFaq4QvakT": {
+   "fetched": "2026-10-02T15:56:15+00:00",
+   "genres": [],
+   "name": "Sohan Rahman",
+   "source": "lastfm"
+  },
+  "0QZkkVNRXkhP0ucRh3ehFC": {
+   "fetched": "2026-10-02T15:54:55+00:00",
+   "genres": [],
+   "name": "Red Skies Mourning",
+   "source": "lastfm"
+  },
   "0Repe2EiNjaFAFIukrroUM": {
    "fetched": "2026-10-02T15:20:38+00:00",
    "genres": [
@@ -257,6 +525,15 @@
     "rock"
    ],
    "name": "Thirty Seconds To Mars",
+   "source": "lastfm"
+  },
+  "0Rtiz6jyJ8UElMQfbg9c2i": {
+   "fetched": "2026-10-02T15:54:46+00:00",
+   "genres": [
+    "piano",
+    "electronic"
+   ],
+   "name": "Trickywi",
    "source": "lastfm"
   },
   "0SfYT2NCfdPWJzDr9TCsDN": {
@@ -296,10 +573,26 @@
    "source": "lastfm"
   },
   "0T1Evs0BBQhbpjNgm7433e": {
-   "fetched": "2026-10-02T15:35:45+00:00",
+   "fetched": "2026-10-02T15:53:47+00:00",
    "genres": [],
    "name": "David Mihai",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "0TIKIZYb0FeM0XaqkqGCP5": {
+   "fetched": "2026-10-02T15:57:03+00:00",
+   "genres": [],
+   "name": "Partha Barua",
+   "source": "lastfm"
+  },
+  "0TffQbBN7iT1M1HFMvBSJp": {
+   "fetched": "2026-10-02T15:55:40+00:00",
+   "genres": [
+    "indie pop",
+    "pop",
+    "cleveland"
+   ],
+   "name": "Jon Caryl",
+   "source": "lastfm"
   },
   "0TnOYISbd1XYRBk9myaseg": {
    "fetched": "2026-10-02T15:21:32+00:00",
@@ -339,6 +632,27 @@
    "name": "Meghdol",
    "source": "lastfm"
   },
+  "0WPfWO1i9qMQHxGU38cuOj": {
+   "fetched": "2026-10-02T15:56:52+00:00",
+   "genres": [],
+   "name": "BLUNT",
+   "source": "lastfm"
+  },
+  "0X0XpX614SvYLHt3Y51ZQC": {
+   "fetched": "2026-10-02T15:53:54+00:00",
+   "genres": [],
+   "name": "ImXgine",
+   "source": "lastfm"
+  },
+  "0X380XXQSNBYuleKzav5UO": {
+   "fetched": "2026-10-02T15:54:20+00:00",
+   "genres": [
+    "industrial",
+    "industrial rock"
+   ],
+   "name": "Nine Inch Nails",
+   "source": "lastfm"
+  },
   "0XNa1vTidXlvJ2gHSsRi4A": {
    "fetched": "2026-10-02T15:17:14+00:00",
    "genres": [
@@ -346,6 +660,26 @@
     "indie"
    ],
    "name": "Franz Ferdinand",
+   "source": "lastfm"
+  },
+  "0XURMEB81vOurKFntVmbBV": {
+   "fetched": "2026-10-02T15:55:46+00:00",
+   "genres": [
+    "ambient",
+    "rock",
+    "pop"
+   ],
+   "name": "Nathan Wagner",
+   "source": "lastfm"
+  },
+  "0Y5tJX1MQlPlqiwlOH1tJY": {
+   "fetched": "2026-10-02T15:53:55+00:00",
+   "genres": [
+    "hip-hop",
+    "trap",
+    "rap"
+   ],
+   "name": "Travis Scott",
    "source": "lastfm"
   },
   "0Y6dVaC9DZtPNH4591M42W": {
@@ -356,6 +690,23 @@
     "indie"
    ],
    "name": "TV Girl",
+   "source": "lastfm"
+  },
+  "0YC192cP3KPCRWx8zr8MfZ": {
+   "fetched": "2026-10-02T15:54:15+00:00",
+   "genres": [
+    "soundtrack",
+    "instrumental"
+   ],
+   "name": "Hans Zimmer",
+   "source": "lastfm"
+  },
+  "0YHgnSkV3S5mvSSCTRWDi5": {
+   "fetched": "2026-10-02T15:55:08+00:00",
+   "genres": [
+    "folk"
+   ],
+   "name": "Poor Man's Poison",
    "source": "lastfm"
   },
   "0Z5pcmXDCKTrFWLnDChC37": {
@@ -376,6 +727,24 @@
    "name": "Aimer",
    "source": "lastfm"
   },
+  "0bFEOKy3T1knA0g7ZaPnHe": {
+   "fetched": "2026-10-02T15:55:13+00:00",
+   "genres": [],
+   "name": "Connor Kauffman",
+   "source": "lastfm"
+  },
+  "0bsCwiBOlYXNWORzIVyhmo": {
+   "fetched": "2026-10-02T15:56:42+00:00",
+   "genres": [],
+   "name": "Nové",
+   "source": "lastfm"
+  },
+  "0ciYYtVA4U5kas1Q3CJeTA": {
+   "fetched": "2026-10-02T15:56:32+00:00",
+   "genres": [],
+   "name": "The Suncatchers",
+   "source": "lastfm"
+  },
   "0dtmnZBKsEGpSCpdcr3pRc": {
    "fetched": "2026-10-02T15:37:04+00:00",
    "genres": [
@@ -393,11 +762,21 @@
    "name": "Bruno Mars",
    "source": "lastfm"
   },
+  "0e86yPdC41PGRkLp2Q1Bph": {
+   "fetched": "2026-10-02T15:55:47+00:00",
+   "genres": [
+    "indie",
+    "canadian",
+    "indie pop"
+   ],
+   "name": "Mother Mother",
+   "source": "lastfm"
+  },
   "0ekV0Dm31Sa9yVlHIxHLV6": {
-   "fetched": "2026-10-02T15:08:18+00:00",
+   "fetched": "2026-10-02T15:53:31+00:00",
    "genres": [],
    "name": "Kevin Remisch",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "0epOFNiUfyON9EYx7Tpr6V": {
    "fetched": "2026-10-02T15:09:37+00:00",
@@ -436,6 +815,32 @@
    "name": "Buckethead",
    "source": "lastfm"
   },
+  "0fkTQEEyEyH71i9tDhS7CO": {
+   "fetched": "2026-10-02T15:54:47+00:00",
+   "genres": [
+    "alternative rock",
+    "hard rock"
+   ],
+   "name": "Ashes Remain",
+   "source": "lastfm"
+  },
+  "0g0ZYLiNYI4kMg8MX76bkN": {
+   "fetched": "2026-10-02T15:55:40+00:00",
+   "genres": [
+    "trap"
+   ],
+   "name": "mikeeysmind",
+   "source": "lastfm"
+  },
+  "0gadJ2b9A4SKsB1RFkBb66": {
+   "fetched": "2026-10-02T15:57:08+00:00",
+   "genres": [
+    "folk",
+    "alternative metal"
+   ],
+   "name": "Passenger",
+   "source": "lastfm"
+  },
   "0grdhNhiRLFBaFVyybqsj6": {
    "fetched": "2026-10-02T15:20:16+00:00",
    "genres": [
@@ -453,6 +858,15 @@
    "name": "Rick Astley",
    "source": "lastfm"
   },
+  "0hEeBhTVYUKs2B4PY2IdMB": {
+   "fetched": "2026-10-02T15:55:27+00:00",
+   "genres": [
+    "irish",
+    "ireland"
+   ],
+   "name": "Conor Byrne",
+   "source": "lastfm"
+  },
   "0iEtIxbK0KxaSlF7G42ZOp": {
    "fetched": "2026-10-02T15:28:40+00:00",
    "genres": [
@@ -460,6 +874,14 @@
     "rap"
    ],
    "name": "Metro Boomin",
+   "source": "lastfm"
+  },
+  "0inkJpjAKDnQOv2VHBCU0Z": {
+   "fetched": "2026-10-02T15:56:10+00:00",
+   "genres": [
+    "rap"
+   ],
+   "name": "SadBoyProlific",
    "source": "lastfm"
   },
   "0j4Xv6B3jAu40gzdooipIB": {
@@ -470,6 +892,25 @@
     "bangladesh"
    ],
    "name": "AvoidRafa",
+   "source": "lastfm"
+  },
+  "0jRqFvRKCDryHOgrgFqsKG": {
+   "fetched": "2026-10-02T15:53:52+00:00",
+   "genres": [
+    "rock",
+    "pop",
+    "britpop"
+   ],
+   "name": "Fools Garden",
+   "source": "lastfm"
+  },
+  "0jnsk9HBra6NMjO2oANoPY": {
+   "fetched": "2026-10-02T15:55:34+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Flo Rida",
    "source": "lastfm"
   },
   "0k17h0D3J5VfsdmQ1iZtE9": {
@@ -490,12 +931,43 @@
    "name": "CASTLEBEAT",
    "source": "lastfm"
   },
+  "0l1kVCUpMOfiqosrJLdFJX": {
+   "fetched": "2026-10-02T15:55:36+00:00",
+   "genres": [
+    "russian"
+   ],
+   "name": "QUATTROTEQUE",
+   "source": "lastfm"
+  },
+  "0lAWpj5szCSwM4rUMHYmrr": {
+   "fetched": "2026-10-02T15:54:08+00:00",
+   "genres": [
+    "rock",
+    "glam rock"
+   ],
+   "name": "Måneskin",
+   "source": "lastfm"
+  },
   "0lZoBs4Pzo7R89JM9lxwoT": {
    "fetched": "2026-10-02T15:17:09+00:00",
    "genres": [
     "new wave"
    ],
    "name": "Duran Duran",
+   "source": "lastfm"
+  },
+  "0lrdPAq2wkfcq3m6PsSNak": {
+   "fetched": "2026-10-02T15:56:52+00:00",
+   "genres": [],
+   "name": "Rahul Dutta",
+   "source": "lastfm"
+  },
+  "0mhXOWxkDI2KtV3x0Vd19s": {
+   "fetched": "2026-10-02T15:55:17+00:00",
+   "genres": [
+    "vtuber"
+   ],
+   "name": "nihmune",
    "source": "lastfm"
   },
   "0oSGxfWSnnOXhD2fKuz2Gy": {
@@ -516,6 +988,39 @@
    "name": "Mr.Kitty",
    "source": "lastfm"
   },
+  "0qT79UgT5tY4yudH9VfsdT": {
+   "fetched": "2026-10-02T15:56:01+00:00",
+   "genres": [
+    "punk rock",
+    "pop punk"
+   ],
+   "name": "Sum 41",
+   "source": "lastfm"
+  },
+  "0qrCUohuMaUYuNfTi9uQAY": {
+   "fetched": "2026-10-02T15:55:08+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Petty Never Grew",
+   "source": "lastfm"
+  },
+  "0rmUBTBanC5DRv6ZpC1WHx": {
+   "fetched": "2026-10-02T15:54:59+00:00",
+   "genres": [
+    "erhu"
+   ],
+   "name": "Eliott Tordo Erhu",
+   "source": "lastfm"
+  },
+  "0ru4hXR4RJY1mikvbQKgWa": {
+   "fetched": "2026-10-02T15:54:00+00:00",
+   "genres": [
+    "comedy"
+   ],
+   "name": "Jon Lajoie",
+   "source": "lastfm"
+  },
   "0rvjqX7ttXeg3mTy8Xscbt": {
    "fetched": "2026-10-02T15:20:02+00:00",
    "genres": [
@@ -525,11 +1030,33 @@
    "name": "Journey",
    "source": "lastfm"
   },
+  "0t4yDm0LHubUiQFOvuNSN6": {
+   "fetched": "2026-10-02T15:55:43+00:00",
+   "genres": [
+    "lounge",
+    "chillout",
+    "downtempo"
+   ],
+   "name": "fused",
+   "source": "lastfm"
+  },
+  "0tIszD5cwkangP5Xkoy02E": {
+   "fetched": "2026-10-02T15:57:20+00:00",
+   "genres": [],
+   "name": "Romy Wave",
+   "source": "lastfm"
+  },
+  "0tOolCdSdiJiFHu05tf7mO": {
+   "fetched": "2026-10-02T15:55:05+00:00",
+   "genres": [],
+   "name": "Miltrick",
+   "source": "lastfm"
+  },
   "0tsKPqi33k9gLBUgf1Osj8": {
-   "fetched": "2026-10-02T15:18:03+00:00",
+   "fetched": "2026-10-02T15:53:39+00:00",
    "genres": [],
    "name": "Oxbelt Redfur",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "0ttsFiIQxBWmfS1JPgTZ6o": {
    "fetched": "2026-10-02T15:36:19+00:00",
@@ -538,6 +1065,21 @@
     "video game music"
    ],
    "name": "Jack Wall",
+   "source": "lastfm"
+  },
+  "0uUNzXylqsZdmFDwdxaP1V": {
+   "fetched": "2026-10-02T15:53:57+00:00",
+   "genres": [
+    "pop",
+    "oldies"
+   ],
+   "name": "B.J. Thomas",
+   "source": "lastfm"
+  },
+  "0ugykg2R4Og3UXRPfERKxG": {
+   "fetched": "2026-10-02T15:57:29+00:00",
+   "genres": [],
+   "name": "David Guthrie Music",
    "source": "lastfm"
   },
   "0wGf1OZAg2ihGB9BaFkqMn": {
@@ -569,6 +1111,21 @@
    "name": "Liquido",
    "source": "lastfm"
   },
+  "0wgqPB3oKMPgIWWFg4nM96": {
+   "fetched": "2026-10-02T15:56:51+00:00",
+   "genres": [],
+   "name": "Tahsin",
+   "source": "lastfm"
+  },
+  "0wiCfDEHaEcPkKZOi7Nivl": {
+   "fetched": "2026-10-02T15:54:23+00:00",
+   "genres": [
+    "experimental hip hop",
+    "french hip hop"
+   ],
+   "name": "Yamê",
+   "source": "lastfm"
+  },
   "0xGtOrmB2hnrNRLG3vhpSo": {
    "fetched": "2026-10-02T15:17:25+00:00",
    "genres": [
@@ -577,6 +1134,14 @@
     "japanese"
    ],
    "name": "Anri",
+   "source": "lastfm"
+  },
+  "0xcj15kQNjDUKZ4pS5T9PW": {
+   "fetched": "2026-10-02T15:56:36+00:00",
+   "genres": [
+    "argentinian"
+   ],
+   "name": "Juan Pablo Di Pace",
    "source": "lastfm"
   },
   "0xliTEbFfy5HQHvsTknTkX": {
@@ -597,6 +1162,16 @@
    "name": "Jan Romina",
    "source": "lastfm"
   },
+  "0y4czH6DnvpftiSoy7V3HY": {
+   "fetched": "2026-10-02T15:54:38+00:00",
+   "genres": [
+    "deep house",
+    "lebanese",
+    "lebanon"
+   ],
+   "name": "Anthony Keyrouz",
+   "source": "lastfm"
+  },
   "0yNLKJebCb8Aueb54LYya3": {
    "fetched": "2026-10-02T15:29:27+00:00",
    "genres": [
@@ -604,6 +1179,12 @@
     "post-punk"
    ],
    "name": "New Order",
+   "source": "lastfm"
+  },
+  "0yPKirAnnAxgc2eQzELjKZ": {
+   "fetched": "2026-10-02T15:55:59+00:00",
+   "genres": [],
+   "name": "Shusmita Anis",
    "source": "lastfm"
   },
   "0ynzbXwyCzxicMKHBoOkSH": {
@@ -625,10 +1206,10 @@
    "source": "lastfm"
   },
   "0yzUKsMjACVe3QOAitfynK": {
-   "fetched": "2026-10-02T15:28:57+00:00",
+   "fetched": "2026-10-02T15:53:44+00:00",
    "genres": [],
    "name": "Jimmy Frizzell",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "0z4gvV4rjIZ9wHck67ucSV": {
    "fetched": "2026-10-02T15:29:00+00:00",
@@ -646,6 +1227,15 @@
     "electronic"
    ],
    "name": "akiaura",
+   "source": "lastfm"
+  },
+  "0znpFLuaey34oJTE1jHSnT": {
+   "fetched": "2026-10-02T15:55:06+00:00",
+   "genres": [
+    "pop",
+    "canadian"
+   ],
+   "name": "Alexander Stewart",
    "source": "lastfm"
   },
   "10exVja0key0uqUkk6LJRT": {
@@ -666,6 +1256,25 @@
    "name": "College",
    "source": "lastfm"
   },
+  "11lkgGMWBnGCnTeGj3ECbE": {
+   "fetched": "2026-10-02T15:55:28+00:00",
+   "genres": [
+    "cover",
+    "j-pop",
+    "anime"
+   ],
+   "name": "Sati Akura",
+   "source": "lastfm"
+  },
+  "11yfGLGb5HMw3iGo0MN1rB": {
+   "fetched": "2026-10-02T15:56:26+00:00",
+   "genres": [
+    "black metal",
+    "thrash metal"
+   ],
+   "name": "Abigail",
+   "source": "lastfm"
+  },
   "12Chz98pHFMPJEknJQMWvI": {
    "fetched": "2026-10-02T15:21:41+00:00",
    "genres": [
@@ -684,16 +1293,67 @@
    "source": "lastfm"
   },
   "13Iz4aO74JwHOI04cKWlum": {
-   "fetched": "2026-10-02T15:34:55+00:00",
+   "fetched": "2026-10-02T15:53:45+00:00",
    "genres": [],
    "name": "YesterKid",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "13sKsnhhn9nyyYVbOl7dLD": {
+   "fetched": "2026-10-02T15:55:49+00:00",
+   "genres": [
+    "electronic"
+   ],
+   "name": "Witchz",
+   "source": "lastfm"
+  },
+  "13ubrt8QOOCPljQ2FL1Kca": {
+   "fetched": "2026-10-02T15:54:06+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "A$AP Rocky",
+   "source": "lastfm"
+  },
+  "13y7CgLHjMVRMDqxdx0Xdo": {
+   "fetched": "2026-10-02T15:54:07+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Gucci Mane",
+   "source": "lastfm"
   },
   "14Y3trk7LaslSFTk1G35rx": {
-   "fetched": "2026-10-02T15:35:59+00:00",
+   "fetched": "2026-10-02T15:53:47+00:00",
    "genres": [],
    "name": "Jordan Clarke",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "15Me0iuTSs63Fx7EuHvver": {
+   "fetched": "2026-10-02T15:55:18+00:00",
+   "genres": [],
+   "name": "Long Purple",
+   "source": "lastfm"
+  },
+  "15UsOTVnJzReFVN1VCnxy4": {
+   "fetched": "2026-10-02T15:53:54+00:00",
+   "genres": [
+    "hip-hop",
+    "rap",
+    "cloud rap"
+   ],
+   "name": "XXXTENTACION",
+   "source": "lastfm"
+  },
+  "15akENis2TaJHxXw8cwzXw": {
+   "fetched": "2026-10-02T15:55:23+00:00",
+   "genres": [
+    "progressive metal",
+    "post-metal"
+   ],
+   "name": "Naive",
+   "source": "lastfm"
   },
   "165ZgPlLkK7bf5bDoFc6Sb": {
    "fetched": "2026-10-02T15:08:02+00:00",
@@ -704,6 +1364,49 @@
    "name": "Limp Bizkit",
    "source": "lastfm"
   },
+  "176F6CdFEVWYNwqM6HEXU2": {
+   "fetched": "2026-10-02T15:56:35+00:00",
+   "genres": [
+    "egyptian",
+    "soundtrack",
+    "series"
+   ],
+   "name": "ريفو شو",
+   "source": "lastfm"
+  },
+  "17XXKfRBMCWvLrqGoNkJXm": {
+   "fetched": "2026-10-02T15:54:08+00:00",
+   "genres": [
+    "oldies"
+   ],
+   "name": "Engelbert Humperdinck",
+   "source": "lastfm"
+  },
+  "181bsRPaVXVlUKXrxwZfHK": {
+   "fetched": "2026-10-02T15:57:20+00:00",
+   "genres": [
+    "rap",
+    "hip-hop"
+   ],
+   "name": "Megan Thee Stallion",
+   "source": "lastfm"
+  },
+  "18NGnJWiWsTXOSE6ACeiND": {
+   "fetched": "2026-10-02T15:54:46+00:00",
+   "genres": [
+    "black metal"
+   ],
+   "name": "VOSTOK",
+   "source": "lastfm"
+  },
+  "19KFB4cmXVPZKalVqcmYwc": {
+   "fetched": "2026-10-02T15:55:42+00:00",
+   "genres": [
+    "melodic death metal"
+   ],
+   "name": "Hallucination",
+   "source": "lastfm"
+  },
   "19MZg9MYc5xw08l09RCfrT": {
    "fetched": "2026-10-02T15:17:30+00:00",
    "genres": [
@@ -711,6 +1414,15 @@
     "jazz fusion"
    ],
    "name": "Guthrie Govan",
+   "source": "lastfm"
+  },
+  "1AZ30JnvQU1pbX6sbRE0Yn": {
+   "fetched": "2026-10-02T15:55:29+00:00",
+   "genres": [
+    "alternative rock",
+    "rock"
+   ],
+   "name": "Poets of the Fall",
    "source": "lastfm"
   },
   "1AbJ2cmwK400LSvdvBL5Jc": {
@@ -747,6 +1459,24 @@
    "name": "BoyWithUke",
    "source": "lastfm"
   },
+  "1Cs0zKBU1kc0i8ypK3B9ai": {
+   "fetched": "2026-10-02T15:56:44+00:00",
+   "genres": [
+    "house",
+    "dance",
+    "electronic"
+   ],
+   "name": "David Guetta",
+   "source": "lastfm"
+  },
+  "1D33JhHkXxj78Y8oiyg41L": {
+   "fetched": "2026-10-02T15:54:54+00:00",
+   "genres": [
+    "italo disco"
+   ],
+   "name": "Sandy Marton",
+   "source": "lastfm"
+  },
   "1EmdfupUQDpXOcb4Nj2mBH": {
    "fetched": "2026-10-02T15:35:08+00:00",
    "genres": [
@@ -764,6 +1494,57 @@
    "name": "Gumshoe",
    "source": "lastfm"
   },
+  "1Ffb6ejR6Fe5IamqA5oRUF": {
+   "fetched": "2026-10-02T15:56:47+00:00",
+   "genres": [
+    "deathcore",
+    "metalcore"
+   ],
+   "name": "Bring Me The Horizon",
+   "source": "lastfm"
+  },
+  "1FksHAviS6kbKF8FgRQOr7": {
+   "fetched": "2026-10-02T15:54:22+00:00",
+   "genres": [
+    "folk",
+    "neofolk",
+    "nu metal"
+   ],
+   "name": "Jed",
+   "source": "lastfm"
+  },
+  "1G9G7WwrXka3Z1r7aIDjI7": {
+   "fetched": "2026-10-02T15:54:26+00:00",
+   "genres": [
+    "hip-hop",
+    "funk"
+   ],
+   "name": "Outkast",
+   "source": "lastfm"
+  },
+  "1GkxwNEIimiLvqj29sqhxj": {
+   "fetched": "2026-10-02T15:56:12+00:00",
+   "genres": [],
+   "name": "Akashcari",
+   "source": "lastfm"
+  },
+  "1GxkXlMwML1oSg5eLPiAz3": {
+   "fetched": "2026-10-02T15:57:13+00:00",
+   "genres": [
+    "jazz",
+    "swing"
+   ],
+   "name": "Michael Bublé",
+   "source": "lastfm"
+  },
+  "1HIMUuiAPvtlEOsDdlyHsD": {
+   "fetched": "2026-10-02T15:57:01+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Tanjib Sarowar",
+   "source": "lastfm"
+  },
   "1HY2Jd0NmPuamShAr6KMms": {
    "fetched": "2026-10-02T15:29:07+00:00",
    "genres": [
@@ -774,10 +1555,10 @@
    "source": "lastfm"
   },
   "1HcduAQRxX1Q9hOTAQ8bOI": {
-   "fetched": "2026-10-02T15:09:19+00:00",
+   "fetched": "2026-10-02T15:53:34+00:00",
    "genres": [],
    "name": "TWXNY",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "1HwM5zlC5qNWhJtM00yXzG": {
    "fetched": "2026-10-02T15:35:52+00:00",
@@ -786,6 +1567,30 @@
     "hip-hop"
    ],
    "name": "DMX",
+   "source": "lastfm"
+  },
+  "1IgofXQPeJUFxkJT4erL5f": {
+   "fetched": "2026-10-02T15:56:56+00:00",
+   "genres": [
+    "pop rock",
+    "bangladeshi"
+   ],
+   "name": "Shunno",
+   "source": "lastfm"
+  },
+  "1JE6HNFhYkqW9OG9dpH1R9": {
+   "fetched": "2026-10-02T15:57:26+00:00",
+   "genres": [],
+   "name": "Arindom",
+   "source": "lastfm"
+  },
+  "1JOdUvDAzNy3L37rZ4Nigr": {
+   "fetched": "2026-10-02T15:56:11+00:00",
+   "genres": [
+    "swedish",
+    "youtube"
+   ],
+   "name": "pewdiepie",
    "source": "lastfm"
   },
   "1KBpWE9XJDISBwQ0PKkf0g": {
@@ -815,6 +1620,21 @@
    "name": "美波",
    "source": "lastfm"
   },
+  "1KzrdDCiOfSK85QJHDfdcC": {
+   "fetched": "2026-10-02T15:56:03+00:00",
+   "genres": [
+    "pop",
+    "acoustic"
+   ],
+   "name": "RAINNE",
+   "source": "lastfm"
+  },
+  "1L3tDdafWbcJsbmo9Z1SSo": {
+   "fetched": "2026-10-02T15:57:06+00:00",
+   "genres": [],
+   "name": "Sulaiman Ahmed Sami",
+   "source": "lastfm"
+  },
   "1LZEQNv7sE11VDY3SdxQeN": {
    "fetched": "2026-10-02T15:20:12+00:00",
    "genres": [
@@ -822,6 +1642,61 @@
     "pop"
    ],
    "name": "Bee Gees",
+   "source": "lastfm"
+  },
+  "1LtlO7x7J1OCaUVKRBub5v": {
+   "fetched": "2026-10-02T15:54:58+00:00",
+   "genres": [],
+   "name": "ilyaugust",
+   "source": "lastfm"
+  },
+  "1LzWWI9v4UKdbBgz8fqi15": {
+   "fetched": "2026-10-02T15:55:14+00:00",
+   "genres": [
+    "rnb"
+   ],
+   "name": "Tayla Parx",
+   "source": "lastfm"
+  },
+  "1MOetFIO4hBem9p9FVP9Jo": {
+   "fetched": "2026-10-02T15:55:31+00:00",
+   "genres": [
+    "rap"
+   ],
+   "name": "Khantrast",
+   "source": "lastfm"
+  },
+  "1MQ48GaF9nanTisRGu3Mtl": {
+   "fetched": "2026-10-02T15:55:59+00:00",
+   "genres": [
+    "indie"
+   ],
+   "name": "Shayne Orok",
+   "source": "lastfm"
+  },
+  "1McMsnEElThX1knmY4oliG": {
+   "fetched": "2026-10-02T15:54:28+00:00",
+   "genres": [
+    "pop",
+    "pop rock"
+   ],
+   "name": "Olivia Rodrigo",
+   "source": "lastfm"
+  },
+  "1O7nmTx7i4uU0Hd8vgRnl2": {
+   "fetched": "2026-10-02T15:55:13+00:00",
+   "genres": [],
+   "name": "Luka Pitic",
+   "source": "lastfm"
+  },
+  "1OPqAyxsQc8mcRmoNBAnVk": {
+   "fetched": "2026-10-02T15:54:37+00:00",
+   "genres": [
+    "pop",
+    "indian",
+    "indian pop"
+   ],
+   "name": "Dhvani Bhanushali",
    "source": "lastfm"
   },
   "1P8IfcNKwrkQP5xJWuhaOC": {
@@ -840,6 +1715,14 @@
     "electronic"
    ],
    "name": "Ryan Caraveo",
+   "source": "lastfm"
+  },
+  "1PKErrAhYFdfrDymGHRQRo": {
+   "fetched": "2026-10-02T15:57:18+00:00",
+   "genres": [
+    "scottish"
+   ],
+   "name": "Nathan Evans",
    "source": "lastfm"
   },
   "1QAJqy2dA3ihHBFIHRphZj": {
@@ -877,6 +1760,21 @@
    "name": "Ms Krazie",
    "source": "lastfm"
   },
+  "1RyvyyTE3xzB2ZywiAwp0i": {
+   "fetched": "2026-10-02T15:53:59+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Future",
+   "source": "lastfm"
+  },
+  "1TLNMr1UnQw38ax8XgkMzK": {
+   "fetched": "2026-10-02T15:57:02+00:00",
+   "genres": [],
+   "name": "Apeiruss",
+   "source": "lastfm"
+  },
   "1TsvuGn3XJ4F04fRavTonu": {
    "fetched": "2026-10-02T15:10:05+00:00",
    "genres": [
@@ -892,6 +1790,38 @@
     "neo-soul"
    ],
    "name": "Kali Uchis",
+   "source": "lastfm"
+  },
+  "1URnnhqYAYcrqrcwql10ft": {
+   "fetched": "2026-10-02T15:54:16+00:00",
+   "genres": [
+    "trap",
+    "hip-hop",
+    "rap"
+   ],
+   "name": "21 Savage",
+   "source": "lastfm"
+  },
+  "1UleM8dBwYCUG0WMZD51yK": {
+   "fetched": "2026-10-02T15:57:26+00:00",
+   "genres": [],
+   "name": "Sushmita Sarker",
+   "source": "lastfm"
+  },
+  "1Urg6a4MvccwltzRKTwtgv": {
+   "fetched": "2026-10-02T15:54:54+00:00",
+   "genres": [
+    "chinese"
+   ],
+   "name": "BaishaJAWS",
+   "source": "lastfm"
+  },
+  "1UzchJfRUmhkZJTRsSvvup": {
+   "fetched": "2026-10-02T15:55:19+00:00",
+   "genres": [
+    "progressive metal"
+   ],
+   "name": "Ark",
    "source": "lastfm"
   },
   "1W8O3VMkoLKHlnPtojVU8l": {
@@ -913,6 +1843,37 @@
    "name": "Tommy Richman",
    "source": "lastfm"
   },
+  "1WgXqy2Dd70QQOU7Ay074N": {
+   "fetched": "2026-10-02T15:57:30+00:00",
+   "genres": [
+    "art pop",
+    "synthpop"
+   ],
+   "name": "AURORA",
+   "source": "lastfm"
+  },
+  "1WzCvy22MZkRi74yvpEMgD": {
+   "fetched": "2026-10-02T15:56:41+00:00",
+   "genres": [],
+   "name": "Salman Muqtadir",
+   "source": "lastfm"
+  },
+  "1XgnnIZMJmPcbW8ZD8mzUU": {
+   "fetched": "2026-10-02T15:57:15+00:00",
+   "genres": [],
+   "name": "Crynation",
+   "source": "lastfm"
+  },
+  "1XlLhtgJjC4ROQZilBZAvw": {
+   "fetched": "2026-10-02T15:54:04+00:00",
+   "genres": [
+    "pop",
+    "rap",
+    "rnb"
+   ],
+   "name": "Nic D",
+   "source": "lastfm"
+  },
   "1Xyo4u8uXC1ZmMpatF05PJ": {
    "fetched": "2026-10-02T15:21:46+00:00",
    "genres": [
@@ -922,11 +1883,56 @@
    "name": "The Weeknd",
    "source": "lastfm"
   },
+  "1YFUlxLlbD7EHmks2x6nGZ": {
+   "fetched": "2026-10-02T15:55:16+00:00",
+   "genres": [
+    "alternative rock",
+    "metal",
+    "experimental rock"
+   ],
+   "name": "No Signal",
+   "source": "lastfm"
+  },
   "1YH1g5U4G45k5fD2vorMcN": {
-   "fetched": "2026-10-02T15:36:02+00:00",
+   "fetched": "2026-10-02T15:53:47+00:00",
    "genres": [],
    "name": "Chloé 666",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "1YunbgzYuEMMampcX4eGnm": {
+   "fetched": "2026-10-02T15:54:17+00:00",
+   "genres": [],
+   "name": "Richard Myhill",
+   "source": "lastfm"
+  },
+  "1ZChN8G1Y7CJ0TXbrvblwS": {
+   "fetched": "2026-10-02T15:56:10+00:00",
+   "genres": [
+    "pakistani",
+    "pop",
+    "pakistani fusion"
+   ],
+   "name": "Asim Azhar",
+   "source": "lastfm"
+  },
+  "1aB92Ijb2TBVudO2te7r5c": {
+   "fetched": "2026-10-02T15:55:31+00:00",
+   "genres": [
+    "alternative rock",
+    "rock"
+   ],
+   "name": "EarlyRise",
+   "source": "lastfm"
+  },
+  "1aQlik0BXGVqwjSXxtvNfT": {
+   "fetched": "2026-10-02T15:55:58+00:00",
+   "genres": [
+    "bangladesh",
+    "lo-fi",
+    "bangla indie"
+   ],
+   "name": "Hatirpool Sessions",
+   "source": "lastfm"
   },
   "1aX2dmV8XoHYCOQRxjPESG": {
    "fetched": "2026-10-02T15:29:31+00:00",
@@ -935,6 +1941,30 @@
     "synthpop"
    ],
    "name": "The Human League",
+   "source": "lastfm"
+  },
+  "1adGvsK8A0XG2D18ufk7fZ": {
+   "fetched": "2026-10-02T15:56:41+00:00",
+   "genres": [],
+   "name": "Hayd",
+   "source": "lastfm"
+  },
+  "1bLQBuSop3ekE5Qustj5nP": {
+   "fetched": "2026-10-02T15:56:55+00:00",
+   "genres": [
+    "bhangra"
+   ],
+   "name": "Bombay Rockers",
+   "source": "lastfm"
+  },
+  "1bNx6UhsCYSNuoIeL9LcnD": {
+   "fetched": "2026-10-02T15:54:48+00:00",
+   "genres": [
+    "pop",
+    "dark pop",
+    "lo-fi"
+   ],
+   "name": "Perrin Xthona",
    "source": "lastfm"
   },
   "1bT7m67vi78r2oqvxrP3X5": {
@@ -955,6 +1985,14 @@
    "name": "The Mamas & The Papas",
    "source": "lastfm"
   },
+  "1cJ5tVoeAEFcZBAwSZ0CtF": {
+   "fetched": "2026-10-02T15:56:20+00:00",
+   "genres": [
+    "metalcore"
+   ],
+   "name": "The Plot In You",
+   "source": "lastfm"
+  },
   "1dfeR4HaWDbWqFHLkxsg1d": {
    "fetched": "2026-10-02T15:20:17+00:00",
    "genres": [
@@ -962,6 +2000,14 @@
     "rock"
    ],
    "name": "Queen",
+   "source": "lastfm"
+  },
+  "1djGyQAjyVQh0HWCYMHCcB": {
+   "fetched": "2026-10-02T15:56:26+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Sophie Pecora",
    "source": "lastfm"
   },
   "1f5GqyOPo0CkotzzRwviBu": {
@@ -973,11 +2019,55 @@
    "name": "The Lonely Island",
    "source": "lastfm"
   },
+  "1gchYzhiyWnzW5lNIqXXAX": {
+   "fetched": "2026-10-02T15:57:04+00:00",
+   "genres": [
+    "thrash metal",
+    "hip-hop",
+    "old school"
+   ],
+   "name": "Old School",
+   "source": "lastfm"
+  },
+  "1gqsLIWL7EVtgxg8TTqsP4": {
+   "fetched": "2026-10-02T15:56:53+00:00",
+   "genres": [],
+   "name": "IAMSPUD",
+   "source": "lastfm"
+  },
+  "1h6Cn3P4NGzXbaXidqURXs": {
+   "fetched": "2026-10-02T15:56:18+00:00",
+   "genres": [
+    "house",
+    "electronic"
+   ],
+   "name": "Swedish House Mafia",
+   "source": "lastfm"
+  },
+  "1h97Hqzrg35ukvEvBCfy5o": {
+   "fetched": "2026-10-02T15:55:01+00:00",
+   "genres": [
+    "minimal",
+    "house",
+    "audioware recordings"
+   ],
+   "name": "Kono",
+   "source": "lastfm"
+  },
+  "1hCkSJcXREhrodeIHQdav8": {
+   "fetched": "2026-10-02T15:57:09+00:00",
+   "genres": [
+    "soundtrack",
+    "instrumental"
+   ],
+   "name": "Ramin Djawadi",
+   "source": "lastfm"
+  },
   "1hGdQOfaZ5saQ6JWVuxVDZ": {
-   "fetched": "2026-10-02T15:28:33+00:00",
+   "fetched": "2026-10-02T15:53:43+00:00",
    "genres": [],
    "name": "Casey Edwards",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "1hH4ajSTZKIBhwRymnZi5R": {
    "fetched": "2026-10-02T15:37:10+00:00",
@@ -995,11 +2085,53 @@
    "name": "Amy Macdonald",
    "source": "lastfm"
   },
+  "1hKCF69o9SEUvHS2PE3aQq": {
+   "fetched": "2026-10-02T15:55:00+00:00",
+   "genres": [],
+   "name": "Naved Parvez",
+   "source": "lastfm"
+  },
+  "1huEHiP7LUQ8QJHXbzrtDu": {
+   "fetched": "2026-10-02T15:56:17+00:00",
+   "genres": [
+    "electronic",
+    "german"
+   ],
+   "name": "Die Atzen",
+   "source": "lastfm"
+  },
+  "1hzfo8twXdOegF3xireCYs": {
+   "fetched": "2026-10-02T15:54:05+00:00",
+   "genres": [
+    "indie",
+    "indie rock"
+   ],
+   "name": "Milky Chance",
+   "source": "lastfm"
+  },
+  "1iGwHlKgQKtdrtzmlwZ71U": {
+   "fetched": "2026-10-02T15:57:27+00:00",
+   "genres": [
+    "indie pop"
+   ],
+   "name": "Nico Collins",
+   "source": "lastfm"
+  },
+  "1iuGd0kNu2eqLwP9DFGCNY": {
+   "fetched": "2026-10-02T15:57:09+00:00",
+   "genres": [
+    "thailand",
+    "russian",
+    "bangkok"
+   ],
+   "name": "VTORNIK",
+   "source": "lastfm"
+  },
   "1k3LtgjJQgOGwjOyNSQuMJ": {
-   "fetched": "2026-10-02T15:21:19+00:00",
+   "fetched": "2026-10-02T15:53:41+00:00",
    "genres": [],
    "name": "Lomtre",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "1kDGbuxWknIKx4FlgWxiSp": {
    "fetched": "2026-10-02T15:08:16+00:00",
@@ -1052,6 +2184,12 @@
    "name": "Darci",
    "source": "lastfm"
   },
+  "1lTe89cxPHANSk0RBayek7": {
+   "fetched": "2026-10-02T15:54:58+00:00",
+   "genres": [],
+   "name": "Just Honest",
+   "source": "lastfm"
+  },
   "1lYT0A0LV5DUfxr6doRP3d": {
    "fetched": "2026-10-02T15:28:56+00:00",
    "genres": [
@@ -1079,10 +2217,36 @@
    "source": "lastfm"
   },
   "1moxjboGR7GNWYIMWsRjgG": {
-   "fetched": "2026-10-02T15:21:10+00:00",
+   "fetched": "2026-10-02T15:53:41+00:00",
    "genres": [],
    "name": "Florence + The Machine",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "1mraCMo8RDtWyrs7ohd62R": {
+   "fetched": "2026-10-02T15:54:39+00:00",
+   "genres": [
+    "pop",
+    "rap",
+    "electronic"
+   ],
+   "name": "Shortyo",
+   "source": "lastfm"
+  },
+  "1nx7CV65G7ZGsb4yZarxvj": {
+   "fetched": "2026-10-02T15:57:07+00:00",
+   "genres": [],
+   "name": "Facecard",
+   "source": "lastfm"
+  },
+  "1nzgtKYFckznkcVMR3Gg4z": {
+   "fetched": "2026-10-02T15:57:12+00:00",
+   "genres": [
+    "rap",
+    "hip-hop",
+    "grime"
+   ],
+   "name": "KSI",
+   "source": "lastfm"
   },
   "1oSPZhvZMIrWW5I41kPkkY": {
    "fetched": "2026-10-02T15:35:00+00:00",
@@ -1093,11 +2257,28 @@
    "name": "Jimin",
    "source": "lastfm"
   },
+  "1pRruDTNcEFpBPvpFZU76o": {
+   "fetched": "2026-10-02T15:56:51+00:00",
+   "genres": [
+    "india",
+    "bangla rock"
+   ],
+   "name": "Rupam Islam",
+   "source": "lastfm"
+  },
   "1pS0qiLG23HMMLFwsQALKx": {
-   "fetched": "2026-10-02T15:21:26+00:00",
+   "fetched": "2026-10-02T15:53:42+00:00",
    "genres": [],
    "name": "Afusic",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "1pgvtOneo1dhcIp9An2xnC": {
+   "fetched": "2026-10-02T15:55:59+00:00",
+   "genres": [
+    "brazil"
+   ],
+   "name": "Nordex",
+   "source": "lastfm"
   },
   "1qz9OOzWEmhkWVdPaAdtBa": {
    "fetched": "2026-10-02T15:08:09+00:00",
@@ -1118,6 +2299,16 @@
    "name": "Metric",
    "source": "lastfm"
   },
+  "1rTEkzUiftHqoVMjSucIV6": {
+   "fetched": "2026-10-02T15:57:23+00:00",
+   "genres": [
+    "indie pop",
+    "electronic",
+    "dream pop"
+   ],
+   "name": "Dameer",
+   "source": "lastfm"
+  },
   "1snhtMLeb2DYoMOcVbb8iB": {
    "fetched": "2026-10-02T15:19:44+00:00",
    "genres": [
@@ -1127,6 +2318,33 @@
    "name": "Kenshi Yonezu",
    "source": "lastfm"
   },
+  "1tOl4RqWQOpbUiKqnP14GF": {
+   "fetched": "2026-10-02T15:56:25+00:00",
+   "genres": [
+    "bangladesh",
+    "alternative"
+   ],
+   "name": "Popeye Bangladesh",
+   "source": "lastfm"
+  },
+  "1tqZaCwM57UFKjWoYwMLrw": {
+   "fetched": "2026-10-02T15:54:53+00:00",
+   "genres": [
+    "pop",
+    "rock",
+    "swedish"
+   ],
+   "name": "The Cardigans",
+   "source": "lastfm"
+  },
+  "1tt29X4uRBgHBhu9M1vEXM": {
+   "fetched": "2026-10-02T15:56:02+00:00",
+   "genres": [
+    "alternative"
+   ],
+   "name": "Anthony Amorim",
+   "source": "lastfm"
+  },
   "1uNFoZAHBGtllmzznpCI3s": {
    "fetched": "2026-10-02T15:27:49+00:00",
    "genres": [
@@ -1134,6 +2352,16 @@
     "black metal"
    ],
    "name": "Justin Bieber",
+   "source": "lastfm"
+  },
+  "1uU7g3DNSbsu0QjSEqZtEd": {
+   "fetched": "2026-10-02T15:56:08+00:00",
+   "genres": [
+    "rap",
+    "hip-hop",
+    "australian"
+   ],
+   "name": "Masked Wolf",
    "source": "lastfm"
   },
   "1v7B6ZWa7QRQS3knn3Jvf4": {
@@ -1163,6 +2391,28 @@
    "name": "Jack Stauber",
    "source": "lastfm"
   },
+  "1viwLnZpOs9iGIe3PP3aoJ": {
+   "fetched": "2026-10-02T15:56:43+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Grace Gachot",
+   "source": "lastfm"
+  },
+  "1vyhD5VmyZ7KMfW5gqLgo5": {
+   "fetched": "2026-10-02T15:54:43+00:00",
+   "genres": [
+    "reggaeton"
+   ],
+   "name": "J Balvin",
+   "source": "lastfm"
+  },
+  "1w1bO6mGogqwWSBwh5XONH": {
+   "fetched": "2026-10-02T15:57:22+00:00",
+   "genres": [],
+   "name": "Tabib Mahmud",
+   "source": "lastfm"
+  },
   "1wRPtKGflJrBx9BmLsSwlU": {
    "fetched": "2026-10-02T15:28:24+00:00",
    "genres": [
@@ -1170,6 +2420,14 @@
     "hindi"
    ],
    "name": "Pritam",
+   "source": "lastfm"
+  },
+  "1xKrH6GSh9CJh8nYwbqW7B": {
+   "fetched": "2026-10-02T15:55:57+00:00",
+   "genres": [
+    "blues rock"
+   ],
+   "name": "Welshly Arms",
    "source": "lastfm"
   },
   "1xvEo98zythSrgN69GQevk": {
@@ -1190,6 +2448,15 @@
    "name": "Modest Mouse",
    "source": "lastfm"
   },
+  "1yg6sCbwRCFjo545X0qLgd": {
+   "fetched": "2026-10-02T15:57:05+00:00",
+   "genres": [
+    "bangladesh",
+    "rock"
+   ],
+   "name": "Avash",
+   "source": "lastfm"
+  },
   "1yxSLGMDHlW21z4YXirZDS": {
    "fetched": "2026-10-02T15:18:04+00:00",
    "genres": [
@@ -1208,12 +2475,32 @@
    "name": "NewDad",
    "source": "lastfm"
   },
+  "1zM06NaMD6eQPeRGXKzrwt": {
+   "fetched": "2026-10-02T15:57:17+00:00",
+   "genres": [
+    "childrens choir",
+    "ukraine",
+    "dnipro"
+   ],
+   "name": "Color Music Choir",
+   "source": "lastfm"
+  },
   "1zxDewzd2j1ZdSBGaYcr0y": {
    "fetched": "2026-10-02T15:17:44+00:00",
    "genres": [
     "rock"
    ],
    "name": "The Outfield",
+   "source": "lastfm"
+  },
+  "20JZFwl6HVl6yg8a4H3ZqK": {
+   "fetched": "2026-10-02T15:56:45+00:00",
+   "genres": [
+    "alternative",
+    "rock",
+    "pop punk"
+   ],
+   "name": "Panic! At The Disco",
    "source": "lastfm"
   },
   "21Ny49H1m1LBewdGVMlhoX": {
@@ -1226,6 +2513,20 @@
    "name": "Tara St. Michel",
    "source": "lastfm"
   },
+  "21aa4pj9BvbFB2iT8kRpnq": {
+   "fetched": "2026-10-02T15:54:49+00:00",
+   "genres": [
+    "german"
+   ],
+   "name": "Michael Schulte",
+   "source": "lastfm"
+  },
+  "21gNYqgaUCwbR8a7caHkfB": {
+   "fetched": "2026-10-02T15:55:19+00:00",
+   "genres": [],
+   "name": "Piran Khan",
+   "source": "lastfm"
+  },
   "22bE4uQ6baNwSHPVcDxLCe": {
    "fetched": "2026-10-02T15:27:36+00:00",
    "genres": [
@@ -1233,6 +2534,12 @@
     "rock"
    ],
    "name": "The Rolling Stones",
+   "source": "lastfm"
+  },
+  "22hfdZInkiO6scqF2ug53f": {
+   "fetched": "2026-10-02T15:56:33+00:00",
+   "genres": [],
+   "name": "Md Abu Raihan",
    "source": "lastfm"
   },
   "22wbnEMDvgVIAGdFeek6ET": {
@@ -1279,6 +2586,15 @@
    "name": "Post Malone",
    "source": "lastfm"
   },
+  "24V5UY0nChKpnb1TBPJhCw": {
+   "fetched": "2026-10-02T15:55:54+00:00",
+   "genres": [
+    "chillstep",
+    "electronic"
+   ],
+   "name": "Jai Wolf",
+   "source": "lastfm"
+  },
   "25pd339V2rRJo84USlcSRP": {
    "fetched": "2026-10-02T15:35:06+00:00",
    "genres": [
@@ -1288,6 +2604,21 @@
    "name": "JAWNY",
    "source": "lastfm"
   },
+  "25u4wHJWxCA9vO0CzxAbK7": {
+   "fetched": "2026-10-02T15:55:09+00:00",
+   "genres": [
+    "pop",
+    "soul"
+   ],
+   "name": "Lukas Graham",
+   "source": "lastfm"
+  },
+  "26FE4jV9EmbCexXhHG4kuW": {
+   "fetched": "2026-10-02T15:55:20+00:00",
+   "genres": [],
+   "name": "Lerion",
+   "source": "lastfm"
+  },
   "26T3LtbuGT1Fu9m0eRq5X3": {
    "fetched": "2026-10-02T15:20:49+00:00",
    "genres": [
@@ -1295,6 +2626,15 @@
     "alternative"
    ],
    "name": "Cage The Elephant",
+   "source": "lastfm"
+  },
+  "26VFTg2z8YR0cCuwLzESi2": {
+   "fetched": "2026-10-02T15:55:57+00:00",
+   "genres": [
+    "pop",
+    "indie pop"
+   ],
+   "name": "Halsey",
    "source": "lastfm"
   },
   "26bcq2nyj5GB7uRr558iQg": {
@@ -1307,6 +2647,14 @@
    "name": "Survivor",
    "source": "lastfm"
   },
+  "26cMerAxjx9GedFt0lMDjm": {
+   "fetched": "2026-10-02T15:55:30+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Bella Poarch",
+   "source": "lastfm"
+  },
   "27T030eWyCQRmDyuvr1kxY": {
    "fetched": "2026-10-02T15:18:02+00:00",
    "genres": [
@@ -1314,6 +2662,33 @@
     "classic rock"
    ],
    "name": "Scorpions",
+   "source": "lastfm"
+  },
+  "28KKN6pipVv6rAUrTIjZWm": {
+   "fetched": "2026-10-02T15:55:58+00:00",
+   "genres": [],
+   "name": "Ying -莺",
+   "source": "lastfm"
+  },
+  "28XOpWw8rocs18qx9XZIHV": {
+   "fetched": "2026-10-02T15:56:23+00:00",
+   "genres": [],
+   "name": "Jessica Poza",
+   "source": "lastfm"
+  },
+  "28eLrVsohdXynlnIzQ2VvI": {
+   "fetched": "2026-10-02T15:55:30+00:00",
+   "genres": [
+    "gothic rock",
+    "gothic metal"
+   ],
+   "name": "Lord Of The Lost",
+   "source": "lastfm"
+  },
+  "28y51UfdmY0xm7lHLrDd34": {
+   "fetched": "2026-10-02T15:57:16+00:00",
+   "genres": [],
+   "name": "Ariyan Khan",
    "source": "lastfm"
   },
   "2A8czA4HWezRR3RqiBLC08": {
@@ -1325,6 +2700,21 @@
    "name": "Last Known Species",
    "source": "lastfm"
   },
+  "2AqkN3i7JHN4w8PAa2ZGo0": {
+   "fetched": "2026-10-02T15:55:39+00:00",
+   "genres": [],
+   "name": "Landon Miller",
+   "source": "lastfm"
+  },
+  "2AsusXITU8P25dlRNhcAbG": {
+   "fetched": "2026-10-02T15:56:45+00:00",
+   "genres": [
+    "indie",
+    "electronic"
+   ],
+   "name": "Gotye",
+   "source": "lastfm"
+  },
   "2B2EixNjepQtd6N3mDcNnh": {
    "fetched": "2026-10-02T15:08:37+00:00",
    "genres": [
@@ -1332,6 +2722,15 @@
     "hardcore punk"
    ],
    "name": "HOAX",
+   "source": "lastfm"
+  },
+  "2BM933ADIluGGrPBOhPgIt": {
+   "fetched": "2026-10-02T15:57:34+00:00",
+   "genres": [
+    "j-rock",
+    "japanese"
+   ],
+   "name": "SiM",
    "source": "lastfm"
   },
   "2CPDwyokR2lgqu0yNGe2cU": {
@@ -1361,6 +2760,15 @@
    "name": "Oasis",
    "source": "lastfm"
   },
+  "2DlGxzQSjYe5N6G9nkYghR": {
+   "fetched": "2026-10-02T15:55:33+00:00",
+   "genres": [
+    "pop",
+    "rnb"
+   ],
+   "name": "Jennifer Lopez",
+   "source": "lastfm"
+  },
   "2FXC3k01G6Gw61bmprjgqS": {
    "fetched": "2026-10-02T15:21:11+00:00",
    "genres": [
@@ -1371,6 +2779,101 @@
    "name": "Hozier",
    "source": "lastfm"
   },
+  "2HOMW1liAxI3URnEq95SMS": {
+   "fetched": "2026-10-02T15:55:26+00:00",
+   "genres": [
+    "electronic",
+    "alternative"
+   ],
+   "name": "MISSIO",
+   "source": "lastfm"
+  },
+  "2KGgkFhzF8mQwDy321OHIy": {
+   "fetched": "2026-10-02T15:55:47+00:00",
+   "genres": [
+    "electronic"
+   ],
+   "name": "Social Repose",
+   "source": "lastfm"
+  },
+  "2LIk90788K0zvyj2JJVwkJ": {
+   "fetched": "2026-10-02T15:54:28+00:00",
+   "genres": [
+    "rap",
+    "hip-hop"
+   ],
+   "name": "Jack Harlow",
+   "source": "lastfm"
+  },
+  "2M0kKcVuBsLFH5d12pW215": {
+   "fetched": "2026-10-02T15:54:17+00:00",
+   "genres": [
+    "comedy"
+   ],
+   "name": "Rick and Morty",
+   "source": "lastfm"
+  },
+  "2MmRblqR7CRKDkdKVJiS6w": {
+   "fetched": "2026-10-02T15:57:33+00:00",
+   "genres": [
+    "tagore",
+    "rabindro"
+   ],
+   "name": "Sahana",
+   "source": "lastfm"
+  },
+  "2MpTGEyRxAUkD16X9XpLyl": {
+   "fetched": "2026-10-02T15:56:05+00:00",
+   "genres": [
+    "indie pop"
+   ],
+   "name": "Blond in Car",
+   "source": "lastfm"
+  },
+  "2MqhkhX4npxDZ62ObR5ELO": {
+   "fetched": "2026-10-02T15:54:14+00:00",
+   "genres": [
+    "alternative rock",
+    "rock"
+   ],
+   "name": "Hoobastank",
+   "source": "lastfm"
+  },
+  "2NLI3h8G33pML7vPjX31YC": {
+   "fetched": "2026-10-02T15:55:25+00:00",
+   "genres": [],
+   "name": "Al Amin Raju",
+   "source": "lastfm"
+  },
+  "2Ni9NexOwtEehPqRXNSdlM": {
+   "fetched": "2026-10-02T15:56:29+00:00",
+   "genres": [],
+   "name": "Rohan Kamath",
+   "source": "lastfm"
+  },
+  "2PJEagPIxaBugeMjIyKVXF": {
+   "fetched": "2026-10-02T15:57:30+00:00",
+   "genres": [
+    "rap"
+   ],
+   "name": "Aitch",
+   "source": "lastfm"
+  },
+  "2Q3eZMfDQgT8MhPowKFXYO": {
+   "fetched": "2026-10-02T15:54:52+00:00",
+   "genres": [
+    "pop",
+    "russian"
+   ],
+   "name": "t.A.T.u.",
+   "source": "lastfm"
+  },
+  "2QxfwhlfCPYwZ6NT0U3dWl": {
+   "fetched": "2026-10-02T15:57:09+00:00",
+   "genres": [],
+   "name": "Raihan Rahee",
+   "source": "lastfm"
+  },
   "2RTUTCvo6onsAnheUk3aL9": {
    "fetched": "2026-10-02T15:19:51+00:00",
    "genres": [
@@ -1378,6 +2881,15 @@
     "rock"
    ],
    "name": "3 Doors Down",
+   "source": "lastfm"
+  },
+  "2Rum2rwDio2My0Md24m3Oa": {
+   "fetched": "2026-10-02T15:56:23+00:00",
+   "genres": [
+    "dance",
+    "romanian"
+   ],
+   "name": "Fly Project",
    "source": "lastfm"
   },
   "2S7h1jilqmzK8iyU47nmSk": {
@@ -1415,6 +2927,46 @@
    "name": "KXLLSWXTCH",
    "source": "lastfm"
   },
+  "2W4I7PFzMsSXVpNNhvGF3A": {
+   "fetched": "2026-10-02T15:55:38+00:00",
+   "genres": [
+    "hard rock",
+    "bangla"
+   ],
+   "name": "Aurthohin",
+   "source": "lastfm"
+  },
+  "2WosnSaZPybvQfyGUvD3NX": {
+   "fetched": "2026-10-02T15:54:01+00:00",
+   "genres": [
+    "acoustic"
+   ],
+   "name": "Super Guitar Bros",
+   "source": "lastfm"
+  },
+  "2Wrqf6iMXbmYtgJ8wfsdON": {
+   "fetched": "2026-10-02T15:55:03+00:00",
+   "genres": [],
+   "name": "sensitive sean",
+   "source": "lastfm"
+  },
+  "2WzaAvm2bBCf4pEhyuDgCY": {
+   "fetched": "2026-10-02T15:57:29+00:00",
+   "genres": [
+    "pop",
+    "rnb"
+   ],
+   "name": "Ruth B.",
+   "source": "lastfm"
+  },
+  "2Y3Lw14p4nc60FKWp5q8Ob": {
+   "fetched": "2026-10-02T15:54:45+00:00",
+   "genres": [
+    "folk"
+   ],
+   "name": "Paul Thomas Saunders",
+   "source": "lastfm"
+  },
   "2YZyLoL8N0Wb9xBt1NhZWg": {
    "fetched": "2026-10-02T15:17:43+00:00",
    "genres": [
@@ -1424,11 +2976,17 @@
    "name": "Kendrick Lamar",
    "source": "lastfm"
   },
+  "2YxwViEXsk69KdgEZHGJv4": {
+   "fetched": "2026-10-02T15:57:19+00:00",
+   "genres": [],
+   "name": "Jack Jacobs",
+   "source": "lastfm"
+  },
   "2Z16jBrzl4twrIQ1NCQb7d": {
-   "fetched": "2026-10-02T15:19:48+00:00",
+   "fetched": "2026-10-02T15:53:39+00:00",
    "genres": [],
    "name": "Curos",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "2ZDHVJnLtH2KJfBFzShihr": {
    "fetched": "2026-10-02T15:09:41+00:00",
@@ -1438,11 +2996,58 @@
    "name": "Tipling Rock",
    "source": "lastfm"
   },
+  "2ZLkrrjhoAzlDuxGZJSWB2": {
+   "fetched": "2026-10-02T15:56:00+00:00",
+   "genres": [
+    "greeley estates",
+    "us",
+    "tyler smith"
+   ],
+   "name": "TELLE",
+   "source": "lastfm"
+  },
+  "2ZWFZvg9THyDnfZ18WgkWR": {
+   "fetched": "2026-10-02T15:54:15+00:00",
+   "genres": [],
+   "name": "Ronen Korus",
+   "source": "lastfm"
+  },
+  "2Zi3RrdQqk63Xj0914STkS": {
+   "fetched": "2026-10-02T15:56:40+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Naomi Scott",
+   "source": "lastfm"
+  },
+  "2ae6PxICSOZHvjqiCcgon8": {
+   "fetched": "2026-10-02T15:53:50+00:00",
+   "genres": [
+    "soundtrack"
+   ],
+   "name": "S. P. Balasubrahmanyam",
+   "source": "lastfm"
+  },
+  "2aenOcvulZ1Zltq7bAdbi4": {
+   "fetched": "2026-10-02T15:56:50+00:00",
+   "genres": [
+    "all",
+    "pop"
+   ],
+   "name": "Chymes",
+   "source": "lastfm"
+  },
   "2aqJg8gCxrhgpF4jlOPLs5": {
-   "fetched": "2026-10-02T15:09:27+00:00",
+   "fetched": "2026-10-02T15:53:35+00:00",
    "genres": [],
    "name": "The 90ers",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "2b67gRlF1P00RH7ArBIrJf": {
+   "fetched": "2026-10-02T15:54:44+00:00",
+   "genres": [],
+   "name": "Matthew John",
+   "source": "lastfm"
   },
   "2bdcBjvuI9worc472GbeU0": {
    "fetched": "2026-10-02T15:36:12+00:00",
@@ -1452,11 +3057,29 @@
    "name": "Samuel Kim",
    "source": "lastfm"
   },
+  "2bhndespnMFNIut7yIlThU": {
+   "fetched": "2026-10-02T15:55:17+00:00",
+   "genres": [
+    "drum and bass"
+   ],
+   "name": "HARIZ",
+   "source": "lastfm"
+  },
+  "2cBDh8dCO4LQaSq07uvzve": {
+   "fetched": "2026-10-02T15:55:01+00:00",
+   "genres": [
+    "pop",
+    "electropop",
+    "indie pop"
+   ],
+   "name": "Elle Lexxa",
+   "source": "lastfm"
+  },
   "2cIe2TikQFcX8U8Tuntuo4": {
-   "fetched": "2026-10-02T15:21:25+00:00",
+   "fetched": "2026-10-02T15:53:41+00:00",
    "genres": [],
    "name": "~flynn",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "2clIcz5fAqK3dcjjKjD0bD": {
    "fetched": "2026-10-02T15:16:00+00:00",
@@ -1477,11 +3100,45 @@
    "name": "Danger Mouse",
    "source": "lastfm"
   },
+  "2dIgFjalVxs4ThymZ67YCE": {
+   "fetched": "2026-10-02T15:56:16+00:00",
+   "genres": [
+    "k-pop",
+    "kpop"
+   ],
+   "name": "Stray Kids",
+   "source": "lastfm"
+  },
+  "2dbjQX4XbIMrb5kayolqSZ": {
+   "fetched": "2026-10-02T15:56:48+00:00",
+   "genres": [
+    "cover",
+    "piano",
+    "canada"
+   ],
+   "name": "Chewie Melodies",
+   "source": "lastfm"
+  },
+  "2ds47hSr82tLZR2kS5aNdt": {
+   "fetched": "2026-10-02T15:55:44+00:00",
+   "genres": [
+    "electro",
+    "house"
+   ],
+   "name": "Marc Korn",
+   "source": "lastfm"
+  },
+  "2eKtzvb3Gvx5o1xjsTt2sM": {
+   "fetched": "2026-10-02T15:56:05+00:00",
+   "genres": [],
+   "name": "Muzic Emo",
+   "source": "lastfm"
+  },
   "2f0NSj1t2L6JowHINXCFb6": {
-   "fetched": "2026-10-02T15:08:10+00:00",
+   "fetched": "2026-10-02T15:53:31+00:00",
    "genres": [],
    "name": "Ruby Red",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "2iHrc69sZgyWFBAhLpS3oH": {
    "fetched": "2026-10-02T15:19:57+00:00",
@@ -1491,12 +3148,39 @@
    "name": "Meltt",
    "source": "lastfm"
   },
+  "2iwUUr9Udu8z6L2ZJcYr6i": {
+   "fetched": "2026-10-02T15:55:03+00:00",
+   "genres": [
+    "pop",
+    "electronic",
+    "3"
+   ],
+   "name": "Stileto",
+   "source": "lastfm"
+  },
+  "2jHp7gQArCQrlMvdrIVFCg": {
+   "fetched": "2026-10-02T15:57:16+00:00",
+   "genres": [
+    "indie",
+    "folk"
+   ],
+   "name": "Anson Seabra",
+   "source": "lastfm"
+  },
   "2jnIB6XdLvnJUeNTy5A0J2": {
    "fetched": "2026-10-02T15:28:39+00:00",
    "genres": [
     "pop"
    ],
    "name": "Why Don't We",
+   "source": "lastfm"
+  },
+  "2jrBiKykLqcIp2S7GLiahy": {
+   "fetched": "2026-10-02T15:56:01+00:00",
+   "genres": [
+    "symphonic metal"
+   ],
+   "name": "CADMIUM",
    "source": "lastfm"
   },
   "2jwC7uml6QVgLBfx1Hbtek": {
@@ -1524,6 +3208,18 @@
    "name": "Owned",
    "source": "lastfm"
   },
+  "2lA6dTogbqhg0oePC5mlbM": {
+   "fetched": "2026-10-02T15:54:15+00:00",
+   "genres": [],
+   "name": "Cash!*",
+   "source": "lastfm"
+  },
+  "2lis2CHagnbMNlEUrhU0wu": {
+   "fetched": "2026-10-02T15:57:21+00:00",
+   "genres": [],
+   "name": "Sammam",
+   "source": "lastfm"
+  },
   "2mRvIBsxvP5BcxNWM9MfcR": {
    "fetched": "2026-10-02T15:17:02+00:00",
    "genres": [
@@ -1532,11 +3228,52 @@
    "name": "Pocari Sweet波卡利甜",
    "source": "lastfm"
   },
+  "2mt61gxTSTC56E4wgosOIj": {
+   "fetched": "2026-10-02T15:55:11+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Bangla Five",
+   "source": "lastfm"
+  },
+  "2oSONSC9zQ4UonDKnLqksx": {
+   "fetched": "2026-10-02T15:54:36+00:00",
+   "genres": [
+    "hindi",
+    "pakistani rock"
+   ],
+   "name": "Atif Aslam",
+   "source": "lastfm"
+  },
+  "2q3LKR2X75spfApeTmW0nb": {
+   "fetched": "2026-10-02T15:56:14+00:00",
+   "genres": [],
+   "name": "MC Khan",
+   "source": "lastfm"
+  },
+  "2qZwOcOK5pr8WaNJWvuZd2": {
+   "fetched": "2026-10-02T15:54:27+00:00",
+   "genres": [
+    "dubstep"
+   ],
+   "name": "Biometrix",
+   "source": "lastfm"
+  },
+  "2rP19mjQlqtCScJ3zqLUb1": {
+   "fetched": "2026-10-02T15:55:51+00:00",
+   "genres": [
+    "modern rock",
+    "canadian",
+    "my top songs"
+   ],
+   "name": "Letdown.",
+   "source": "lastfm"
+  },
   "2sNIcznotAGto8n1lxJUIt": {
-   "fetched": "2026-10-02T15:17:37+00:00",
+   "fetched": "2026-10-02T15:53:38+00:00",
    "genres": [],
    "name": "T-minus Band",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "2sSGPbdZJkaSE2AbcGOACx": {
    "fetched": "2026-10-02T15:20:58+00:00",
@@ -1547,12 +3284,55 @@
    "name": "The Marías",
    "source": "lastfm"
   },
+  "2sv6uEz5QYG3tQGfOlTLkl": {
+   "fetched": "2026-10-02T15:57:00+00:00",
+   "genres": [
+    "bangladesh",
+    "bangali"
+   ],
+   "name": "Shironamhin",
+   "source": "lastfm"
+  },
+  "2tIP7SsRs7vjIcLrU85W8J": {
+   "fetched": "2026-10-02T15:56:34+00:00",
+   "genres": [
+    "hip-hop",
+    "rap",
+    "emo rap"
+   ],
+   "name": "The Kid LAROI",
+   "source": "lastfm"
+  },
   "2tKIzZnbrNVtgyxye3uoZc": {
    "fetched": "2026-10-02T15:08:30+00:00",
    "genres": [
     "garage rock"
    ],
    "name": "Blacktop",
+   "source": "lastfm"
+  },
+  "2tvv9BqSSGDmXu3xaF9Eh8": {
+   "fetched": "2026-10-02T15:54:52+00:00",
+   "genres": [],
+   "name": "ZachGG",
+   "source": "lastfm"
+  },
+  "2txHhyCwHjUEpJjWrEyqyX": {
+   "fetched": "2026-10-02T15:54:35+00:00",
+   "genres": [
+    "indie",
+    "folk"
+   ],
+   "name": "Tom Odell",
+   "source": "lastfm"
+  },
+  "2uSVRVjYZ0PlJPdFHnBETu": {
+   "fetched": "2026-10-02T15:55:40+00:00",
+   "genres": [
+    "danish",
+    "pop"
+   ],
+   "name": "creamy",
    "source": "lastfm"
   },
   "2uYWxilOVlUdk4oV9DvwqK": {
@@ -1564,6 +3344,14 @@
    "name": "Mitski",
    "source": "lastfm"
   },
+  "2uywReWe3Iw8FeRrZ9M6AE": {
+   "fetched": "2026-10-02T15:55:39+00:00",
+   "genres": [
+    "screamo"
+   ],
+   "name": "In Loving Memory",
+   "source": "lastfm"
+  },
   "2vf4pRsEY6LpL5tKmqWb64": {
    "fetched": "2026-10-02T15:08:32+00:00",
    "genres": [
@@ -1571,6 +3359,32 @@
     "house"
    ],
    "name": "Elderbrook",
+   "source": "lastfm"
+  },
+  "2wEKXEd9OLGLX8Q5CRwcJS": {
+   "fetched": "2026-10-02T15:55:10+00:00",
+   "genres": [
+    "india"
+   ],
+   "name": "Ishan Mitra",
+   "source": "lastfm"
+  },
+  "2wY79sveU1sp5g7SokKOiI": {
+   "fetched": "2026-10-02T15:56:50+00:00",
+   "genres": [
+    "soul",
+    "pop"
+   ],
+   "name": "Sam Smith",
+   "source": "lastfm"
+  },
+  "2x9SpqnPi8rlE9pjHBwmSC": {
+   "fetched": "2026-10-02T15:55:54+00:00",
+   "genres": [
+    "new wave",
+    "post-punk"
+   ],
+   "name": "Talking Heads",
    "source": "lastfm"
   },
   "2xiIXseIJcq3nG7C8fHeBj": {
@@ -1609,6 +3423,45 @@
    "name": "Audioslave",
    "source": "lastfm"
   },
+  "2zvJLk0gTH7r7A5Q6X5Bq8": {
+   "fetched": "2026-10-02T15:57:11+00:00",
+   "genres": [],
+   "name": "Javed-Mohsin",
+   "source": "lastfm"
+  },
+  "31W5EY0aAly4Qieq6OFu6I": {
+   "fetched": "2026-10-02T15:53:59+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "A Boogie Wit da Hoodie",
+   "source": "lastfm"
+  },
+  "31hrPUMBg96szrqNAb3oqP": {
+   "fetched": "2026-10-02T15:55:55+00:00",
+   "genres": [
+    "alternative metal",
+    "electronic",
+    "modern rock"
+   ],
+   "name": "Blacklite District",
+   "source": "lastfm"
+  },
+  "32TmSH5R4CnMSBWDHezgnR": {
+   "fetched": "2026-10-02T15:55:45+00:00",
+   "genres": [],
+   "name": "reanne",
+   "source": "lastfm"
+  },
+  "32hyEyn0a2d4Uco2TBciRm": {
+   "fetched": "2026-10-02T15:54:09+00:00",
+   "genres": [
+    "post punk"
+   ],
+   "name": "BÆNCH",
+   "source": "lastfm"
+  },
   "32zeX1IoVKAGWMyy1isKUq": {
    "fetched": "2026-10-02T15:08:31+00:00",
    "genres": [
@@ -1625,6 +3478,31 @@
     "neo-soul"
    ],
    "name": "D'Angelo",
+   "source": "lastfm"
+  },
+  "33NVpKoXjItPwUJTMZIOiY": {
+   "fetched": "2026-10-02T15:54:29+00:00",
+   "genres": [
+    "indie"
+   ],
+   "name": "David Kushner",
+   "source": "lastfm"
+  },
+  "33OiUi69eVac5JgUDSUswF": {
+   "fetched": "2026-10-02T15:55:12+00:00",
+   "genres": [
+    "india"
+   ],
+   "name": "Rishi Panda",
+   "source": "lastfm"
+  },
+  "33ScadVnbm2X8kkUqOkC6Z": {
+   "fetched": "2026-10-02T15:56:19+00:00",
+   "genres": [
+    "reggaeton",
+    "latin"
+   ],
+   "name": "Don Omar",
    "source": "lastfm"
   },
   "33hj9n9Y19jGhXk8m7ezKR": {
@@ -1663,10 +3541,28 @@
    "source": "lastfm"
   },
   "35aD27ZGgv90Om350Eq7PC": {
-   "fetched": "2026-10-02T15:35:13+00:00",
+   "fetched": "2026-10-02T15:53:45+00:00",
    "genres": [],
    "name": "Edwards Archive",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "360IAlyVv4PCEVjgyMZrxK": {
+   "fetched": "2026-10-02T15:54:06+00:00",
+   "genres": [
+    "rnb",
+    "soul"
+   ],
+   "name": "Miguel",
+   "source": "lastfm"
+  },
+  "36QJpDe2go2KgaRleHCDTp": {
+   "fetched": "2026-10-02T15:56:22+00:00",
+   "genres": [
+    "classic rock",
+    "hard rock"
+   ],
+   "name": "Led Zeppelin",
+   "source": "lastfm"
   },
   "37GUqxafAvAKGMZbXCUnmr": {
    "fetched": "2026-10-02T15:18:09+00:00",
@@ -1688,6 +3584,24 @@
    "name": "Indalo",
    "source": "lastfm"
   },
+  "37w38cCSGgKLdayTRjna4W": {
+   "fetched": "2026-10-02T15:54:16+00:00",
+   "genres": [
+    "dream pop",
+    "shoegaze"
+   ],
+   "name": "Mazzy Star",
+   "source": "lastfm"
+  },
+  "382aq8Pij5V2nE2JMHMoxl": {
+   "fetched": "2026-10-02T15:53:58+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Hoodie Allen",
+   "source": "lastfm"
+  },
   "3886aFez2HDLkio5tUzmP6": {
    "fetched": "2026-10-02T15:29:45+00:00",
    "genres": [
@@ -1695,6 +3609,14 @@
     "alternative rock"
    ],
    "name": "Sixx:A.M.",
+   "source": "lastfm"
+  },
+  "38SIErfZNd7u2qlIzFeZqm": {
+   "fetched": "2026-10-02T15:57:24+00:00",
+   "genres": [
+    "electronic"
+   ],
+   "name": "Mia Vaile",
    "source": "lastfm"
   },
   "38WbKH6oKAZskBhqDFA8Uj": {
@@ -1706,11 +3628,17 @@
    "name": "ZUTOMAYO",
    "source": "lastfm"
   },
+  "396aRkNHaX6rw9n5Z8A6vJ": {
+   "fetched": "2026-10-02T15:57:25+00:00",
+   "genres": [],
+   "name": "Tasnif Zaman",
+   "source": "lastfm"
+  },
   "3973WPiIu6SYAoaEqBOfvg": {
-   "fetched": "2026-10-02T15:37:12+00:00",
+   "fetched": "2026-10-02T15:53:49+00:00",
    "genres": [],
    "name": "Paper Twins",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "39I2FHig6PNSj3ctNkxX9o": {
    "fetched": "2026-10-02T15:16:50+00:00",
@@ -1718,6 +3646,16 @@
     "garage rock"
    ],
    "name": "Makeout Reef",
+   "source": "lastfm"
+  },
+  "39MIIT7MAh222dg8OAEF4W": {
+   "fetched": "2026-10-02T15:55:11+00:00",
+   "genres": [
+    "bangladesh",
+    "rock",
+    "bangladeshi"
+   ],
+   "name": "Moruvumi",
    "source": "lastfm"
   },
   "39b8vxAORVsBRK782WLYSe": {
@@ -1729,6 +3667,16 @@
    "name": "Minar Rahman",
    "source": "lastfm"
   },
+  "3A6wkYUCDFUTVlfbSw42B2": {
+   "fetched": "2026-10-02T15:56:57+00:00",
+   "genres": [
+    "indie pop",
+    "indie",
+    "bangladesh"
+   ],
+   "name": "Smooches",
+   "source": "lastfm"
+  },
   "3AA28KZvwAUcZuOKwyblJQ": {
    "fetched": "2026-10-02T15:21:03+00:00",
    "genres": [
@@ -1738,12 +3686,48 @@
    "name": "Gorillaz",
    "source": "lastfm"
   },
+  "3AQRLZ9PuTAozP28Skbq8V": {
+   "fetched": "2026-10-02T15:57:32+00:00",
+   "genres": [
+    "pop rock",
+    "rock"
+   ],
+   "name": "The Script",
+   "source": "lastfm"
+  },
+  "3AYZMgvmzNKc3cGmJUSITh": {
+   "fetched": "2026-10-02T15:54:35+00:00",
+   "genres": [
+    "indie"
+   ],
+   "name": "Jake Daniels",
+   "source": "lastfm"
+  },
+  "3Avni6DLpoxtanND8mG5t8": {
+   "fetched": "2026-10-02T15:57:24+00:00",
+   "genres": [
+    "vocaloid",
+    "industrial"
+   ],
+   "name": "Ghost and Pals",
+   "source": "lastfm"
+  },
   "3BcSXip92N0HwJRA9sVmP6": {
    "fetched": "2026-10-02T15:21:37+00:00",
    "genres": [
     "neo-psychedelia"
    ],
    "name": "Marlon Funaki",
+   "source": "lastfm"
+  },
+  "3Byr4ARWco4SXhf1rnaC7l": {
+   "fetched": "2026-10-02T15:53:50+00:00",
+   "genres": [
+    "soundtrack",
+    "canadian",
+    "canada"
+   ],
+   "name": "Ryan Carlson",
    "source": "lastfm"
   },
   "3CjlHNtplJyTf9npxaPl5w": {
@@ -1776,10 +3760,10 @@
    "source": "lastfm"
   },
   "3EaDo8ftG4jBZWo99IptF4": {
-   "fetched": "2026-10-02T15:16:39+00:00",
+   "fetched": "2026-10-02T15:53:37+00:00",
    "genres": [],
    "name": "Saber GB",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "3Es6oUz3zUC5IZDRRhcRxG": {
    "fetched": "2026-10-02T15:21:40+00:00",
@@ -1789,6 +3773,15 @@
     "indie folk"
    ],
    "name": "Jagged Jaw",
+   "source": "lastfm"
+  },
+  "3EyyzJqPHxNFZejLKP2YBk": {
+   "fetched": "2026-10-02T15:55:56+00:00",
+   "genres": [
+    "dubstep",
+    "electro house"
+   ],
+   "name": "Dot Exe",
    "source": "lastfm"
   },
   "3FUY2gzHeIiaesXtOAdB7A": {
@@ -1810,6 +3803,12 @@
    "name": "Jermango Dreaming",
    "source": "lastfm"
   },
+  "3GY9nwamgDdUpgWlCAKP9s": {
+   "fetched": "2026-10-02T15:56:22+00:00",
+   "genres": [],
+   "name": "Slowed Tunes",
+   "source": "lastfm"
+  },
   "3Gs10XJ4S4OEFrMRqZJcic": {
    "fetched": "2026-10-02T15:17:34+00:00",
    "genres": [
@@ -1819,6 +3818,47 @@
    "name": "Plini",
    "source": "lastfm"
   },
+  "3H7pODXycF821OnRyAw2VT": {
+   "fetched": "2026-10-02T15:56:36+00:00",
+   "genres": [
+    "pop",
+    "boybands"
+   ],
+   "name": "911",
+   "source": "lastfm"
+  },
+  "3HFhu4Eq2qOPEnISUen3M7": {
+   "fetched": "2026-10-02T15:54:34+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Encore",
+   "source": "lastfm"
+  },
+  "3HhYkJ1XoV0Lz9Ye9aOTRp": {
+   "fetched": "2026-10-02T15:57:04+00:00",
+   "genres": [
+    "bangladesh",
+    "folk"
+   ],
+   "name": "Shuddho Fuad Sadi",
+   "source": "lastfm"
+  },
+  "3I7zwYew54SYjKtHSh1CMn": {
+   "fetched": "2026-10-02T15:55:36+00:00",
+   "genres": [],
+   "name": "Artimus Wolz",
+   "source": "lastfm"
+  },
+  "3ICflSq6ZgYAIrm2CTkfVP": {
+   "fetched": "2026-10-02T15:56:13+00:00",
+   "genres": [
+    "classic rock"
+   ],
+   "name": "The Animals",
+   "source": "lastfm"
+  },
   "3Isy6kedDrgPYoTS1dazA9": {
    "fetched": "2026-10-02T15:35:32+00:00",
    "genres": [
@@ -1826,6 +3866,47 @@
     "reggae"
    ],
    "name": "Sean Paul",
+   "source": "lastfm"
+  },
+  "3JDIAtVrJdQ7GFOX26LYpv": {
+   "fetched": "2026-10-02T15:56:07+00:00",
+   "genres": [
+    "heavy metal"
+   ],
+   "name": "Accept",
+   "source": "lastfm"
+  },
+  "3JFb3LPzHW7OMRlo3l0vcV": {
+   "fetched": "2026-10-02T15:56:35+00:00",
+   "genres": [],
+   "name": "Sam Mueller",
+   "source": "lastfm"
+  },
+  "3JhNCzhSMTxs9WLGJJxWOY": {
+   "fetched": "2026-10-02T15:56:18+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Macklemore",
+   "source": "lastfm"
+  },
+  "3K2zB87GZv1krx031en5VA": {
+   "fetched": "2026-10-02T15:56:17+00:00",
+   "genres": [
+    "electropop",
+    "electronic",
+    "synthpop"
+   ],
+   "name": "La Roux",
+   "source": "lastfm"
+  },
+  "3L8FZaw2Rg1oUw3vB4gUME": {
+   "fetched": "2026-10-02T15:55:50+00:00",
+   "genres": [
+    "rap"
+   ],
+   "name": "Bazanji",
    "source": "lastfm"
   },
   "3LURa20zIKdXG4MHqz70zp": {
@@ -1866,6 +3947,15 @@
    "name": "X Ambassadors",
    "source": "lastfm"
   },
+  "3NguMMTDTItRbe2E2PZrJ2": {
+   "fetched": "2026-10-02T15:54:29+00:00",
+   "genres": [
+    "estrada",
+    "pop"
+   ],
+   "name": "Katya Lel",
+   "source": "lastfm"
+  },
   "3OKg7YbOIatODzkRIbLJR4": {
    "fetched": "2026-10-02T15:36:43+00:00",
    "genres": [
@@ -1881,6 +3971,12 @@
     "qawwali"
    ],
    "name": "Rahat Fateh Ali Khan",
+   "source": "lastfm"
+  },
+  "3OeVM4IhwyIvBbYmHzaloY": {
+   "fetched": "2026-10-02T15:57:27+00:00",
+   "genres": [],
+   "name": "BriCie",
    "source": "lastfm"
   },
   "3PALZKWkpwjRvBsRmhlVSS": {
@@ -1900,6 +3996,15 @@
    "name": "Elton John",
    "source": "lastfm"
   },
+  "3PvEhkL4pgu9glR6yOlYKK": {
+   "fetched": "2026-10-02T15:56:38+00:00",
+   "genres": [
+    "pop",
+    "swedish"
+   ],
+   "name": "Sanna Nielsen",
+   "source": "lastfm"
+  },
   "3PyJHH2wyfQK3WZrk9rpmP": {
    "fetched": "2026-10-02T15:36:01+00:00",
    "genres": [
@@ -1908,6 +4013,24 @@
     "electronic"
    ],
    "name": "Ashnikko",
+   "source": "lastfm"
+  },
+  "3RVDaDaYaZH1Gem9iqOVs8": {
+   "fetched": "2026-10-02T15:54:36+00:00",
+   "genres": [
+    "south asian",
+    "bollywood",
+    "pakistan"
+   ],
+   "name": "Jal -The Band",
+   "source": "lastfm"
+  },
+  "3RbuVoer2pZlqAXI73ElhX": {
+   "fetched": "2026-10-02T15:54:54+00:00",
+   "genres": [
+    "german"
+   ],
+   "name": "Cheriimoya",
    "source": "lastfm"
   },
   "3Rq3YOF9YG9YfCWD4D56RZ": {
@@ -1920,10 +4043,10 @@
    "source": "lastfm"
   },
   "3SyXXUoCRt9cju7yi9ajP6": {
-   "fetched": "2026-10-02T15:09:30+00:00",
+   "fetched": "2026-10-02T15:53:35+00:00",
    "genres": [],
    "name": "Veylow",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "3Sz7ZnJQBIHsXLUSo0OQtM": {
    "fetched": "2026-10-02T15:16:23+00:00",
@@ -1932,6 +4055,56 @@
     "indie"
    ],
    "name": "Mac DeMarco",
+   "source": "lastfm"
+  },
+  "3TBTcHpZ3aV1g8rk8i1zb5": {
+   "fetched": "2026-10-02T15:56:02+00:00",
+   "genres": [
+    "alternative",
+    "indie pop"
+   ],
+   "name": "Baby Bugs",
+   "source": "lastfm"
+  },
+  "3TcHw3wclDuMiT5alF15fG": {
+   "fetched": "2026-10-02T15:53:50+00:00",
+   "genres": [],
+   "name": "Southernmost Gravy",
+   "source": "lastfm"
+  },
+  "3Tnsshb60OXuwCBZYNGicL": {
+   "fetched": "2026-10-02T15:56:01+00:00",
+   "genres": [
+    "horror",
+    "electronic",
+    "all"
+   ],
+   "name": "Steampianist",
+   "source": "lastfm"
+  },
+  "3ULBhkymhc1Qr6Z0Q9RnlQ": {
+   "fetched": "2026-10-02T15:54:18+00:00",
+   "genres": [
+    "video game music",
+    "electronic",
+    "video games"
+   ],
+   "name": "Amie Waters",
+   "source": "lastfm"
+  },
+  "3VNITwohbvU5Wuy5PC6dsI": {
+   "fetched": "2026-10-02T15:54:05+00:00",
+   "genres": [
+    "funk",
+    "soul"
+   ],
+   "name": "Kool & The Gang",
+   "source": "lastfm"
+  },
+  "3WRIVQDXd6yvNGqVlwFQ8s": {
+   "fetched": "2026-10-02T15:54:13+00:00",
+   "genres": [],
+   "name": "Mikey YT",
    "source": "lastfm"
   },
   "3WaJSfKnzc65VDgmj2zU8B": {
@@ -1951,6 +4124,15 @@
     "rock"
    ],
    "name": "The Beatles",
+   "source": "lastfm"
+  },
+  "3XHO7cRUPCLOr6jwp8vsx5": {
+   "fetched": "2026-10-02T15:54:04+00:00",
+   "genres": [
+    "indie",
+    "electronic"
+   ],
+   "name": "alt-J",
    "source": "lastfm"
   },
   "3XxNRirzbjfLdDli06zMaB": {
@@ -1980,6 +4162,15 @@
    "name": "Incubus",
    "source": "lastfm"
   },
+  "3YqcZqVipKvz37JT3fpIVQ": {
+   "fetched": "2026-10-02T15:54:39+00:00",
+   "genres": [
+    "german",
+    "electronic"
+   ],
+   "name": "Besomorph",
+   "source": "lastfm"
+  },
   "3YtYKFoeuIDJs7UVGiFauz": {
    "fetched": "2026-10-02T15:08:17+00:00",
    "genres": [
@@ -2007,12 +4198,78 @@
    "name": "1nonly",
    "source": "lastfm"
   },
+  "3ZVW9s2Xb8NQDzwEqElbNq": {
+   "fetched": "2026-10-02T15:54:51+00:00",
+   "genres": [
+    "pop",
+    "dance"
+   ],
+   "name": "Rosendale",
+   "source": "lastfm"
+  },
+  "3ZY3UtskLs4lXMSYPtN5aR": {
+   "fetched": "2026-10-02T15:57:25+00:00",
+   "genres": [],
+   "name": "Sajir Ahmed Snigdho",
+   "source": "lastfm"
+  },
+  "3ZyMt4ZzT5TWAFKvm0UxYb": {
+   "fetched": "2026-10-02T15:55:09+00:00",
+   "genres": [],
+   "name": "DREAMDNVR",
+   "source": "lastfm"
+  },
+  "3alW3LYQS8K29z8C8NSLIX": {
+   "fetched": "2026-10-02T15:54:24+00:00",
+   "genres": [
+    "pop",
+    "easy listening"
+   ],
+   "name": "Barry Manilow",
+   "source": "lastfm"
+  },
+  "3b2q69EvD3tLQDKiYSd5uo": {
+   "fetched": "2026-10-02T15:55:55+00:00",
+   "genres": [
+    "deep house",
+    "house",
+    "chill house"
+   ],
+   "name": "Dream Chaos",
+   "source": "lastfm"
+  },
+  "3bxT3ndZXZjV1teNLoW6fe": {
+   "fetched": "2026-10-02T15:57:21+00:00",
+   "genres": [
+    "japanese",
+    "j-pop"
+   ],
+   "name": "yurisa",
+   "source": "lastfm"
+  },
+  "3cniTumSiUysiPWXapGx1i": {
+   "fetched": "2026-10-02T15:54:37+00:00",
+   "genres": [
+    "new wave"
+   ],
+   "name": "Cutting Crew",
+   "source": "lastfm"
+  },
   "3dXBDrVfLai40505fF4HH1": {
    "fetched": "2026-10-02T15:08:28+00:00",
    "genres": [
     "indie pop"
    ],
    "name": "Cal in Red",
+   "source": "lastfm"
+  },
+  "3dbuSqzwPQGqucy4evhJUB": {
+   "fetched": "2026-10-02T15:56:39+00:00",
+   "genres": [
+    "downtempo",
+    "trip-hop"
+   ],
+   "name": "Naomi",
    "source": "lastfm"
   },
   "3eVa5w3URK5duf6eyVDbu9": {
@@ -2038,6 +4295,48 @@
     "pop"
    ],
    "name": "Michael Jackson",
+   "source": "lastfm"
+  },
+  "3gfeKrOBLlmoaUXfGJzmS5": {
+   "fetched": "2026-10-02T15:54:01+00:00",
+   "genres": [
+    "classical"
+   ],
+   "name": "Austin Farwell",
+   "source": "lastfm"
+  },
+  "3gyp3OwaUX6NfBy1sHvY8b": {
+   "fetched": "2026-10-02T15:56:13+00:00",
+   "genres": [
+    "pop",
+    "house",
+    "beach house"
+   ],
+   "name": "Consoul Trainin",
+   "source": "lastfm"
+  },
+  "3h3xRXmtsGNhk3ZsYj5R7X": {
+   "fetched": "2026-10-02T15:57:14+00:00",
+   "genres": [],
+   "name": "C&ELA",
+   "source": "lastfm"
+  },
+  "3hkBUDhKEiz64k5kTrd1QQ": {
+   "fetched": "2026-10-02T15:55:52+00:00",
+   "genres": [
+    "funk jazz",
+    "dutch"
+   ],
+   "name": "Crypto",
+   "source": "lastfm"
+  },
+  "3hv9jJF3adDNsBSIQDqcjp": {
+   "fetched": "2026-10-02T15:54:12+00:00",
+   "genres": [
+    "funk",
+    "pop"
+   ],
+   "name": "Mark Ronson",
    "source": "lastfm"
   },
   "3j2DgAeINZHCf9UHkjd4GS": {
@@ -2066,6 +4365,30 @@
    "name": "Weezer",
    "source": "lastfm"
   },
+  "3klZnJvYGIbWritVwQD434": {
+   "fetched": "2026-10-02T15:57:23+00:00",
+   "genres": [
+    "pop",
+    "eurovision"
+   ],
+   "name": "Duncan Laurence",
+   "source": "lastfm"
+  },
+  "3lhGgCyHKc8VFqfn33X7VX": {
+   "fetched": "2026-10-02T15:55:48+00:00",
+   "genres": [
+    "dark ambient",
+    "death metal"
+   ],
+   "name": "Morpheus",
+   "source": "lastfm"
+  },
+  "3lpyGQtyWfk2VsL9eEyxV8": {
+   "fetched": "2026-10-02T15:55:42+00:00",
+   "genres": [],
+   "name": "Rockaphobic",
+   "source": "lastfm"
+  },
   "3lybdJ5QPH5NJolzMVKnLx": {
    "fetched": "2026-10-02T15:28:05+00:00",
    "genres": [
@@ -2081,6 +4404,12 @@
     "dream pop"
    ],
    "name": "Tokyo Tea Room",
+   "source": "lastfm"
+  },
+  "3mYLvYayLaWmNMDdPFUm6C": {
+   "fetched": "2026-10-02T15:56:55+00:00",
+   "genres": [],
+   "name": "Artwreck",
    "source": "lastfm"
   },
   "3my0yG4y3f4CnxDiFzApeD": {
@@ -2099,6 +4428,25 @@
    "name": "JAŸ-Z",
    "source": "lastfm"
   },
+  "3nppLjWNKP6DxxsoAG48hK": {
+   "fetched": "2026-10-02T15:55:50+00:00",
+   "genres": [
+    "visual kei",
+    "electronic"
+   ],
+   "name": "Kaya",
+   "source": "lastfm"
+  },
+  "3o0F4cP9HGYY6WEoDBAzk1": {
+   "fetched": "2026-10-02T15:55:06+00:00",
+   "genres": [
+    "nerdcore",
+    "new zealand",
+    "fnaf"
+   ],
+   "name": "ApAngryPiggy",
+   "source": "lastfm"
+  },
   "3oDbviiivRWhXwIE8hxkVV": {
    "fetched": "2026-10-02T15:20:42+00:00",
    "genres": [
@@ -2106,6 +4454,29 @@
     "pop"
    ],
    "name": "The Beach Boys",
+   "source": "lastfm"
+  },
+  "3oSMdx3Zu8Mg77J9bLroOR": {
+   "fetched": "2026-10-02T15:54:55+00:00",
+   "genres": [],
+   "name": "ADVERB BAND",
+   "source": "lastfm"
+  },
+  "3oSZKapuKjNzTOejmMFXn3": {
+   "fetched": "2026-10-02T15:56:25+00:00",
+   "genres": [
+    "nerdcore hip hop"
+   ],
+   "name": "ovg!",
+   "source": "lastfm"
+  },
+  "3phSuSjTMPcF9Tr02vbCnj": {
+   "fetched": "2026-10-02T15:55:37+00:00",
+   "genres": [
+    "nu metal",
+    "alternative metal"
+   ],
+   "name": "Minerva",
    "source": "lastfm"
   },
   "3q7HBObVc0L8jNeTe5Gofh": {
@@ -2135,6 +4506,26 @@
    "name": "Guns N' Roses",
    "source": "lastfm"
   },
+  "3qpyErDI4i90q5EGgSRmNK": {
+   "fetched": "2026-10-02T15:54:40+00:00",
+   "genres": [
+    "indian",
+    "indie",
+    "hindie"
+   ],
+   "name": "Raghav Chaitanya",
+   "source": "lastfm"
+  },
+  "3qskfyIRwZtp6uIfj6OFcL": {
+   "fetched": "2026-10-02T15:56:16+00:00",
+   "genres": [
+    "synthpop",
+    "indie",
+    "bangladesh"
+   ],
+   "name": "Eida",
+   "source": "lastfm"
+  },
   "3rWZHrfrsPBxVy692yAIxF": {
    "fetched": "2026-10-02T15:35:16+00:00",
    "genres": [
@@ -2142,6 +4533,31 @@
     "pop"
    ],
    "name": "WILLOW",
+   "source": "lastfm"
+  },
+  "3rgl5maOkVyXSlgBTWxovp": {
+   "fetched": "2026-10-02T15:54:31+00:00",
+   "genres": [
+    "bangla rap"
+   ],
+   "name": "Stoic Bliss",
+   "source": "lastfm"
+  },
+  "3rmYE7edorDWoKVPGk9iLZ": {
+   "fetched": "2026-10-02T15:54:39+00:00",
+   "genres": [
+    "big room",
+    "progressive house"
+   ],
+   "name": "Wasback",
+   "source": "lastfm"
+  },
+  "3rp4f58JlRHkk8hpdLCer1": {
+   "fetched": "2026-10-02T15:53:54+00:00",
+   "genres": [
+    "french"
+   ],
+   "name": "Videoclub",
    "source": "lastfm"
   },
   "3scNK8e4mqnP6Rb8a3lwZY": {
@@ -2154,12 +4570,41 @@
    "name": "Maanu",
    "source": "lastfm"
   },
+  "3tEw3hDETkxsewEVCd93Os": {
+   "fetched": "2026-10-02T15:54:11+00:00",
+   "genres": [
+    "drum and bass"
+   ],
+   "name": "Icons",
+   "source": "lastfm"
+  },
   "3u50Zfk1E0uxAbFwDIEqof": {
    "fetched": "2026-10-02T15:16:48+00:00",
    "genres": [
     "indie"
    ],
    "name": "Computer Kill",
+   "source": "lastfm"
+  },
+  "3uJ7kyi2LZwKRUnL9QBHql": {
+   "fetched": "2026-10-02T15:56:29+00:00",
+   "genres": [],
+   "name": "Anirban Bhattacharya",
+   "source": "lastfm"
+  },
+  "3ula9SkvqwVsMeRbtCA2n0": {
+   "fetched": "2026-10-02T15:55:24+00:00",
+   "genres": [],
+   "name": "ZAYEM",
+   "source": "lastfm"
+  },
+  "3xAoVcrMl08h9mS8UHsfKM": {
+   "fetched": "2026-10-02T15:54:13+00:00",
+   "genres": [
+    "downtempo",
+    "electronic"
+   ],
+   "name": "WYATT",
    "source": "lastfm"
   },
   "3y24n3XhZ96wgwRXjvS17T": {
@@ -2189,6 +4634,12 @@
     "bollywood"
    ],
    "name": "Palak Muchhal",
+   "source": "lastfm"
+  },
+  "3z8M11v6g0H2VvkETg7jDn": {
+   "fetched": "2026-10-02T15:57:01+00:00",
+   "genres": [],
+   "name": "Arafat Mohsin",
    "source": "lastfm"
   },
   "3zmfs9cQwzJl575W1ZYXeT": {
@@ -2228,6 +4679,21 @@
    "name": "JTL",
    "source": "lastfm"
   },
+  "3zunDAtRDg7kflREzWAhxl": {
+   "fetched": "2026-10-02T15:56:07+00:00",
+   "genres": [
+    "indie",
+    "alternative"
+   ],
+   "name": "Eels",
+   "source": "lastfm"
+  },
+  "3zw2PGpf4w7YefHvDAdcyS": {
+   "fetched": "2026-10-02T15:56:09+00:00",
+   "genres": [],
+   "name": "Alberto Ciccarini",
+   "source": "lastfm"
+  },
   "40OV4nFVZqdXDjPumwcywN": {
    "fetched": "2026-10-02T15:16:06+00:00",
    "genres": [
@@ -2246,6 +4712,25 @@
    "name": "The Smashing Pumpkins",
    "source": "lastfm"
   },
+  "41RccraCyD9nfS4FdRnsLc": {
+   "fetched": "2026-10-02T15:56:26+00:00",
+   "genres": [
+    "electro",
+    "minimal",
+    "47"
+   ],
+   "name": "4T7",
+   "source": "lastfm"
+  },
+  "41X1TR6hrK8Q2ZCpp2EqCz": {
+   "fetched": "2026-10-02T15:53:59+00:00",
+   "genres": [
+    "rap",
+    "hip-hop"
+   ],
+   "name": "bbno$",
+   "source": "lastfm"
+  },
   "41mxrCQY3INlKRtV17QglN": {
    "fetched": "2026-10-02T15:28:02+00:00",
    "genres": [
@@ -2254,6 +4739,15 @@
     "indie rock"
    ],
    "name": "Yogurt",
+   "source": "lastfm"
+  },
+  "41qil2VaGbD194gaEcmmyx": {
+   "fetched": "2026-10-02T15:56:46+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Will Smith",
    "source": "lastfm"
   },
   "42BhmF97Bi9ZiSayKezneF": {
@@ -2284,12 +4778,35 @@
    "name": "she's green",
    "source": "lastfm"
   },
+  "42Wixprv3RQYct8e3nJO1S": {
+   "fetched": "2026-10-02T15:55:25+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "YVR",
+   "source": "lastfm"
+  },
   "42v0kfdXXwjA3cLRr4DTyY": {
    "fetched": "2026-10-02T15:20:45+00:00",
    "genres": [
     "georgian"
    ],
    "name": "East Duo",
+   "source": "lastfm"
+  },
+  "43O3c6wewpzPKwVaGEEtBM": {
+   "fetched": "2026-10-02T15:54:16+00:00",
+   "genres": [
+    "indie rock",
+    "indie"
+   ],
+   "name": "My Morning Jacket",
+   "source": "lastfm"
+  },
+  "43d8yHc4SVP1zLm9PDPylf": {
+   "fetched": "2026-10-02T15:57:34+00:00",
+   "genres": [],
+   "name": "Mr. AbD",
    "source": "lastfm"
   },
   "43sZBwHjahUvgbx1WNIkIz": {
@@ -2301,11 +4818,19 @@
    "name": "Creed",
    "source": "lastfm"
   },
+  "4463nfFMmK1cwAWBQDwT5e": {
+   "fetched": "2026-10-02T15:54:21+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Laura Branigan",
+   "source": "lastfm"
+  },
   "44JI8Kf7e9qDhfEebdD2Y2": {
-   "fetched": "2026-10-02T15:28:34+00:00",
+   "fetched": "2026-10-02T15:53:43+00:00",
    "genres": [],
    "name": "Cate Tomlinson",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "44TGR1CzjKBxSHsSEy7bi9": {
    "fetched": "2026-10-02T12:38:23+00:00",
@@ -2314,6 +4839,25 @@
     "alternative"
    ],
    "name": "Woodkid",
+   "source": "lastfm"
+  },
+  "44Wi4QHWK4CzACCqCyxo3x": {
+   "fetched": "2026-10-02T15:54:48+00:00",
+   "genres": [
+    "canada",
+    "canadian",
+    "electronic superhighway"
+   ],
+   "name": "WE ARE FURY",
+   "source": "lastfm"
+  },
+  "45dkTj5sMRSjrmBSBeiHym": {
+   "fetched": "2026-10-02T15:54:28+00:00",
+   "genres": [
+    "pop",
+    "my top songs"
+   ],
+   "name": "Tate McRae",
    "source": "lastfm"
   },
   "45eNHdiiabvmbp4erw26rg": {
@@ -2334,6 +4878,21 @@
    "name": "Chatterbox",
    "source": "lastfm"
   },
+  "45v3YW5PBqqIMuYrMmgn7d": {
+   "fetched": "2026-10-02T15:56:14+00:00",
+   "genres": [],
+   "name": "Raz Dee",
+   "source": "lastfm"
+  },
+  "46pWGuE3dSwY3bMMXGBvVS": {
+   "fetched": "2026-10-02T15:56:14+00:00",
+   "genres": [
+    "afrobeats",
+    "trap"
+   ],
+   "name": "Rema",
+   "source": "lastfm"
+  },
   "47i4lPow1dIRwOb85AB6lj": {
    "fetched": "2026-10-02T15:21:53+00:00",
    "genres": [
@@ -2342,11 +4901,36 @@
    "name": "Gizmo Varillas",
    "source": "lastfm"
   },
+  "47zz7sob9NUcODy0BTDvKx": {
+   "fetched": "2026-10-02T15:54:19+00:00",
+   "genres": [
+    "soul",
+    "jazz"
+   ],
+   "name": "Sade",
+   "source": "lastfm"
+  },
+  "48Gf4KaDgt6qBE3IPXqqZt": {
+   "fetched": "2026-10-02T15:55:33+00:00",
+   "genres": [],
+   "name": "Seaof",
+   "source": "lastfm"
+  },
+  "48zCOCmmHapxDJOko3MqFE": {
+   "fetched": "2026-10-02T15:55:45+00:00",
+   "genres": [
+    "garage rock",
+    "rock",
+    "north carolina"
+   ],
+   "name": "The Pinkerton Raid",
+   "source": "lastfm"
+  },
   "49LSdhmLv2PMmPcnIZk4MC": {
-   "fetched": "2026-10-02T15:36:15+00:00",
+   "fetched": "2026-10-02T15:53:48+00:00",
    "genres": [],
    "name": "Jade Monaco",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "49aaHxvAJ0tCh0F15OnwIl": {
    "fetched": "2026-10-02T15:36:52+00:00",
@@ -2367,6 +4951,15 @@
    "name": "Stone Sour",
    "source": "lastfm"
   },
+  "4A4HskQfo73CziJx8Tido4": {
+   "fetched": "2026-10-02T15:57:13+00:00",
+   "genres": [
+    "korean",
+    "k-pop"
+   ],
+   "name": "AJ",
+   "source": "lastfm"
+  },
   "4AGNJdJiVltImYk1UTLE0K": {
    "fetched": "2026-10-02T15:07:48+00:00",
    "genres": [
@@ -2374,6 +4967,37 @@
     "indie"
    ],
    "name": "Sports",
+   "source": "lastfm"
+  },
+  "4AZxVquv3BLzxw66A7kTCC": {
+   "fetched": "2026-10-02T15:55:41+00:00",
+   "genres": [
+    "rap",
+    "hip-hop"
+   ],
+   "name": "K-Ottic",
+   "source": "lastfm"
+  },
+  "4Ak1GjsqTnvuRGwskvH9UQ": {
+   "fetched": "2026-10-02T15:54:33+00:00",
+   "genres": [],
+   "name": "Partho",
+   "source": "lastfm"
+  },
+  "4AsVsjbexTMpk4sBlsn6gW": {
+   "fetched": "2026-10-02T15:55:37+00:00",
+   "genres": [],
+   "name": "Auparthib",
+   "source": "lastfm"
+  },
+  "4BMtxSIHPpG1WM2TbvNjiR": {
+   "fetched": "2026-10-02T15:55:46+00:00",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "soundtrack"
+   ],
+   "name": "Old Gods of Asgard",
    "source": "lastfm"
   },
   "4BqK6JLgMwQ99hx85DxNhP": {
@@ -2384,6 +5008,55 @@
    "name": "John Michael Howell",
    "source": "lastfm"
   },
+  "4BxCuXFJrSWGi1KHcVqaU4": {
+   "fetched": "2026-10-02T15:56:24+00:00",
+   "genres": [
+    "indie rock",
+    "irish"
+   ],
+   "name": "Kodaline",
+   "source": "lastfm"
+  },
+  "4CJ2HCQCRxrPx3U3B9kP4J": {
+   "fetched": "2026-10-02T15:56:48+00:00",
+   "genres": [],
+   "name": "Judicious Broski",
+   "source": "lastfm"
+  },
+  "4D262YaVKbDcp0MIl7Dvbc": {
+   "fetched": "2026-10-02T15:55:49+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "ChrispyD",
+   "source": "lastfm"
+  },
+  "4DXOz58gkpdeCcsW4Xjxgd": {
+   "fetched": "2026-10-02T15:54:02+00:00",
+   "genres": [
+    "ambient"
+   ],
+   "name": "Other Nothing",
+   "source": "lastfm"
+  },
+  "4DdkRBBYG6Yk9Ka8tdJ9BW": {
+   "fetched": "2026-10-02T15:53:55+00:00",
+   "genres": [
+    "trap",
+    "rap",
+    "hip-hop"
+   ],
+   "name": "Offset",
+   "source": "lastfm"
+  },
+  "4Dekd4YH3vOmlvwqWmbMnG": {
+   "fetched": "2026-10-02T15:55:43+00:00",
+   "genres": [
+    "drum and bass"
+   ],
+   "name": "Theory",
+   "source": "lastfm"
+  },
   "4EVpmkEwrLYEg6jIsiPMIb": {
    "fetched": "2026-10-02T15:21:06+00:00",
    "genres": [
@@ -2391,6 +5064,115 @@
     "indie"
    ],
    "name": "Fleet Foxes",
+   "source": "lastfm"
+  },
+  "4EzkuveR9pLvDVFNx6foYD": {
+   "fetched": "2026-10-02T15:54:27+00:00",
+   "genres": [
+    "folk",
+    "indie"
+   ],
+   "name": "James Bay",
+   "source": "lastfm"
+  },
+  "4F84IBURUo98rz4r61KF70": {
+   "fetched": "2026-10-02T15:56:13+00:00",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "alternative"
+   ],
+   "name": "The White Stripes",
+   "source": "lastfm"
+  },
+  "4GHbOz8VyLRvcwYTQ4PASm": {
+   "fetched": "2026-10-02T15:56:55+00:00",
+   "genres": [
+    "french",
+    "punk",
+    "punk-rock"
+   ],
+   "name": "Kid Chaos",
+   "source": "lastfm"
+  },
+  "4GvEc3ANtPPjt1ZJllr5Zl": {
+   "fetched": "2026-10-02T15:54:07+00:00",
+   "genres": [
+    "rnb",
+    "pop"
+   ],
+   "name": "Bazzi",
+   "source": "lastfm"
+  },
+  "4GxWcui9BlMJH9VOOK5wav": {
+   "fetched": "2026-10-02T15:56:28+00:00",
+   "genres": [
+    "j-pop"
+   ],
+   "name": "Ai Higuchi",
+   "source": "lastfm"
+  },
+  "4H502w3aY9YWNIPWTx8adz": {
+   "fetched": "2026-10-02T15:55:55+00:00",
+   "genres": [
+    "nightcore",
+    "rock"
+   ],
+   "name": "Cherry 葵 Nightcore",
+   "source": "lastfm"
+  },
+  "4I2BJf80C0skQpp1sQmA0h": {
+   "fetched": "2026-10-02T15:56:06+00:00",
+   "genres": [
+    "indie",
+    "indie pop"
+   ],
+   "name": "Belle and Sebastian",
+   "source": "lastfm"
+  },
+  "4IJczjB0fJ04gs4uvP0Fli": {
+   "fetched": "2026-10-02T15:56:19+00:00",
+   "genres": [
+    "hip-hop",
+    "alternative"
+   ],
+   "name": "Gym Class Heroes",
+   "source": "lastfm"
+  },
+  "4IKVDbCSBTxBeAsMKjAuTs": {
+   "fetched": "2026-10-02T15:55:51+00:00",
+   "genres": [
+    "india"
+   ],
+   "name": "Armaan Malik",
+   "source": "lastfm"
+  },
+  "4IpNOUouehUJN94MSxDms4": {
+   "fetched": "2026-10-02T15:57:18+00:00",
+   "genres": [],
+   "name": "Ceno",
+   "source": "lastfm"
+  },
+  "4Jmv1DRK6zstwBwF2W91D1": {
+   "fetched": "2026-10-02T15:54:50+00:00",
+   "genres": [],
+   "name": "Hashy",
+   "source": "lastfm"
+  },
+  "4KJ6jujcNPzOyhdNoiNftp": {
+   "fetched": "2026-10-02T15:55:14+00:00",
+   "genres": [
+    "indie pop"
+   ],
+   "name": "lovelytheband",
+   "source": "lastfm"
+  },
+  "4KcHQowIO5C9D5WMLxkaBl": {
+   "fetched": "2026-10-02T15:54:10+00:00",
+   "genres": [
+    "power pop"
+   ],
+   "name": "TOMMA INTET",
    "source": "lastfm"
   },
   "4L8j8SN9LKAcKYq8oy4f5j": {
@@ -2411,6 +5193,15 @@
    "name": "Indigo Waves",
    "source": "lastfm"
   },
+  "4LLpKhyESsyAXpc4laK94U": {
+   "fetched": "2026-10-02T15:54:24+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Mac Miller",
+   "source": "lastfm"
+  },
   "4MXUO7sVCaFgFjoTI5ox5c": {
    "fetched": "2026-10-02T15:28:10+00:00",
    "genres": [
@@ -2429,11 +5220,57 @@
    "name": "Melanie Fiona",
    "source": "lastfm"
   },
+  "4OUraoZcwg1SsMHFjuaajw": {
+   "fetched": "2026-10-02T15:54:07+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Tanveer Evan",
+   "source": "lastfm"
+  },
+  "4OfvUFjzAjXY8XSWd8MBTE": {
+   "fetched": "2026-10-02T15:56:43+00:00",
+   "genres": [
+    "pop",
+    "electronic"
+   ],
+   "name": "Simon Curtis",
+   "source": "lastfm"
+  },
   "4OnxnszW4ydIvCazOM3ukQ": {
-   "fetched": "2026-10-02T15:35:42+00:00",
+   "fetched": "2026-10-02T15:53:46+00:00",
    "genres": [],
    "name": "olifuil",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "4P1OYBpK5H2Ih7hxBNGjdU": {
+   "fetched": "2026-10-02T15:54:44+00:00",
+   "genres": [],
+   "name": "Airworthy",
+   "source": "lastfm"
+  },
+  "4QEIYBKMd1eZ8CtauLizzy": {
+   "fetched": "2026-10-02T15:57:02+00:00",
+   "genres": [
+    "rnb",
+    "soul"
+   ],
+   "name": "AB",
+   "source": "lastfm"
+  },
+  "4QIVN4WwQH4UiKfURItSf5": {
+   "fetched": "2026-10-02T15:56:09+00:00",
+   "genres": [],
+   "name": "Stay Radical",
+   "source": "lastfm"
+  },
+  "4SDZGbRR9IjhHG5i3cZEQC": {
+   "fetched": "2026-10-02T15:55:04+00:00",
+   "genres": [
+    "progressive metal"
+   ],
+   "name": "conscience",
+   "source": "lastfm"
   },
   "4TRrbGXi1VYJ4dPudGIZRH": {
    "fetched": "2026-10-02T15:20:09+00:00",
@@ -2441,6 +5278,15 @@
     "passion of discovery"
    ],
    "name": "Goodvibes Sound",
+   "source": "lastfm"
+  },
+  "4UZiqcfIggY32IYR1j13fz": {
+   "fetched": "2026-10-02T15:57:02+00:00",
+   "genres": [
+    "electropop",
+    "synthpop"
+   ],
+   "name": "Oblique",
    "source": "lastfm"
   },
   "4Uc8Dsxct0oMqx0P6i60ea": {
@@ -2452,6 +5298,25 @@
    "name": "Conan Gray",
    "source": "lastfm"
   },
+  "4UhExRgMW9QR7oNmTI2lPG": {
+   "fetched": "2026-10-02T15:55:03+00:00",
+   "genres": [
+    "indie",
+    "electronic",
+    "alternative"
+   ],
+   "name": "Arrested Youth",
+   "source": "lastfm"
+  },
+  "4V4Z3qMCwYofWHtip6ePF6": {
+   "fetched": "2026-10-02T15:54:23+00:00",
+   "genres": [
+    "soul",
+    "smooth jazz"
+   ],
+   "name": "Bobby Caldwell",
+   "source": "lastfm"
+  },
   "4V8LLVI7PbaPR0K2TGSxFF": {
    "fetched": "2026-10-02T15:29:44+00:00",
    "genres": [
@@ -2459,6 +5324,15 @@
     "rap"
    ],
    "name": "Tyler, The Creator",
+   "source": "lastfm"
+  },
+  "4VMYDCV2IEDYJArk749S6m": {
+   "fetched": "2026-10-02T15:55:07+00:00",
+   "genres": [
+    "reggaeton",
+    "latin"
+   ],
+   "name": "Daddy Yankee",
    "source": "lastfm"
   },
   "4WC54JUV6ewZOuz8Cl2Cym": {
@@ -2506,10 +5380,10 @@
    "source": "lastfm"
   },
   "4XdPbkEAdTU7KDmfOCIakS": {
-   "fetched": "2026-10-02T15:36:53+00:00",
+   "fetched": "2026-10-02T15:53:49+00:00",
    "genres": [],
    "name": "Edy Boman",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "4XyPq79ruysqd20wZbIGJz": {
    "fetched": "2026-10-02T15:10:01+00:00",
@@ -2546,6 +5420,16 @@
    "name": "Radiohead",
    "source": "lastfm"
   },
+  "4aIhnBtdjW3G0IkQayhIIK": {
+   "fetched": "2026-10-02T15:55:32+00:00",
+   "genres": [
+    "rap",
+    "canadian",
+    "dark trap"
+   ],
+   "name": "CAIRO!",
+   "source": "lastfm"
+  },
   "4alndwWPbM9ApMYLjg19oD": {
    "fetched": "2026-10-02T15:07:49+00:00",
    "genres": [
@@ -2554,6 +5438,20 @@
     "contemporary rnb"
    ],
    "name": "Wale the Sage",
+   "source": "lastfm"
+  },
+  "4b8wYiM9ldSoJR6J2b82y1": {
+   "fetched": "2026-10-02T15:55:38+00:00",
+   "genres": [],
+   "name": "Griegz",
+   "source": "lastfm"
+  },
+  "4bGPjihFEUsxf9LPn1epOv": {
+   "fetched": "2026-10-02T15:56:54+00:00",
+   "genres": [
+    "dreampop"
+   ],
+   "name": "Martin Arteta",
    "source": "lastfm"
   },
   "4btLMUmDQffKvXrfhDQFn9": {
@@ -2582,23 +5480,101 @@
    "name": "Token",
    "source": "lastfm"
   },
+  "4cYULWU92lzfy5HohMak6K": {
+   "fetched": "2026-10-02T15:55:41+00:00",
+   "genres": [],
+   "name": "MESSIANIC ERA",
+   "source": "lastfm"
+  },
+  "4cdyqaBREB68H77QKCrKP1": {
+   "fetched": "2026-10-02T15:55:53+00:00",
+   "genres": [
+    "edm"
+   ],
+   "name": "Dubdogz",
+   "source": "lastfm"
+  },
+  "4cez6FoT9r3zc4yShKqoZt": {
+   "fetched": "2026-10-02T15:57:01+00:00",
+   "genres": [],
+   "name": "Mithila",
+   "source": "lastfm"
+  },
+  "4dpARuHxo51G3z768sgnrY": {
+   "fetched": "2026-10-02T15:54:14+00:00",
+   "genres": [
+    "soul"
+   ],
+   "name": "Adele",
+   "source": "lastfm"
+  },
   "4drP7GL5gdmNowIgcunWgn": {
-   "fetched": "2026-10-02T15:08:56+00:00",
+   "fetched": "2026-10-02T15:53:32+00:00",
    "genres": [],
    "name": "Oblé Reed",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "4e5LAUvM35jleGg8gElTsP": {
+   "fetched": "2026-10-02T15:56:32+00:00",
+   "genres": [
+    "vietnam",
+    "vpop"
+   ],
+   "name": "Miu Lê",
+   "source": "lastfm"
+  },
+  "4eFImh8D3F15dtZk0JQlpT": {
+   "fetched": "2026-10-02T15:54:19+00:00",
+   "genres": [
+    "trip-hop",
+    "electronic"
+   ],
+   "name": "Fakear",
+   "source": "lastfm"
   },
   "4evX9XxTZkPxY4LH0gRR5M": {
-   "fetched": "2026-10-02T15:16:17+00:00",
+   "fetched": "2026-10-02T15:53:36+00:00",
    "genres": [],
    "name": "Louis Sévigny",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "4ex3L0rDvRINZO28fctvKk": {
+   "fetched": "2026-10-02T15:56:04+00:00",
+   "genres": [
+    "hip-hop",
+    "doom metal"
+   ],
+   "name": "Los",
+   "source": "lastfm"
   },
   "4f5XVs4Igd4fpYPH29ZQYw": {
-   "fetched": "2026-10-02T15:19:55+00:00",
+   "fetched": "2026-10-02T15:53:40+00:00",
    "genres": [],
    "name": "Polhawan",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "4g9lYzN7CVn9FsptUkx2I6": {
+   "fetched": "2026-10-02T15:56:30+00:00",
+   "genres": [],
+   "name": "Masha Islam",
+   "source": "lastfm"
+  },
+  "4gOc8TsQed9eqnqJct2c5v": {
+   "fetched": "2026-10-02T15:55:34+00:00",
+   "genres": [
+    "k-pop",
+    "pop"
+   ],
+   "name": "K/DA",
+   "source": "lastfm"
+  },
+  "4gdMJYnopf2nEUcanAwstx": {
+   "fetched": "2026-10-02T15:54:30+00:00",
+   "genres": [
+    "hindi"
+   ],
+   "name": "Anuv Jain",
+   "source": "lastfm"
   },
   "4gwpcMTbLWtBUlOijbVpuu": {
    "fetched": "2026-10-02T15:29:36+00:00",
@@ -2620,6 +5596,24 @@
    "name": "Coldplay",
    "source": "lastfm"
   },
+  "4hUmsYcvD8C5zuVSP93jb1": {
+   "fetched": "2026-10-02T15:54:25+00:00",
+   "genres": [
+    "j-pop",
+    "city pop"
+   ],
+   "name": "Miki Matsubara",
+   "source": "lastfm"
+  },
+  "4hj6ZZxaiKvG5GU3PYf7Gh": {
+   "fetched": "2026-10-02T15:56:04+00:00",
+   "genres": [
+    "pop punk",
+    "christian rock"
+   ],
+   "name": "Hawk Nelson",
+   "source": "lastfm"
+  },
   "4hvq47S1My72UKFN73AmwD": {
    "fetched": "2026-10-02T15:20:53+00:00",
    "genres": [
@@ -2639,6 +5633,34 @@
    "name": "OTE",
    "source": "lastfm"
   },
+  "4iDroUFo89Y7YBsdDTBmTD": {
+   "fetched": "2026-10-02T15:55:51+00:00",
+   "genres": [
+    "pop punk",
+    "rap"
+   ],
+   "name": "Sueco",
+   "source": "lastfm"
+  },
+  "4ijejASaFZOolpZwK0XO9O": {
+   "fetched": "2026-10-02T15:56:38+00:00",
+   "genres": [
+    "brazil",
+    "lebanese",
+    "lebanon"
+   ],
+   "name": "Luciana Zogbi",
+   "source": "lastfm"
+  },
+  "4j8byCgeZUKS1oeXdwD1GC": {
+   "fetched": "2026-10-02T15:54:41+00:00",
+   "genres": [
+    "bangladesh",
+    "bangla"
+   ],
+   "name": "Odd Signature",
+   "source": "lastfm"
+  },
   "4jPWi4cSe5zK2dUCLWiBaN": {
    "fetched": "2026-10-02T15:09:47+00:00",
    "genres": [
@@ -2656,6 +5678,15 @@
     "indie rock"
    ],
    "name": "Portugal. The Man",
+   "source": "lastfm"
+  },
+  "4kLvhMAuCloLxoP1aVM7Lr": {
+   "fetched": "2026-10-02T15:55:02+00:00",
+   "genres": [
+    "soundtrack",
+    "instrumental"
+   ],
+   "name": "Michael Giacchino",
    "source": "lastfm"
   },
   "4kSGbjWGxTchKpIxXPJv0B": {
@@ -2696,10 +5727,26 @@
    "source": "lastfm"
   },
   "4luZExkmgn39Kj5XsYWria": {
-   "fetched": "2026-10-02T15:27:47+00:00",
+   "fetched": "2026-10-02T15:53:43+00:00",
    "genres": [],
    "name": "Jagwar Twin",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "4lxfqrEsLX6N1N4OCSkILp": {
+   "fetched": "2026-10-02T15:54:20+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Phil Collins",
+   "source": "lastfm"
+  },
+  "4nDoRrQiYLoBzwC5BhVJzF": {
+   "fetched": "2026-10-02T15:55:27+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Camila Cabello",
+   "source": "lastfm"
   },
   "4nVa6XlBFlIkF6msW57PHp": {
    "fetched": "2026-10-02T15:27:44+00:00",
@@ -2728,6 +5775,14 @@
    "name": "BANNERS",
    "source": "lastfm"
   },
+  "4rChEc17dTzO2ep7yajKfy": {
+   "fetched": "2026-10-02T15:56:03+00:00",
+   "genres": [
+    "orchestral"
+   ],
+   "name": "The Blake Robinson Synthetic Orchestra",
+   "source": "lastfm"
+  },
   "4rGrN4XDYhP6dUAZMvcuHr": {
    "fetched": "2026-10-02T15:20:22+00:00",
    "genres": [
@@ -2736,6 +5791,14 @@
     "indie rock"
    ],
    "name": "Caesars",
+   "source": "lastfm"
+  },
+  "4sf4DrAOkheqktxTyKm7tO": {
+   "fetched": "2026-10-02T15:55:46+00:00",
+   "genres": [
+    "cover"
+   ],
+   "name": "AmaLee",
    "source": "lastfm"
   },
   "4tZwfgrHOc3mvqYlEYSvVi": {
@@ -2766,6 +5829,14 @@
    "name": "Morning Silk",
    "source": "lastfm"
   },
+  "4uLexEsM3MDb1sermSib4J": {
+   "fetched": "2026-10-02T15:54:57+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "GRANT KNOCHE",
+   "source": "lastfm"
+  },
   "4uT5ywK30prkNZbf4BlQVh": {
    "fetched": "2026-10-02T15:09:39+00:00",
    "genres": [
@@ -2774,6 +5845,14 @@
     "experimental"
    ],
    "name": "Dolphin Love",
+   "source": "lastfm"
+  },
+  "4uvAG6DJRqC6DKk7DLfP7b": {
+   "fetched": "2026-10-02T15:56:44+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "hrishi",
    "source": "lastfm"
   },
   "4vxaQs6vK54nK89J1VtLex": {
@@ -2795,6 +5874,23 @@
    "name": "diet lemon",
    "source": "lastfm"
   },
+  "4x9OkGDATJa93lbMMCeZaL": {
+   "fetched": "2026-10-02T15:55:00+00:00",
+   "genres": [
+    "rock"
+   ],
+   "name": "Poe the Passenger",
+   "source": "lastfm"
+  },
+  "4xPQFgDA5M2xa0ZGo5iIsv": {
+   "fetched": "2026-10-02T15:53:56+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "¥$",
+   "source": "lastfm"
+  },
   "4xRYI6VqpkE3UwrDrAZL8L": {
    "fetched": "2026-10-02T15:09:03+00:00",
    "genres": [
@@ -2802,6 +5898,21 @@
     "rap"
    ],
    "name": "Logic",
+   "source": "lastfm"
+  },
+  "4xviTOUAEWAdJ6tkPy7O1g": {
+   "fetched": "2026-10-02T15:57:28+00:00",
+   "genres": [],
+   "name": "Terri Carpenter",
+   "source": "lastfm"
+  },
+  "4yvcSjfu4PC0CYQyLy4wSq": {
+   "fetched": "2026-10-02T15:57:28+00:00",
+   "genres": [
+    "electronic",
+    "trip-hop"
+   ],
+   "name": "Glass Animals",
    "source": "lastfm"
   },
   "4zKYrXs8iN4AeHmO8ZxNqp": {
@@ -2813,10 +5924,16 @@
    "source": "lastfm"
   },
   "50pL5o4gSp21B1hbAmwyRY": {
-   "fetched": "2026-10-02T15:09:12+00:00",
+   "fetched": "2026-10-02T15:53:33+00:00",
    "genres": [],
    "name": "Modern Cult",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "519ocTypXkGVV5H7XGrnHz": {
+   "fetched": "2026-10-02T15:56:04+00:00",
+   "genres": [],
+   "name": "Rupak Tiary",
+   "source": "lastfm"
   },
   "536BYVgOnRky0xjsPT96zl": {
    "fetched": "2026-10-02T15:21:42+00:00",
@@ -2827,6 +5944,15 @@
    "name": "Two Door Cinema Club",
    "source": "lastfm"
   },
+  "53A0W3U0s8diEn9RhXQhVz": {
+   "fetched": "2026-10-02T15:53:58+00:00",
+   "genres": [
+    "britpop",
+    "indie"
+   ],
+   "name": "Keane",
+   "source": "lastfm"
+  },
   "53XhwfbYqKCa1cC15pYq2q": {
    "fetched": "2026-10-02T15:36:05+00:00",
    "genres": [
@@ -2835,6 +5961,30 @@
     "alternative"
    ],
    "name": "Imagine Dragons",
+   "source": "lastfm"
+  },
+  "54BoPn58lw99kPyuLSFZ9H": {
+   "fetched": "2026-10-02T15:57:31+00:00",
+   "genres": [],
+   "name": "Tanver Rahman Ashik",
+   "source": "lastfm"
+  },
+  "54R6Y0I7jGUCveDTtI21nb": {
+   "fetched": "2026-10-02T15:57:05+00:00",
+   "genres": [
+    "disco",
+    "pop"
+   ],
+   "name": "Boney M.",
+   "source": "lastfm"
+  },
+  "55Aa2cqylxrFIXC767Z865": {
+   "fetched": "2026-10-02T15:54:03+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Lil Wayne",
    "source": "lastfm"
   },
   "56IHVHdO0KMmJS0RpLq35c": {
@@ -2870,6 +6020,12 @@
    "name": "Clear Coast",
    "source": "lastfm"
   },
+  "58fzrzr7vRULofErw8l3M2": {
+   "fetched": "2026-10-02T15:55:25+00:00",
+   "genres": [],
+   "name": "Shiekh Sadi",
+   "source": "lastfm"
+  },
   "58lV9VcRSjABbAbfWS6skp": {
    "fetched": "2026-10-02T15:21:34+00:00",
    "genres": [
@@ -2879,17 +6035,42 @@
    "name": "Bon Jovi",
    "source": "lastfm"
   },
+  "596ODC5qHrMdz6UMfpsy8A": {
+   "fetched": "2026-10-02T15:57:06+00:00",
+   "genres": [],
+   "name": "Max Mazed",
+   "source": "lastfm"
+  },
   "597h7tVXuB7UPU6uWKhRkO": {
-   "fetched": "2026-10-02T15:17:52+00:00",
+   "fetched": "2026-10-02T15:53:38+00:00",
    "genres": [],
    "name": "Brooksie",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "59HdeHwDEdpkReLU5nNg3V": {
-   "fetched": "2026-10-02T15:16:46+00:00",
+   "fetched": "2026-10-02T15:53:38+00:00",
    "genres": [],
    "name": "Don Luxe",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "59wfkuBoNyhDMQGCljbUbA": {
+   "fetched": "2026-10-02T15:54:43+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Diddy",
+   "source": "lastfm"
+  },
+  "5ABNpBhsjiZf4tuySLw4WM": {
+   "fetched": "2026-10-02T15:54:25+00:00",
+   "genres": [
+    "french",
+    "folk",
+    "indie pop"
+   ],
+   "name": "Livia",
+   "source": "lastfm"
   },
   "5APEQlUaQ5K70LgPqAdTuU": {
    "fetched": "2026-10-02T15:17:33+00:00",
@@ -2897,6 +6078,37 @@
     "dream pop"
    ],
    "name": "Night Tapes",
+   "source": "lastfm"
+  },
+  "5ApQnMT6oR8eLguf24xb9S": {
+   "fetched": "2026-10-02T15:55:15+00:00",
+   "genres": [
+    "alternative",
+    "indie"
+   ],
+   "name": "Foreign Air",
+   "source": "lastfm"
+  },
+  "5B0nAfmkNY187kDUUfsecG": {
+   "fetched": "2026-10-02T15:56:34+00:00",
+   "genres": [],
+   "name": "JP Ashkar",
+   "source": "lastfm"
+  },
+  "5BIcmVvd6sxhRT4p8FmvY3": {
+   "fetched": "2026-10-02T15:56:59+00:00",
+   "genres": [
+    "pop",
+    "classical",
+    "bangladesh"
+   ],
+   "name": "Miftah Zaman",
+   "source": "lastfm"
+  },
+  "5BVhWcIwApmOFHiLT7OJS5": {
+   "fetched": "2026-10-02T15:54:58+00:00",
+   "genres": [],
+   "name": "Greg Gatsby",
    "source": "lastfm"
   },
   "5BtHciL0e0zOP7prIHn3pP": {
@@ -2916,11 +6128,58 @@
    "name": "FIFA Sound",
    "source": "lastfm"
   },
+  "5CE2IfdYZEQGIDsfiRm8SI": {
+   "fetched": "2026-10-02T15:54:42+00:00",
+   "genres": [
+    "trip-hop",
+    "electronic"
+   ],
+   "name": "DJ Shadow",
+   "source": "lastfm"
+  },
+  "5COD136qwj9wtuea78EGbF": {
+   "fetched": "2026-10-02T15:56:07+00:00",
+   "genres": [],
+   "name": "Parker Jack",
+   "source": "lastfm"
+  },
+  "5CvwIgl8nMcAhJn6LYQoau": {
+   "fetched": "2026-10-02T15:55:22+00:00",
+   "genres": [],
+   "name": "Sajid Sarker",
+   "source": "lastfm"
+  },
+  "5DfLOANcWMxdeenpJ6Ksd2": {
+   "fetched": "2026-10-02T15:54:50+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Rachel Lorin",
+   "source": "lastfm"
+  },
+  "5EERuYYpAfLBVymbcG59hv": {
+   "fetched": "2026-10-02T15:56:27+00:00",
+   "genres": [
+    "electronic",
+    "ambient"
+   ],
+   "name": "Anyma",
+   "source": "lastfm"
+  },
+  "5ENS85nZShljwNgg4wFD7D": {
+   "fetched": "2026-10-02T15:54:49+00:00",
+   "genres": [
+    "dance",
+    "italodance"
+   ],
+   "name": "Gabry Ponte",
+   "source": "lastfm"
+  },
   "5F94XDJMPmx3xeoHnyEkEh": {
-   "fetched": "2026-10-02T15:09:14+00:00",
+   "fetched": "2026-10-02T15:53:34+00:00",
    "genres": [],
    "name": "Intergalactic Fool",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "5FE0B5zV9y7T5OzkiDkBG8": {
    "fetched": "2026-10-02T15:09:44+00:00",
@@ -2931,6 +6190,15 @@
    "name": "Argonaut & Wasp",
    "source": "lastfm"
   },
+  "5FRM46QLXYjCJb19bYq3qu": {
+   "fetched": "2026-10-02T15:55:35+00:00",
+   "genres": [
+    "rap",
+    "hip hop"
+   ],
+   "name": "Zach Diamond",
+   "source": "lastfm"
+  },
   "5GGJosGMs08YEmKTZJe1fL": {
    "fetched": "2026-10-02T15:15:51+00:00",
    "genres": [
@@ -2938,6 +6206,24 @@
     "my top songs"
    ],
    "name": "Suki Waterhouse",
+   "source": "lastfm"
+  },
+  "5GnnSrwNCGyfAU4zuIytiS": {
+   "fetched": "2026-10-02T15:57:10+00:00",
+   "genres": [
+    "hindi",
+    "bollywood",
+    "indian"
+   ],
+   "name": "Mohit Chauhan",
+   "source": "lastfm"
+  },
+  "5H5W5vmpQSBmQv1uMVor61": {
+   "fetched": "2026-10-02T15:54:14+00:00",
+   "genres": [
+    "lo-fi"
+   ],
+   "name": "LoFi Waiter",
    "source": "lastfm"
   },
   "5H98N76pS5eRu8bWuh2ric": {
@@ -2960,6 +6246,23 @@
    "name": "Mario Judah",
    "source": "lastfm"
   },
+  "5HYNPEO2NNBONQkp3Mvwvc": {
+   "fetched": "2026-10-02T15:56:56+00:00",
+   "genres": [
+    "jazz",
+    "cover"
+   ],
+   "name": "Postmodern Jukebox",
+   "source": "lastfm"
+  },
+  "5HiW8Shh2vPcD16rE8MaBr": {
+   "fetched": "2026-10-02T15:56:37+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Timebelle",
+   "source": "lastfm"
+  },
   "5INjqkS1o8h1imAzPqGZBb": {
    "fetched": "2026-10-02T15:08:48+00:00",
    "genres": [
@@ -2967,6 +6270,23 @@
     "psychedelic"
    ],
    "name": "Tame Impala",
+   "source": "lastfm"
+  },
+  "5J81VungUjSVHxlPpTI9KG": {
+   "fetched": "2026-10-02T15:53:53+00:00",
+   "genres": [
+    "psychedelic pop",
+    "psychedelic"
+   ],
+   "name": "Mild High Club",
+   "source": "lastfm"
+  },
+  "5JUYSPkis2Mk6HUbmMqk1m": {
+   "fetched": "2026-10-02T15:56:06+00:00",
+   "genres": [
+    "indie"
+   ],
+   "name": "Sean Ono Lennon",
    "source": "lastfm"
   },
   "5JWBow4ywgKNQ5HBxY8hcz": {
@@ -2977,6 +6297,12 @@
     "new wave"
    ],
    "name": "Nation of Language",
+   "source": "lastfm"
+  },
+  "5JzFGqPyWUuppTKaB9VSFT": {
+   "fetched": "2026-10-02T15:56:52+00:00",
+   "genres": [],
+   "name": "Ganeshsingh Rathore",
    "source": "lastfm"
   },
   "5K4W6rqBFWDnAN6FQUkS6x": {
@@ -2997,6 +6323,15 @@
    "name": "Staind",
    "source": "lastfm"
   },
+  "5KKpBU5eC2tJDzf0wmlRp2": {
+   "fetched": "2026-10-02T15:55:48+00:00",
+   "genres": [
+    "pop",
+    "rnb"
+   ],
+   "name": "RAYE",
+   "source": "lastfm"
+  },
   "5KQMtyPE8DCQNUzoNqlEsE": {
    "fetched": "2026-10-02T15:29:17+00:00",
    "genres": [
@@ -3006,11 +6341,36 @@
    "name": "Gary Numan",
    "source": "lastfm"
   },
+  "5L1lO4eRHmJ7a0Q6csE5cT": {
+   "fetched": "2026-10-02T15:57:22+00:00",
+   "genres": [
+    "j-pop",
+    "japanese"
+   ],
+   "name": "LISA",
+   "source": "lastfm"
+  },
   "5L8uswQPETbX7A33mONozx": {
-   "fetched": "2026-10-02T15:09:58+00:00",
+   "fetched": "2026-10-02T15:53:36+00:00",
    "genres": [],
    "name": "Josh Quat",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "5L9XA5GDsOOKNZfeOO8lmo": {
+   "fetched": "2026-10-02T15:55:38+00:00",
+   "genres": [
+    "jeffrey epstein edit songs"
+   ],
+   "name": "fam0uz",
+   "source": "lastfm"
+  },
+  "5LGo1zHegJTWzqVXgeNplt": {
+   "fetched": "2026-10-02T15:55:16+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Ryan Mack",
+   "source": "lastfm"
   },
   "5LZ894xYE9MG1sal0gjt5L": {
    "fetched": "2026-10-02T15:36:50+00:00",
@@ -3056,11 +6416,47 @@
    "name": "James Supercave",
    "source": "lastfm"
   },
+  "5OtYLDzykbru0YZhYkQtEo": {
+   "fetched": "2026-10-02T15:55:21+00:00",
+   "genres": [],
+   "name": "Skinny Hamster",
+   "source": "lastfm"
+  },
+  "5OxjfIllBt4b9SXPawr356": {
+   "fetched": "2026-10-02T15:57:19+00:00",
+   "genres": [],
+   "name": "Nonta Biskut",
+   "source": "lastfm"
+  },
+  "5P3QS6Ssv25wOHnM6A8Ft7": {
+   "fetched": "2026-10-02T15:54:44+00:00",
+   "genres": [],
+   "name": "Maestroo",
+   "source": "lastfm"
+  },
   "5P63VOpgDP0mbu9SKow8AB": {
-   "fetched": "2026-10-02T15:29:03+00:00",
+   "fetched": "2026-10-02T15:53:44+00:00",
    "genres": [],
    "name": "Eyes Are All Around",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "5PVSEFUT4Inqu3yEq56Ku9": {
+   "fetched": "2026-10-02T15:56:49+00:00",
+   "genres": [
+    "rnb",
+    "canadian"
+   ],
+   "name": "Raghav",
+   "source": "lastfm"
+  },
+  "5PkDpzWMZR7Id1vldhF8Qk": {
+   "fetched": "2026-10-02T15:54:02+00:00",
+   "genres": [
+    "jazz",
+    "bossa nova"
+   ],
+   "name": "Laurindo Almeida",
+   "source": "lastfm"
   },
   "5Pwc4xIPtQLFEnJriah9YJ": {
    "fetched": "2026-10-02T15:16:28+00:00",
@@ -3090,11 +6486,20 @@
    "name": "Ravyn Lenae",
    "source": "lastfm"
   },
+  "5Rl15oVamLq7FbSb0NNBNy": {
+   "fetched": "2026-10-02T15:55:27+00:00",
+   "genres": [
+    "pop punk",
+    "pop rock"
+   ],
+   "name": "5 Seconds of Summer",
+   "source": "lastfm"
+  },
   "5RvsDtKjoCiYqYkFQ3RpNd": {
-   "fetched": "2026-10-02T15:08:35+00:00",
+   "fetched": "2026-10-02T15:53:32+00:00",
    "genres": [],
    "name": "Alvadore",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "5S0AJvE9NB1kGrXRfYh690": {
    "fetched": "2026-10-02T15:28:13+00:00",
@@ -3145,6 +6550,16 @@
    "name": "Stray Fossa",
    "source": "lastfm"
   },
+  "5VIlSyY1WuS6XiiskCrJs5": {
+   "fetched": "2026-10-02T15:54:31+00:00",
+   "genres": [
+    "rabindra sangeet",
+    "bangla",
+    "bd"
+   ],
+   "name": "Bappa Mazumder",
+   "source": "lastfm"
+  },
   "5VuKpwoamJVRcoB1VtTbGz": {
    "fetched": "2026-10-02T15:28:25+00:00",
    "genres": [
@@ -3191,6 +6606,23 @@
    "name": "Low Roar",
    "source": "lastfm"
   },
+  "5XE0fiZWGbq9TcSuWwJ1fA": {
+   "fetched": "2026-10-02T15:54:13+00:00",
+   "genres": [
+    "nu jazz",
+    "lo-fi"
+   ],
+   "name": "potsu",
+   "source": "lastfm"
+  },
+  "5XKFrudbV4IiuE5WuTPRmT": {
+   "fetched": "2026-10-02T15:54:25+00:00",
+   "genres": [
+    "folk"
+   ],
+   "name": "Stephen Sanchez",
+   "source": "lastfm"
+  },
   "5Y5TRrQiqgUO4S36tzjIRZ": {
    "fetched": "2026-10-02T15:35:35+00:00",
    "genres": [
@@ -3198,6 +6630,30 @@
     "rnb"
    ],
    "name": "Timbaland",
+   "source": "lastfm"
+  },
+  "5YGY8feqx7naU7z4HrwZM6": {
+   "fetched": "2026-10-02T15:54:36+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Miley Cyrus",
+   "source": "lastfm"
+  },
+  "5YKKUVFEpYF6QGoOHaFX5T": {
+   "fetched": "2026-10-02T15:55:33+00:00",
+   "genres": [
+    "rap",
+    "alternative",
+    "alternative rock"
+   ],
+   "name": "Jeremy Amato",
+   "source": "lastfm"
+  },
+  "5Z46SqaQPZS1eGbKttavXr": {
+   "fetched": "2026-10-02T15:55:26+00:00",
+   "genres": [],
+   "name": "Chr1s",
    "source": "lastfm"
   },
   "5a2EaR3hamoenG9rDuVn8j": {
@@ -3217,12 +6673,97 @@
    "name": "Lorien Testard",
    "source": "lastfm"
   },
+  "5arKwJZEvT5uKq4o0JfqR4": {
+   "fetched": "2026-10-02T15:53:51+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Isabel LaRosa",
+   "source": "lastfm"
+  },
+  "5b0j3TTNSKCByBq4rHYKvG": {
+   "fetched": "2026-10-02T15:54:40+00:00",
+   "genres": [
+    "emo rap"
+   ],
+   "name": "Promoting Sounds",
+   "source": "lastfm"
+  },
+  "5bJ6kSkBa3RD64wA2ZdPqf": {
+   "fetched": "2026-10-02T15:56:05+00:00",
+   "genres": [
+    "indie",
+    "rock",
+    "dance"
+   ],
+   "name": "Benedict",
+   "source": "lastfm"
+  },
+  "5bO289lfxAHDKDrrR7UytN": {
+   "fetched": "2026-10-02T15:55:02+00:00",
+   "genres": [
+    "techno"
+   ],
+   "name": "MYTCH",
+   "source": "lastfm"
+  },
+  "5c7JjKTazKNQubk2GjgbJT": {
+   "fetched": "2026-10-02T15:55:41+00:00",
+   "genres": [
+    "indie",
+    "rock",
+    "synthpop"
+   ],
+   "name": "Arekta Rock Band",
+   "source": "lastfm"
+  },
+  "5cj0lLjcoR7YOSnhnX0Po5": {
+   "fetched": "2026-10-02T15:57:29+00:00",
+   "genres": [
+    "pop",
+    "rnb"
+   ],
+   "name": "Doja Cat",
+   "source": "lastfm"
+  },
+  "5dDz6fCUgwJw9POKl4rsVs": {
+   "fetched": "2026-10-02T15:54:50+00:00",
+   "genres": [
+    "vtuber"
+   ],
+   "name": "RiiKami",
+   "source": "lastfm"
+  },
+  "5dLfdoRqimRnbTC19bdbRD": {
+   "fetched": "2026-10-02T15:54:03+00:00",
+   "genres": [
+    "remix",
+    "lo-fi",
+    "indonesia"
+   ],
+   "name": "Gustixa",
+   "source": "lastfm"
+  },
+  "5dSpt5bMnQoSC0n16fpQUD": {
+   "fetched": "2026-10-02T15:57:10+00:00",
+   "genres": [
+    "drum and bass"
+   ],
+   "name": "Icons",
+   "source": "lastfm"
+  },
   "5dYGaoCO0iaUZKfl9K8Gtd": {
    "fetched": "2026-10-02T15:15:53+00:00",
    "genres": [
     "indie pop"
    ],
    "name": "Harmless",
+   "source": "lastfm"
+  },
+  "5e88kSX4D9PAFyoy36tZr2": {
+   "fetched": "2026-10-02T15:56:54+00:00",
+   "genres": [],
+   "name": "KXV",
    "source": "lastfm"
   },
   "5eAWCfyUhZtHHtBdNk56l1": {
@@ -3232,6 +6773,14 @@
     "metal"
    ],
    "name": "System Of A Down",
+   "source": "lastfm"
+  },
+  "5ektKXWvSR9FjUExrpg1xK": {
+   "fetched": "2026-10-02T15:54:47+00:00",
+   "genres": [
+    "indie"
+   ],
+   "name": "Juniper Vale",
    "source": "lastfm"
   },
   "5fBnEhIZ8lVR8PDpwi7Qcn": {
@@ -3251,6 +6800,15 @@
     "indie rock"
    ],
    "name": "Butter Bath",
+   "source": "lastfm"
+  },
+  "5isqImG0rLfAgBJSPMEVXF": {
+   "fetched": "2026-10-02T15:54:22+00:00",
+   "genres": [
+    "indie",
+    "indie rock"
+   ],
+   "name": "Blonde Redhead",
    "source": "lastfm"
   },
   "5jD75CFwHhHcu4FSsdMUea": {
@@ -3280,12 +6838,24 @@
    "name": "AiNA THE END",
    "source": "lastfm"
   },
+  "5kSixzsfqPSY6fkbVWCyln": {
+   "fetched": "2026-10-02T15:54:56+00:00",
+   "genres": [],
+   "name": "Ryvox",
+   "source": "lastfm"
+  },
   "5ksRONqssB7BR161NTtJAm": {
    "fetched": "2026-10-02T15:20:44+00:00",
    "genres": [
     "pop"
    ],
    "name": "Ace of Base",
+   "source": "lastfm"
+  },
+  "5ktlWsQTGAPN16KFnVfnmf": {
+   "fetched": "2026-10-02T15:55:12+00:00",
+   "genres": [],
+   "name": "Goomin Nam",
    "source": "lastfm"
   },
   "5nGIFgo0shDenQYSE0Sn7c": {
@@ -3295,6 +6865,24 @@
     "rock"
    ],
    "name": "Evanescence",
+   "source": "lastfm"
+  },
+  "5ndkK3dpZLKtBklKjxNQwT": {
+   "fetched": "2026-10-02T15:55:47+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "B.o.B",
+   "source": "lastfm"
+  },
+  "5nkYRuiIHg2xXHFC8bfosJ": {
+   "fetched": "2026-10-02T15:55:45+00:00",
+   "genres": [
+    "dance",
+    "techno"
+   ],
+   "name": "ItaloBrothers",
    "source": "lastfm"
   },
   "5p9HO3XC5P3BLxJs5Mtrhm": {
@@ -3333,6 +6921,44 @@
    "name": "Backstreet Boys",
    "source": "lastfm"
   },
+  "5tFRohaO5yEsuJxmMnlCO9": {
+   "fetched": "2026-10-02T15:54:12+00:00",
+   "genres": [
+    "folk"
+   ],
+   "name": "Barns Courtney",
+   "source": "lastfm"
+  },
+  "5tSW1qlGaP3hgouM9PsmOi": {
+   "fetched": "2026-10-02T15:55:24+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Metrical",
+   "source": "lastfm"
+  },
+  "5uIxzEWNr8S0NOqCA5YOKS": {
+   "fetched": "2026-10-02T15:56:37+00:00",
+   "genres": [],
+   "name": "Charmed Mix",
+   "source": "lastfm"
+  },
+  "5ulESxWZSX8cw4PI6xgdDG": {
+   "fetched": "2026-10-02T15:54:30+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Andrew Barth Feldman",
+   "source": "lastfm"
+  },
+  "5v4ceNWjpPcck7V5tPbOn1": {
+   "fetched": "2026-10-02T15:56:15+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Nigar Sumi",
+   "source": "lastfm"
+  },
   "5wTdspmxzb8V4ZjvDodpBo": {
    "fetched": "2026-10-02T15:08:20+00:00",
    "genres": [
@@ -3340,6 +6966,21 @@
     "pop"
    ],
    "name": "A Touch Of Class",
+   "source": "lastfm"
+  },
+  "5wt6jhoZMRDZbyooJ9nRXe": {
+   "fetched": "2026-10-02T15:57:25+00:00",
+   "genres": [],
+   "name": "Rehaan",
+   "source": "lastfm"
+  },
+  "5xhQRvvr6V7zoQn5MPNZfJ": {
+   "fetched": "2026-10-02T15:54:32+00:00",
+   "genres": [
+    "cover",
+    "covers"
+   ],
+   "name": "skyemane",
    "source": "lastfm"
   },
   "5yw4tA8D5uG7tT3NaDvq10": {
@@ -3367,6 +7008,43 @@
     "dream pop"
    ],
    "name": "Caraml",
+   "source": "lastfm"
+  },
+  "60jYUgQzKAtnJoXKGk1GNn": {
+   "fetched": "2026-10-02T15:56:00+00:00",
+   "genres": [
+    "fusion",
+    "folk rock",
+    "habib"
+   ],
+   "name": "Habib Wahid",
+   "source": "lastfm"
+  },
+  "60vF1fLR6yzLxCQUlnAYYj": {
+   "fetched": "2026-10-02T15:55:36+00:00",
+   "genres": [
+    "phonk"
+   ],
+   "name": "$werve",
+   "source": "lastfm"
+  },
+  "619CzMJPPWrCeZwx5qw6ko": {
+   "fetched": "2026-10-02T15:54:33+00:00",
+   "genres": [
+    "german",
+    "electronic"
+   ],
+   "name": "Besomorph",
+   "source": "lastfm"
+  },
+  "61br0oUa0Tzmw9SjeuzEMK": {
+   "fetched": "2026-10-02T15:56:59+00:00",
+   "genres": [
+    "folk",
+    "bangla",
+    "anjan"
+   ],
+   "name": "Anjan Dutt",
    "source": "lastfm"
   },
   "620u2vAxKay2yedLaeAcIm": {
@@ -3405,6 +7083,14 @@
    "name": "YOASOBI",
    "source": "lastfm"
   },
+  "66YzHdK0FWCQSKMlXf3Rbj": {
+   "fetched": "2026-10-02T15:56:20+00:00",
+   "genres": [
+    "chill house"
+   ],
+   "name": "Strive to Be",
+   "source": "lastfm"
+  },
   "67hb7towEyKvt5Z8Bx306c": {
    "fetched": "2026-10-02T15:17:54+00:00",
    "genres": [
@@ -3414,6 +7100,18 @@
    "name": "Empire Of The Sun",
    "source": "lastfm"
   },
+  "68ACpELeoQ2CcSYksOvQ8T": {
+   "fetched": "2026-10-02T15:54:10+00:00",
+   "genres": [],
+   "name": "Nunca Fuimos Listos",
+   "source": "lastfm"
+  },
+  "68guaXCsUZCzyzSWfD0Oa5": {
+   "fetched": "2026-10-02T15:56:16+00:00",
+   "genres": [],
+   "name": "Jaake",
+   "source": "lastfm"
+  },
   "68kEuyFKyqrdQQLLsmiatm": {
    "fetched": "2026-10-02T15:08:58+00:00",
    "genres": [
@@ -3421,6 +7119,14 @@
     "rap"
    ],
    "name": "Vince Staples",
+   "source": "lastfm"
+  },
+  "694bRUlAdfIh4BpiMWI3FF": {
+   "fetched": "2026-10-02T15:54:35+00:00",
+   "genres": [
+    "doom metal"
+   ],
+   "name": "Nemesis",
    "source": "lastfm"
   },
   "69GGBxA162lTqCwzJG5jLp": {
@@ -3433,10 +7139,10 @@
    "source": "lastfm"
   },
   "69KPLl8HUp3nPmd8s7I9Ck": {
-   "fetched": "2026-10-02T15:20:50+00:00",
+   "fetched": "2026-10-02T15:53:40+00:00",
    "genres": [],
    "name": "Coalslaw",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "69Tu9c0t0IOf0ipXnE74sQ": {
    "fetched": "2026-10-02T15:35:48+00:00",
@@ -3447,10 +7153,19 @@
    "source": "lastfm"
   },
   "6ANC2icRZDjd99eBAGCnRB": {
-   "fetched": "2026-10-02T15:16:32+00:00",
+   "fetched": "2026-10-02T15:53:37+00:00",
    "genres": [],
    "name": "Lars Eriksson",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "6ASri4ePR7RlsvIQgWPJpS": {
+   "fetched": "2026-10-02T15:56:10+00:00",
+   "genres": [
+    "emo rap",
+    "rap"
+   ],
+   "name": "iann dior",
+   "source": "lastfm"
   },
   "6Ad91Jof8Niiw0lGLLi3NW": {
    "fetched": "2026-10-02T15:17:05+00:00",
@@ -3461,12 +7176,57 @@
    "name": "YUNGBLUD",
    "source": "lastfm"
   },
+  "6C6t0KhFTcGHV7nUlPdjrK": {
+   "fetched": "2026-10-02T15:55:43+00:00",
+   "genres": [],
+   "name": "Saint Rock",
+   "source": "lastfm"
+  },
+  "6CXEwIaXYfVJ84biCxqc9k": {
+   "fetched": "2026-10-02T15:55:52+00:00",
+   "genres": [
+    "bollywood",
+    "indian"
+   ],
+   "name": "Vishal Dadlani",
+   "source": "lastfm"
+  },
   "6CkMMcG6qTvQ8eI9yVjXbF": {
    "fetched": "2026-10-02T15:16:07+00:00",
    "genres": [
     "indie"
    ],
    "name": "Blood Red Sun",
+   "source": "lastfm"
+  },
+  "6D6rjLdxyE5vwhMlkuQq0E": {
+   "fetched": "2026-10-02T15:54:22+00:00",
+   "genres": [
+    "indie pop",
+    "indie"
+   ],
+   "name": "Chaos Chaos",
+   "source": "lastfm"
+  },
+  "6DIS6PRrLS3wbnZsf7vYic": {
+   "fetched": "2026-10-02T15:56:08+00:00",
+   "genres": [
+    "indie rock",
+    "indie"
+   ],
+   "name": "WALK THE MOON",
+   "source": "lastfm"
+  },
+  "6DOgQtUyJeZnmHvhZKaJj9": {
+   "fetched": "2026-10-02T15:55:26+00:00",
+   "genres": [],
+   "name": "Atom & Breathe",
+   "source": "lastfm"
+  },
+  "6DWVgFfHyhUISYq0lzYYu6": {
+   "fetched": "2026-10-02T15:55:54+00:00",
+   "genres": [],
+   "name": "Richello",
    "source": "lastfm"
   },
   "6EB8VE9f7Ut6NOgviN6gDW": {
@@ -3476,6 +7236,15 @@
     "indie"
    ],
    "name": "Dawid Podsiadło",
+   "source": "lastfm"
+  },
+  "6FD0unjzGQhX3b6eMccMJe": {
+   "fetched": "2026-10-02T15:53:51+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Ghostface Killah",
    "source": "lastfm"
   },
   "6FQqZYVfTNQ1pCqfkwVFEa": {
@@ -3489,10 +7258,10 @@
    "source": "lastfm"
   },
   "6Fau8dkDcH09zOxaWppXRd": {
-   "fetched": "2026-10-02T15:36:20+00:00",
+   "fetched": "2026-10-02T15:53:48+00:00",
    "genres": [],
    "name": "Bendrr",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "6FugQjLquBF4JzATRN70bR": {
    "fetched": "2026-10-02T15:10:07+00:00",
@@ -3511,6 +7280,24 @@
    "name": "Josh Fudge",
    "source": "lastfm"
   },
+  "6GpcBKNmZDIrRzYkPJu7Wd": {
+   "fetched": "2026-10-02T15:57:16+00:00",
+   "genres": [
+    "folk"
+   ],
+   "name": "flora cash",
+   "source": "lastfm"
+  },
+  "6IFvtjFs36fLuqgSKeVTG0": {
+   "fetched": "2026-10-02T15:57:07+00:00",
+   "genres": [
+    "country",
+    "acoustic",
+    "alternative rock"
+   ],
+   "name": "Tahsin Ahmed",
+   "source": "lastfm"
+  },
   "6IRouO5mvvfcyxtPDKMYFN": {
    "fetched": "2026-10-02T15:20:29+00:00",
    "genres": [
@@ -3521,10 +7308,16 @@
    "source": "lastfm"
   },
   "6IY1MxE4bpF80sEVxGJZ4M": {
-   "fetched": "2026-10-02T15:09:51+00:00",
+   "fetched": "2026-10-02T15:53:35+00:00",
    "genres": [],
    "name": "Pastel Radio",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "6J2ErK4n48YiU1mSQl1XSx": {
+   "fetched": "2026-10-02T15:55:05+00:00",
+   "genres": [],
+   "name": "Jonathan Tilkin",
+   "source": "lastfm"
   },
   "6J7biCazzYhU3gM9j1wfid": {
    "fetched": "2026-10-02T15:35:18+00:00",
@@ -3533,6 +7326,12 @@
     "acid jazz"
    ],
    "name": "Jamiroquai",
+   "source": "lastfm"
+  },
+  "6K6Vc8LahaQ1LnPEgcb6zn": {
+   "fetched": "2026-10-02T15:57:15+00:00",
+   "genres": [],
+   "name": "Nitric Rahman",
    "source": "lastfm"
   },
   "6KImCVD70vtIoJWnq6nGn3": {
@@ -3554,12 +7353,37 @@
    "name": "Blood Orange",
    "source": "lastfm"
   },
+  "6M2wZ9GZgrQXHCFfjv46we": {
+   "fetched": "2026-10-02T15:54:30+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Dua Lipa",
+   "source": "lastfm"
+  },
+  "6MHzMgnUHxw8eac1qaVXjH": {
+   "fetched": "2026-10-02T15:54:11+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Farooque Bhai Project",
+   "source": "lastfm"
+  },
   "6MJKlN8ya42Agsw3iQZs6e": {
    "fetched": "2026-10-02T15:29:38+00:00",
    "genres": [
     "electronic"
    ],
    "name": "French 79",
+   "source": "lastfm"
+  },
+  "6NBTugXQTyoUtK5AK0tIm3": {
+   "fetched": "2026-10-02T15:55:00+00:00",
+   "genres": [
+    "modern rock",
+    "alternative metal"
+   ],
+   "name": "From the Ash",
    "source": "lastfm"
   },
   "6NnBBumbcMYsaPTHFhPtXD": {
@@ -3578,6 +7402,14 @@
     "indie rock"
    ],
    "name": "Balu Brigada",
+   "source": "lastfm"
+  },
+  "6OE6isNAneV3vtdxKih5fg": {
+   "fetched": "2026-10-02T15:54:33+00:00",
+   "genres": [
+    "indie"
+   ],
+   "name": "Saint Chaos",
    "source": "lastfm"
   },
   "6OXILsPD4WNJ7XiGMAkCWa": {
@@ -3615,6 +7447,12 @@
    "name": "Night Moves",
    "source": "lastfm"
   },
+  "6PnG3TYLXoKHnccEuFyEvY": {
+   "fetched": "2026-10-02T15:55:18+00:00",
+   "genres": [],
+   "name": "Neo Retra",
+   "source": "lastfm"
+  },
   "6Q3N4VeQYqEzVDcYEfe5hh": {
    "fetched": "2026-10-02T15:19:52+00:00",
    "genres": [
@@ -3624,12 +7462,84 @@
    "name": "Miles",
    "source": "lastfm"
   },
+  "6QbSwCeNaIhbfp1jpZ02nZ": {
+   "fetched": "2026-10-02T15:54:27+00:00",
+   "genres": [
+    "pop",
+    "rock",
+    "electronic"
+   ],
+   "name": "Alter.",
+   "source": "lastfm"
+  },
+  "6QrQ7OrISRYIfS5mtacaw2": {
+   "fetched": "2026-10-02T15:57:30+00:00",
+   "genres": [
+    "indie",
+    "alternative"
+   ],
+   "name": "Jaymes Young",
+   "source": "lastfm"
+  },
+  "6R26kGib2ubbZJMh7kKVGV": {
+   "fetched": "2026-10-02T15:54:09+00:00",
+   "genres": [
+    "funk",
+    "brazil"
+   ],
+   "name": "Bibi Babydoll",
+   "source": "lastfm"
+  },
+  "6RQDTlies3nrNDJwXvbBZT": {
+   "fetched": "2026-10-02T15:56:41+00:00",
+   "genres": [
+    "romanian"
+   ],
+   "name": "Otilia",
+   "source": "lastfm"
+  },
+  "6SAIBTqNQJDC2kzZDPLKle": {
+   "fetched": "2026-10-02T15:55:20+00:00",
+   "genres": [
+    "bangladesh",
+    "bangladeshi"
+   ],
+   "name": "Arbovirus",
+   "source": "lastfm"
+  },
   "6T5tfhQCknKG4UnH90qGnz": {
    "fetched": "2026-10-02T15:35:34+00:00",
    "genres": [
     "pop"
    ],
    "name": "DNCE",
+   "source": "lastfm"
+  },
+  "6TIYQ3jFPwQSRmorSezPxX": {
+   "fetched": "2026-10-02T15:56:23+00:00",
+   "genres": [
+    "rap",
+    "hip-hop"
+   ],
+   "name": "mgk",
+   "source": "lastfm"
+  },
+  "6TLwD7HPWuiOzvXEa3oCNe": {
+   "fetched": "2026-10-02T15:54:04+00:00",
+   "genres": [
+    "electronic",
+    "hip-hop"
+   ],
+   "name": "Oliver Tree",
+   "source": "lastfm"
+  },
+  "6U3ybJ9UHNKEdsH7ktGBZ7": {
+   "fetched": "2026-10-02T15:54:26+00:00",
+   "genres": [
+    "rap",
+    "hip-hop"
+   ],
+   "name": "JID",
    "source": "lastfm"
   },
   "6USv9qhCn6zfxlBQIYJ9qs": {
@@ -3675,6 +7585,14 @@
    "name": "Joe Kay",
    "source": "lastfm"
   },
+  "6W8rk6H6C3Mcj0lALuLVg1": {
+   "fetched": "2026-10-02T15:55:10+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Robert Grace",
+   "source": "lastfm"
+  },
   "6XwwFnewNgWp81MYMK8zLq": {
    "fetched": "2026-10-02T15:18:08+00:00",
    "genres": [
@@ -3695,11 +7613,32 @@
    "name": "Linkin Park",
    "source": "lastfm"
   },
+  "6Y64gHhCF0B0TEcFEfSGzM": {
+   "fetched": "2026-10-02T15:57:26+00:00",
+   "genres": [
+    "swedish",
+    "youtubers"
+   ],
+   "name": "Joy Aileen",
+   "source": "lastfm"
+  },
+  "6ZfTu4EH2GPZRr01QGE6XU": {
+   "fetched": "2026-10-02T15:55:09+00:00",
+   "genres": [],
+   "name": "Ikkshita",
+   "source": "lastfm"
+  },
+  "6a73PtcvQ0oABSDUQnQnap": {
+   "fetched": "2026-10-02T15:55:15+00:00",
+   "genres": [],
+   "name": "IN0RI",
+   "source": "lastfm"
+  },
   "6alkL33ZSBdwGO1fwlmvhS": {
-   "fetched": "2026-10-02T15:35:41+00:00",
+   "fetched": "2026-10-02T15:53:46+00:00",
    "genres": [],
    "name": "Subho Beatz",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "6aq8T2RcspxVOGgMrTzjWc": {
    "fetched": "2026-10-02T15:29:20+00:00",
@@ -3710,6 +7649,56 @@
    "name": "Soft Cell",
    "source": "lastfm"
   },
+  "6avF6FLGVUti67QJ1AuecM": {
+   "fetched": "2026-10-02T15:55:11+00:00",
+   "genres": [],
+   "name": "Kaushal Shekhawat",
+   "source": "lastfm"
+  },
+  "6b6w8DXrLFEPxnG4kTqUnT": {
+   "fetched": "2026-10-02T15:55:21+00:00",
+   "genres": [
+    "pop",
+    "pop rock",
+    "italy"
+   ],
+   "name": "Tokyo Project",
+   "source": "lastfm"
+  },
+  "6bDWAcdtVR3WHz2xtiIPUi": {
+   "fetched": "2026-10-02T15:54:37+00:00",
+   "genres": [
+    "j-pop",
+    "japanese"
+   ],
+   "name": "Fujii Kaze",
+   "source": "lastfm"
+  },
+  "6cXE5RU6ad2uzeRUxh7Olj": {
+   "fetched": "2026-10-02T15:56:39+00:00",
+   "genres": [
+    "nu metal"
+   ],
+   "name": "MAJA",
+   "source": "lastfm"
+  },
+  "6d8NscVVbeMVINZwJDOoN5": {
+   "fetched": "2026-10-02T15:55:01+00:00",
+   "genres": [
+    "alternative",
+    "indie"
+   ],
+   "name": "Crash Adams",
+   "source": "lastfm"
+  },
+  "6dJeKm76NjfXBNTpHmOhfO": {
+   "fetched": "2026-10-02T15:55:29+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Selena Gomez & The Scene",
+   "source": "lastfm"
+  },
   "6dO0RkhFhjMwLtLQqNgL8r": {
    "fetched": "2026-10-02T15:28:47+00:00",
    "genres": [
@@ -3718,6 +7707,23 @@
     "jordan"
    ],
    "name": "Issam Alnajjar",
+   "source": "lastfm"
+  },
+  "6dTKLvy7EwZWQRaPF6Z5pk": {
+   "fetched": "2026-10-02T15:54:34+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Fairose Nawar",
+   "source": "lastfm"
+  },
+  "6dXgxvd22ojzmwry1cXSP6": {
+   "fetched": "2026-10-02T15:55:22+00:00",
+   "genres": [
+    "bangladesh",
+    "progressive metal"
+   ],
+   "name": "Bay of Bengal",
    "source": "lastfm"
   },
   "6deZN1bslXzeGvOLaLMOIF": {
@@ -3738,10 +7744,10 @@
    "source": "lastfm"
   },
   "6e8C1G5gCVhDHtBLuw0HoO": {
-   "fetched": "2026-10-02T15:27:35+00:00",
+   "fetched": "2026-10-02T15:53:42+00:00",
    "genres": [],
    "name": "Ratthew",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "6eKShdnViPdAIMQsayoXAA": {
    "fetched": "2026-10-02T15:16:37+00:00",
@@ -3749,6 +7755,14 @@
     "synthwave"
    ],
    "name": "Thought Beings",
+   "source": "lastfm"
+  },
+  "6eUKZXaKkcviH0Ku9w2n3V": {
+   "fetched": "2026-10-02T15:55:28+00:00",
+   "genres": [
+    "acoustic"
+   ],
+   "name": "Ed Sheeran",
    "source": "lastfm"
   },
   "6f0SUJsj1yDGVOIChVQCwc": {
@@ -3778,6 +7792,16 @@
    "name": "NF",
    "source": "lastfm"
   },
+  "6fWVd57NKTalqvmjRd2t8Z": {
+   "fetched": "2026-10-02T15:54:02+00:00",
+   "genres": [
+    "hip-hop",
+    "rap",
+    "trap"
+   ],
+   "name": "24kGoldn",
+   "source": "lastfm"
+  },
   "6ft7JnxMyZhp7N52qzHymY": {
    "fetched": "2026-10-02T15:07:52+00:00",
    "genres": [
@@ -3794,6 +7818,25 @@
     "indie"
    ],
    "name": "The War On Drugs",
+   "source": "lastfm"
+  },
+  "6gt6I3wE7iKdn5eUYnNHlF": {
+   "fetched": "2026-10-02T15:56:38+00:00",
+   "genres": [
+    "drum and bass",
+    "neurofunk"
+   ],
+   "name": "Jade",
+   "source": "lastfm"
+  },
+  "6gvXonR7pjpW8gcRoOMZlf": {
+   "fetched": "2026-10-02T15:56:40+00:00",
+   "genres": [
+    "folk",
+    "electronic",
+    "vocaloid"
+   ],
+   "name": "Hoskey",
    "source": "lastfm"
   },
   "6hN9F0iuULZYWXppob22Aj": {
@@ -3813,6 +7856,30 @@
    "name": "The Technicolors",
    "source": "lastfm"
   },
+  "6ixCG3DyMIac9mez2ThCdL": {
+   "fetched": "2026-10-02T15:54:47+00:00",
+   "genres": [
+    "indie pop"
+   ],
+   "name": "Elysewood",
+   "source": "lastfm"
+  },
+  "6jJ0s89eD6GaHleKKya26X": {
+   "fetched": "2026-10-02T15:55:34+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Katy Perry",
+   "source": "lastfm"
+  },
+  "6jSW7sg56cdW32xIqgPKZy": {
+   "fetched": "2026-10-02T15:56:19+00:00",
+   "genres": [
+    "progressive house"
+   ],
+   "name": "Dirty Rush & Gregor Es",
+   "source": "lastfm"
+  },
   "6jmM2psBFj8uTTbv8GZZsH": {
    "fetched": "2026-10-02T15:37:00+00:00",
    "genres": [
@@ -3821,6 +7888,12 @@
     "english"
    ],
    "name": "Rainn Byrns",
+   "source": "lastfm"
+  },
+  "6kVSwOn5ZEbrjIOxED9Ria": {
+   "fetched": "2026-10-02T15:57:24+00:00",
+   "genres": [],
+   "name": "Somlata And The Aces",
    "source": "lastfm"
   },
   "6kgMLW45schh2GIceE54JJ": {
@@ -3832,10 +7905,39 @@
    "source": "lastfm"
   },
   "6lDQFsI5E7lNswRvmQ8NsJ": {
-   "fetched": "2026-10-02T15:35:12+00:00",
+   "fetched": "2026-10-02T15:53:45+00:00",
    "genres": [],
    "name": "Blac Sxpreme",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "6mWX0xz7hcNNjRG2B460IC": {
+   "fetched": "2026-10-02T15:54:41+00:00",
+   "genres": [],
+   "name": "G. M. Ashraf",
+   "source": "lastfm"
+  },
+  "6n0cnqQD5b9L0dpqQ3wOOq": {
+   "fetched": "2026-10-02T15:56:00+00:00",
+   "genres": [
+    "soundtrack",
+    "disney"
+   ],
+   "name": "Jason Weaver",
+   "source": "lastfm"
+  },
+  "6nBsWnTfVEvxLlSTf2HzcA": {
+   "fetched": "2026-10-02T15:55:05+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Everchange",
+   "source": "lastfm"
+  },
+  "6oF5Y5JgNMSBfZR93mhKlK": {
+   "fetched": "2026-10-02T15:56:36+00:00",
+   "genres": [],
+   "name": "Snapdibz",
+   "source": "lastfm"
   },
   "6ohaQzKaXrobAL8paLSaxq": {
    "fetched": "2026-10-02T15:21:50+00:00",
@@ -3862,11 +7964,27 @@
    "name": "The Backseat Lovers",
    "source": "lastfm"
   },
+  "6pWcSL9wSJZQ9ne0TnhdWr": {
+   "fetched": "2026-10-02T15:54:45+00:00",
+   "genres": [
+    "electronic"
+   ],
+   "name": "K-391",
+   "source": "lastfm"
+  },
+  "6qOWi2uVjil54PGcEfdKVZ": {
+   "fetched": "2026-10-02T15:55:32+00:00",
+   "genres": [
+    "bedroom pop"
+   ],
+   "name": "veronicavon",
+   "source": "lastfm"
+  },
   "6qZPIR8MgY7jJLjr3Mrn0Y": {
-   "fetched": "2026-10-02T15:09:26+00:00",
+   "fetched": "2026-10-02T15:53:34+00:00",
    "genres": [],
    "name": "Ezaz Khan",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "6qqNVTkY8uBg9cP3Jd7DAH": {
    "fetched": "2026-10-02T15:36:56+00:00",
@@ -3875,6 +7993,35 @@
     "indie pop"
    ],
    "name": "Billie Eilish",
+   "source": "lastfm"
+  },
+  "6qxpnaukVayrQn6ViNvu9I": {
+   "fetched": "2026-10-02T15:53:55+00:00",
+   "genres": [
+    "rap",
+    "hip-hop"
+   ],
+   "name": "BigXthaPlug",
+   "source": "lastfm"
+  },
+  "6r4kTQoYjObienwuKU4PBT": {
+   "fetched": "2026-10-02T15:56:59+00:00",
+   "genres": [
+    "bangladesh",
+    "alternative rock",
+    "makes basic shit but calls it experimental"
+   ],
+   "name": "13th Funeral",
+   "source": "lastfm"
+  },
+  "6rkTQmuuLWdHk44zzjLnra": {
+   "fetched": "2026-10-02T15:56:47+00:00",
+   "genres": [
+    "spanish",
+    "acoustic",
+    "anarchist"
+   ],
+   "name": "PIB",
    "source": "lastfm"
   },
   "6s22t5Y3prQHyaHWUN1R1C": {
@@ -3895,6 +8042,40 @@
    "name": "The Smile",
    "source": "lastfm"
   },
+  "6t41YgqHULlgOq9TK1kcrG": {
+   "fetched": "2026-10-02T15:54:49+00:00",
+   "genres": [
+    "dub",
+    "electronic",
+    "south african"
+   ],
+   "name": "The Kiffness",
+   "source": "lastfm"
+  },
+  "6tbjWDEIzxoDsBA1FuhfPW": {
+   "fetched": "2026-10-02T15:54:21+00:00",
+   "genres": [
+    "pop",
+    "dance"
+   ],
+   "name": "Madonna",
+   "source": "lastfm"
+  },
+  "6tkhw6PSVw7b2M7h5fLBLE": {
+   "fetched": "2026-10-02T15:55:04+00:00",
+   "genres": [
+    "modern metal",
+    "power metal"
+   ],
+   "name": "Cyhra",
+   "source": "lastfm"
+  },
+  "6uynh0LLEGHhrMR7D1Rd8c": {
+   "fetched": "2026-10-02T15:54:53+00:00",
+   "genres": [],
+   "name": "钱润玉",
+   "source": "lastfm"
+  },
   "6vXTefBL93Dj5IqAWq6OTv": {
    "fetched": "2026-10-02T15:35:02+00:00",
    "genres": [
@@ -3902,6 +8083,23 @@
     "rap"
    ],
    "name": "French Montana",
+   "source": "lastfm"
+  },
+  "6vj7UZfJr3mUAtG07l1haI": {
+   "fetched": "2026-10-02T15:56:49+00:00",
+   "genres": [
+    "ost",
+    "dev d"
+   ],
+   "name": "Band Master Rangeela",
+   "source": "lastfm"
+  },
+  "6xArchxfpOsC8rvclgSeAl": {
+   "fetched": "2026-10-02T15:54:41+00:00",
+   "genres": [
+    "grunge"
+   ],
+   "name": "Karnival",
    "source": "lastfm"
   },
   "6yFfHsTW76VoXts5QDvQgv": {
@@ -3921,6 +8119,21 @@
    "name": "Tempesst",
    "source": "lastfm"
   },
+  "6ygo92YFzMbShh4qPXb6kG": {
+   "fetched": "2026-10-02T15:56:54+00:00",
+   "genres": [],
+   "name": "Joseph Mossbridge",
+   "source": "lastfm"
+  },
+  "6yjz9vY01vOQUcFIAEYVQ0": {
+   "fetched": "2026-10-02T15:54:18+00:00",
+   "genres": [
+    "witch house",
+    "electronic"
+   ],
+   "name": "plenka",
+   "source": "lastfm"
+  },
   "6zFYqv1mOsgBRQbae3JJ9e": {
    "fetched": "2026-10-02T15:29:30+00:00",
    "genres": [
@@ -3930,11 +8143,29 @@
    "name": "Billy Joel",
    "source": "lastfm"
   },
+  "6zOQ0nUPn7uoRZDJirukxz": {
+   "fetched": "2026-10-02T15:56:49+00:00",
+   "genres": [
+    "bangladesh",
+    "pop"
+   ],
+   "name": "TAPOSH",
+   "source": "lastfm"
+  },
   "6zhUMIwfxpvHGTGItG5FdL": {
-   "fetched": "2026-10-02T15:19:47+00:00",
+   "fetched": "2026-10-02T15:53:39+00:00",
    "genres": [],
    "name": "Luke Darling",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "6zlR5ttMfMNmwf2lecU9Cc": {
+   "fetched": "2026-10-02T15:55:57+00:00",
+   "genres": [
+    "indie rock",
+    "indie"
+   ],
+   "name": "Sam Fender",
+   "source": "lastfm"
   },
   "70NcAr4ZtA3FAqU16iQZSb": {
    "fetched": "2026-10-02T15:36:23+00:00",
@@ -3944,6 +8175,16 @@
    "name": "Dhruv",
    "source": "lastfm"
   },
+  "70v0TstWI53dPa43ZUfMKg": {
+   "fetched": "2026-10-02T15:54:43+00:00",
+   "genres": [
+    "pop",
+    "indie",
+    "lo-fi"
+   ],
+   "name": "Shitom Ahmed",
+   "source": "lastfm"
+  },
   "71oGOxg5ez52Hh1Ye41A98": {
    "fetched": "2026-10-02T15:21:51+00:00",
    "genres": [
@@ -3951,6 +8192,23 @@
     "pop"
    ],
    "name": "Mustafa Zahid",
+   "source": "lastfm"
+  },
+  "729VtCqRPf0MwVTXAPz7wr": {
+   "fetched": "2026-10-02T15:57:12+00:00",
+   "genres": [
+    "indie pop",
+    "country pop"
+   ],
+   "name": "Caroline Dare",
+   "source": "lastfm"
+  },
+  "72N7tHkeEBWSedHqPUGXhy": {
+   "fetched": "2026-10-02T15:57:05+00:00",
+   "genres": [
+    "kazoo"
+   ],
+   "name": "Tsuko G.",
    "source": "lastfm"
   },
   "72PnPUc1qv9UjRPaGVZ1jq": {
@@ -3987,6 +8245,14 @@
    "name": "Topu",
    "source": "lastfm"
   },
+  "73mSg0dykFyhvU96tb5xQV": {
+   "fetched": "2026-10-02T15:54:20+00:00",
+   "genres": [
+    "instrumental"
+   ],
+   "name": "Hermanos Gutiérrez",
+   "source": "lastfm"
+  },
   "73sIBHcqh3Z3NyqHKZ7FOL": {
    "fetched": "2026-10-02T15:08:42+00:00",
    "genres": [
@@ -3994,6 +8260,22 @@
     "rap"
    ],
    "name": "Childish Gambino",
+   "source": "lastfm"
+  },
+  "745pruRr6cCNQfLpQVRCDL": {
+   "fetched": "2026-10-02T15:56:46+00:00",
+   "genres": [
+    "alternative pop",
+    "sexy",
+    "anime"
+   ],
+   "name": "Amy B",
+   "source": "lastfm"
+  },
+  "74ADwohFPN43uyJ16NhYzd": {
+   "fetched": "2026-10-02T15:56:25+00:00",
+   "genres": [],
+   "name": "Sahil Sanjan",
    "source": "lastfm"
   },
   "74ASZWbe4lXaubB36ztrGX": {
@@ -4010,6 +8292,24 @@
     "pop"
    ],
    "name": "Sabrina Carpenter",
+   "source": "lastfm"
+  },
+  "757aE44tKEUQEqRuT6GnEB": {
+   "fetched": "2026-10-02T15:55:53+00:00",
+   "genres": [
+    "rap",
+    "hip-hop",
+    "trap"
+   ],
+   "name": "Roddy Ricch",
+   "source": "lastfm"
+  },
+  "75P2cgbYiT5c7of8lPA9tH": {
+   "fetched": "2026-10-02T15:55:52+00:00",
+   "genres": [
+    "india"
+   ],
+   "name": "Yash Tiwari",
    "source": "lastfm"
   },
   "75iba5NiiYk6Pdhe959cJE": {
@@ -4029,6 +8329,41 @@
    "name": "Sarah Blasko",
    "source": "lastfm"
   },
+  "764xTgJVgmYccjP9NjBoZ3": {
+   "fetched": "2026-10-02T15:56:58+00:00",
+   "genres": [
+    "bengali",
+    "folk",
+    "baul sangeet"
+   ],
+   "name": "Koushik Chakraborty",
+   "source": "lastfm"
+  },
+  "76XUcSGE6JZ8pbCxnBd1iz": {
+   "fetched": "2026-10-02T15:55:18+00:00",
+   "genres": [
+    "all"
+   ],
+   "name": "Zeli",
+   "source": "lastfm"
+  },
+  "76fuWYgIf3TVIopTs3vaJ6": {
+   "fetched": "2026-10-02T15:54:56+00:00",
+   "genres": [
+    "india"
+   ],
+   "name": "Amaal Mallik",
+   "source": "lastfm"
+  },
+  "77AiFEVeAVj2ORpC85QVJs": {
+   "fetched": "2026-10-02T15:54:57+00:00",
+   "genres": [
+    "electronic",
+    "electro"
+   ],
+   "name": "Steve Aoki",
+   "source": "lastfm"
+  },
   "77SW9BnxLY8rJ0RciFqkHh": {
    "fetched": "2026-10-02T15:16:16+00:00",
    "genres": [
@@ -4038,12 +8373,54 @@
    "name": "The Neighbourhood",
    "source": "lastfm"
   },
+  "77avA3qzF6itxvXlb2mmNy": {
+   "fetched": "2026-10-02T15:56:11+00:00",
+   "genres": [
+    "comedy"
+   ],
+   "name": "Rucka Rucka Ali",
+   "source": "lastfm"
+  },
+  "77i53Qlp3vNOh4Rab2wr56": {
+   "fetched": "2026-10-02T15:56:09+00:00",
+   "genres": [
+    "korean"
+   ],
+   "name": "Hwang Chang young",
+   "source": "lastfm"
+  },
+  "77qukKzmdI5BeMBR7WGUrN": {
+   "fetched": "2026-10-02T15:55:35+00:00",
+   "genres": [
+    "house"
+   ],
+   "name": "Aaron Smith",
+   "source": "lastfm"
+  },
+  "77s45paaVsbPjByV4WjhZe": {
+   "fetched": "2026-10-02T15:56:03+00:00",
+   "genres": [
+    "indie",
+    "alternative"
+   ],
+   "name": "Demi the Daredevil",
+   "source": "lastfm"
+  },
   "77tT1kLj6mCWtFNqiOmP9H": {
    "fetched": "2026-10-02T15:16:24+00:00",
    "genres": [
     "pop"
    ],
    "name": "Daryl Hall & John Oates",
+   "source": "lastfm"
+  },
+  "790FomKkXshlbRYZFtlgla": {
+   "fetched": "2026-10-02T15:55:07+00:00",
+   "genres": [
+    "reggaeton",
+    "latin"
+   ],
+   "name": "KAROL G",
    "source": "lastfm"
   },
   "795iruo8TSJsZPVAps6Iow": {
@@ -4063,6 +8440,58 @@
    "name": "Stevie Zita",
    "source": "lastfm"
   },
+  "79bxUQsBIXO8nVLB9fYKf7": {
+   "fetched": "2026-10-02T15:53:52+00:00",
+   "genres": [
+    "disco",
+    "pop"
+   ],
+   "name": "Modern Talking",
+   "source": "lastfm"
+  },
+  "79h47IKrZOyyDnuGCG51t5": {
+   "fetched": "2026-10-02T15:56:53+00:00",
+   "genres": [
+    "metalcore"
+   ],
+   "name": "Dream demon",
+   "source": "lastfm"
+  },
+  "79iOqoOkavfzftyQjx21qp": {
+   "fetched": "2026-10-02T15:55:23+00:00",
+   "genres": [],
+   "name": "Aftermath Bangladesh",
+   "source": "lastfm"
+  },
+  "79jA5f2Sa3pgRT0ZTtYplo": {
+   "fetched": "2026-10-02T15:57:32+00:00",
+   "genres": [
+    "trip-hop"
+   ],
+   "name": "Muza",
+   "source": "lastfm"
+  },
+  "7AQV3AqKIcXhZ1n8vIGs28": {
+   "fetched": "2026-10-02T15:56:33+00:00",
+   "genres": [],
+   "name": "Lindsey Jade",
+   "source": "lastfm"
+  },
+  "7Ad37JjLQE0Gjd9YuGHj3j": {
+   "fetched": "2026-10-02T15:54:38+00:00",
+   "genres": [],
+   "name": "KENTENSHI",
+   "source": "lastfm"
+  },
+  "7B9OMl4OkifBonxyDNBJ2A": {
+   "fetched": "2026-10-02T15:56:51+00:00",
+   "genres": [
+    "bangladesh",
+    "bangla"
+   ],
+   "name": "Shishir Ahmed",
+   "source": "lastfm"
+  },
   "7CajNmpbOovFoOoasH2HaY": {
    "fetched": "2026-10-02T15:28:08+00:00",
    "genres": [
@@ -4070,6 +8499,20 @@
     "dance"
    ],
    "name": "Calvin Harris",
+   "source": "lastfm"
+  },
+  "7DQYAz99eM3Y5PkP9WtUew": {
+   "fetched": "2026-10-02T15:56:20+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Jax",
+   "source": "lastfm"
+  },
+  "7DlWpMebmY3xO6ztJLtapC": {
+   "fetched": "2026-10-02T15:55:44+00:00",
+   "genres": [],
+   "name": "Jidiani",
    "source": "lastfm"
   },
   "7EQ0qTo7fWT7DPxmxtSYEc": {
@@ -4081,12 +8524,31 @@
    "name": "Bastille",
    "source": "lastfm"
   },
+  "7Ey4PD4MYsKc5I2dolUwbH": {
+   "fetched": "2026-10-02T15:56:28+00:00",
+   "genres": [
+    "hard rock",
+    "classic rock",
+    "rock"
+   ],
+   "name": "Aerosmith",
+   "source": "lastfm"
+  },
   "7Ez6lTtSMjMf2YSYpukP1I": {
    "fetched": "2026-10-02T15:08:13+00:00",
    "genres": [
     "country"
    ],
    "name": "Dasha",
+   "source": "lastfm"
+  },
+  "7FNnA9vBm6EKceENgCGRMb": {
+   "fetched": "2026-10-02T15:57:14+00:00",
+   "genres": [
+    "pop",
+    "brazilian"
+   ],
+   "name": "Anitta",
    "source": "lastfm"
   },
   "7Gz6VlTVwlNtBNMYV4OI3w": {
@@ -4117,6 +8579,33 @@
    "name": "NightCrawl",
    "source": "lastfm"
   },
+  "7I3bkknknQkIiatWiupQgD": {
+   "fetched": "2026-10-02T15:53:57+00:00",
+   "genres": [
+    "indie",
+    "indie rock"
+   ],
+   "name": "Beach Weather",
+   "source": "lastfm"
+  },
+  "7J1OnhyMOA8ykWuizRMJjp": {
+   "fetched": "2026-10-02T15:55:37+00:00",
+   "genres": [],
+   "name": "S.T.A Turjo",
+   "source": "lastfm"
+  },
+  "7JFvJgafEthPVnwYREbYpV": {
+   "fetched": "2026-10-02T15:57:08+00:00",
+   "genres": [],
+   "name": "Fahad Zafar",
+   "source": "lastfm"
+  },
+  "7JOGwpNTfStFWhczfeb2wW": {
+   "fetched": "2026-10-02T15:56:31+00:00",
+   "genres": [],
+   "name": "Tasogare",
+   "source": "lastfm"
+  },
   "7Js6Lde8thlIHXggv2SCBz": {
    "fetched": "2026-10-02T15:20:01+00:00",
    "genres": [
@@ -4125,11 +8614,28 @@
    "name": "Europe",
    "source": "lastfm"
   },
+  "7LIy7KinYq7a83dUH6kvxT": {
+   "fetched": "2026-10-02T15:55:56+00:00",
+   "genres": [
+    "indie",
+    "alternative"
+   ],
+   "name": "Zayde Wølf",
+   "source": "lastfm"
+  },
+  "7LNEwdMBXgeD4BeyaPW7JA": {
+   "fetched": "2026-10-02T15:56:57+00:00",
+   "genres": [
+    "rockabilly"
+   ],
+   "name": "Blue Jeans",
+   "source": "lastfm"
+  },
   "7LkCRVcvQaZor2rIsWiVDA": {
-   "fetched": "2026-10-02T15:37:02+00:00",
+   "fetched": "2026-10-02T15:53:49+00:00",
    "genres": [],
    "name": "Rudy Mancuso",
-   "source": "spotify"
+   "source": "lastfm"
   },
   "7Ln80lUS6He07XvHI8qqHH": {
    "fetched": "2026-10-02T15:21:47+00:00",
@@ -4138,6 +8644,12 @@
     "indie"
    ],
    "name": "Arctic Monkeys",
+   "source": "lastfm"
+  },
+  "7MKn4OimKAnYzLBsMOa2iT": {
+   "fetched": "2026-10-02T15:56:29+00:00",
+   "genres": [],
+   "name": "Upol Islam",
    "source": "lastfm"
   },
   "7a2CrMd3xwcZDDC39OKUGg": {
@@ -4149,6 +8661,15 @@
    "name": "LMYK",
    "source": "lastfm"
   },
+  "7b6Ui7JVaBDEfZB9k6nHL0": {
+   "fetched": "2026-10-02T15:57:21+00:00",
+   "genres": [
+    "india",
+    "rock"
+   ],
+   "name": "The Local Train",
+   "source": "lastfm"
+  },
   "7bU64wIvBElELVsQabM3VG": {
    "fetched": "2026-10-02T15:16:35+00:00",
    "genres": [
@@ -4156,6 +8677,15 @@
     "indie"
    ],
    "name": "Orange Dog Club",
+   "source": "lastfm"
+  },
+  "7bXgB6jMjp9ATFy66eO08Z": {
+   "fetched": "2026-10-02T15:56:31+00:00",
+   "genres": [
+    "rnb",
+    "hip-hop"
+   ],
+   "name": "Chris Brown",
    "source": "lastfm"
   },
   "7bu3H8JO7d0UbMoVzbo70s": {
@@ -4185,6 +8715,15 @@
    "name": "Tanukichan",
    "source": "lastfm"
   },
+  "7dFuvAESogEqVv0vz1kTJl": {
+   "fetched": "2026-10-02T15:57:33+00:00",
+   "genres": [
+    "punk rock",
+    "punk"
+   ],
+   "name": "Vikings",
+   "source": "lastfm"
+  },
   "7dGJo4pcD2V6oG8kP0tJRR": {
    "fetched": "2026-10-02T15:28:52+00:00",
    "genres": [
@@ -4192,6 +8731,15 @@
     "hip-hop"
    ],
    "name": "Eminem",
+   "source": "lastfm"
+  },
+  "7dHv80FOCQj8SoWjREiojc": {
+   "fetched": "2026-10-02T15:57:07+00:00",
+   "genres": [
+    "bangladeshi",
+    "folk rock"
+   ],
+   "name": "Ashes Bangladesh",
    "source": "lastfm"
   },
   "7dIpKWlEeAljA20vFJ82RD": {
@@ -4202,12 +8750,72 @@
    "name": "Roar",
    "source": "lastfm"
   },
+  "7dhwEAjdIOqkJZIhBinExD": {
+   "fetched": "2026-10-02T15:54:59+00:00",
+   "genres": [
+    "swedish",
+    "rock",
+    "1 in 360"
+   ],
+   "name": "No Sleep for Lucy",
+   "source": "lastfm"
+  },
   "7eDGkEF3YrLdMyc2dSrW3z": {
    "fetched": "2026-10-02T15:09:16+00:00",
    "genres": [
     "pop"
    ],
    "name": "James Tonic",
+   "source": "lastfm"
+  },
+  "7f5Zgnp2spUuuzKplmRkt7": {
+   "fetched": "2026-10-02T15:55:56+00:00",
+   "genres": [
+    "deep house",
+    "electronic",
+    "dance"
+   ],
+   "name": "Lost Frequencies",
+   "source": "lastfm"
+  },
+  "7fP06sphQmnvvioXOWZMCF": {
+   "fetched": "2026-10-02T15:57:03+00:00",
+   "genres": [
+    "guitar work"
+   ],
+   "name": "Ayub Bachchu",
+   "source": "lastfm"
+  },
+  "7fU5VKQ4KA88qLlJYvMHc7": {
+   "fetched": "2026-10-02T15:57:20+00:00",
+   "genres": [],
+   "name": "Olik",
+   "source": "lastfm"
+  },
+  "7fhlWsdi6oTTxj8d3uYIAn": {
+   "fetched": "2026-10-02T15:54:32+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Kaaktaal",
+   "source": "lastfm"
+  },
+  "7gHscNMDI8FF8pcgrV8eIn": {
+   "fetched": "2026-10-02T15:55:14+00:00",
+   "genres": [
+    "indie rock",
+    "indie"
+   ],
+   "name": "Matt Maeson",
+   "source": "lastfm"
+  },
+  "7gXb99Sf9nNmpNYeAgIQFG": {
+   "fetched": "2026-10-02T15:56:43+00:00",
+   "genres": [
+    "speedcore",
+    "industrial"
+   ],
+   "name": "Sub Urban",
    "source": "lastfm"
   },
   "7hJcb9fa4alzcOq3EaNPoG": {
@@ -4219,6 +8827,14 @@
    "name": "Snoop Dogg",
    "source": "lastfm"
   },
+  "7hM5uke6gIXP71gLZxYSa7": {
+   "fetched": "2026-10-02T15:57:10+00:00",
+   "genres": [
+    "bangladesh"
+   ],
+   "name": "Rupkotha",
+   "source": "lastfm"
+  },
   "7hQmAXAzWI6D350VTgkKTG": {
    "fetched": "2026-10-02T15:17:45+00:00",
    "genres": [
@@ -4226,6 +8842,25 @@
     "dance"
    ],
    "name": "Arash",
+   "source": "lastfm"
+  },
+  "7jVv8c5Fj3E9VhNjxT4snq": {
+   "fetched": "2026-10-02T15:57:12+00:00",
+   "genres": [
+    "hip-hop",
+    "rap"
+   ],
+   "name": "Lil Nas X",
+   "source": "lastfm"
+  },
+  "7jXFtoRnuxXJ0trzvt3DNj": {
+   "fetched": "2026-10-02T15:54:56+00:00",
+   "genres": [
+    "alternative",
+    "nice music",
+    "discoverunsigned"
+   ],
+   "name": "Once Monsters",
    "source": "lastfm"
   },
   "7jdFEYD2LTYjfwxOdlVjmc": {
@@ -4238,6 +8873,21 @@
    "name": "KALEO",
    "source": "lastfm"
   },
+  "7k7xHgJmIYaxLLnECoQrP7": {
+   "fetched": "2026-10-02T15:55:04+00:00",
+   "genres": [],
+   "name": "Ely Waves",
+   "source": "lastfm"
+  },
+  "7kcOzj8579txaLaCx5r8kl": {
+   "fetched": "2026-10-02T15:55:22+00:00",
+   "genres": [
+    "experimental",
+    "dark cabaret"
+   ],
+   "name": "Nostalghia",
+   "source": "lastfm"
+  },
   "7lUoW7drRdFy2lxHsxfQyQ": {
    "fetched": "2026-10-02T15:10:00+00:00",
    "genres": [
@@ -4247,10 +8897,36 @@
    "source": "lastfm"
   },
   "7mDOJJnvtG46S8MZbuVIl1": {
-   "fetched": "2026-10-02T15:09:56+00:00",
+   "fetched": "2026-10-02T15:53:36+00:00",
    "genres": [],
    "name": "Puppet Regime",
-   "source": "spotify"
+   "source": "lastfm"
+  },
+  "7n2wHs1TKAczGzO7Dd2rGr": {
+   "fetched": "2026-10-02T15:57:00+00:00",
+   "genres": [
+    "pop"
+   ],
+   "name": "Shawn Mendes",
+   "source": "lastfm"
+  },
+  "7naDXHAHLyVnJPC545dpbB": {
+   "fetched": "2026-10-02T15:55:21+00:00",
+   "genres": [
+    "death metal",
+    "metalcore"
+   ],
+   "name": "Subconscious",
+   "source": "lastfm"
+  },
+  "7o7doCwqft91WC690aglWC": {
+   "fetched": "2026-10-02T15:54:00+00:00",
+   "genres": [
+    "post-rock",
+    "experimental"
+   ],
+   "name": "Sanam",
+   "source": "lastfm"
   },
   "7oPftvlwr6VrsViSDV7fJY": {
    "fetched": "2026-10-02T15:27:52+00:00",
@@ -4268,6 +8944,21 @@
     "electronic"
    ],
    "name": "adore",
+   "source": "lastfm"
+  },
+  "7pgXScNRC9BcqMbtgUKjz3": {
+   "fetched": "2026-10-02T15:53:57+00:00",
+   "genres": [
+    "pakistani",
+    "rock"
+   ],
+   "name": "Jal",
+   "source": "lastfm"
+  },
+  "7qDiJfSZ3jm3vRN37nJdkZ": {
+   "fetched": "2026-10-02T15:57:17+00:00",
+   "genres": [],
+   "name": "DJ Challenge X",
    "source": "lastfm"
   },
   "7qnOGa8Zkp73wNWyXJauEf": {
@@ -4289,6 +8980,14 @@
    "name": "SoulChef",
    "source": "lastfm"
   },
+  "7sQ4V8EXhtpqitqzKhC6kl": {
+   "fetched": "2026-10-02T15:56:32+00:00",
+   "genres": [
+    "rock"
+   ],
+   "name": "Nicke Borg Homeland",
+   "source": "lastfm"
+  },
   "7slfeZO9LsJbWgpkIoXBUJ": {
    "fetched": "2026-10-02T15:20:13+00:00",
    "genres": [
@@ -4298,12 +8997,85 @@
    "name": "Ricky Martin",
    "source": "lastfm"
   },
+  "7tDNlQFvop3MkVhXxZwGfk": {
+   "fetched": "2026-10-02T15:56:46+00:00",
+   "genres": [],
+   "name": "Elita Karim",
+   "source": "lastfm"
+  },
+  "7tIaXrpDwqcZHK8zuJGjpk": {
+   "fetched": "2026-10-02T15:56:42+00:00",
+   "genres": [
+    "instrumental hiphop",
+    "instrumental hip-hop"
+   ],
+   "name": "Carameii",
+   "source": "lastfm"
+  },
+  "7tJID3D9UVKLpJSleVaM0b": {
+   "fetched": "2026-10-02T15:54:42+00:00",
+   "genres": [
+    "bangladesh",
+    "heavy metal"
+   ],
+   "name": "Cryptic Fate",
+   "source": "lastfm"
+  },
+  "7tKi9Ea7AqpJDKNhsWRJuy": {
+   "fetched": "2026-10-02T15:55:19+00:00",
+   "genres": [
+    "heavy metal",
+    "thrash metal"
+   ],
+   "name": "Mechanix",
+   "source": "lastfm"
+  },
+  "7tSqWbPIUCl6bTbPoxLXGn": {
+   "fetched": "2026-10-02T15:56:31+00:00",
+   "genres": [],
+   "name": "Dima Lancaster",
+   "source": "lastfm"
+  },
+  "7uAeCDH6IeX8PmXAUSEMHl": {
+   "fetched": "2026-10-02T15:56:34+00:00",
+   "genres": [],
+   "name": "Luvlostlucid",
+   "source": "lastfm"
+  },
+  "7uaIm6Pw7xplS8Dy06V6pT": {
+   "fetched": "2026-10-02T15:54:06+00:00",
+   "genres": [
+    "pop",
+    "rnb"
+   ],
+   "name": "Trevor Daniel",
+   "source": "lastfm"
+  },
+  "7uiRC0NlNdHQKVhjTztgrg": {
+   "fetched": "2026-10-02T15:56:28+00:00",
+   "genres": [
+    "alternative rock",
+    "rock",
+    "bangladesh"
+   ],
+   "name": "BAGDHARA",
+   "source": "lastfm"
+  },
   "7vNNmjV14SKQzlQAEg0BXP": {
    "fetched": "2026-10-02T15:28:28+00:00",
    "genres": [
     "indie pop"
    ],
    "name": "Jean Dawson",
+   "source": "lastfm"
+  },
+  "7vk5e3vY1uw9plTHJAMwjN": {
+   "fetched": "2026-10-02T15:55:29+00:00",
+   "genres": [
+    "electronic",
+    "house"
+   ],
+   "name": "Alan Walker",
    "source": "lastfm"
   },
   "7wCjDgV6nqBsHguQXPAaIM": {
@@ -4323,6 +9095,14 @@
     "j-pop"
    ],
    "name": "Akeboshi",
+   "source": "lastfm"
+  },
+  "7xNjAAHJLyEjZCbxzBlQJ7": {
+   "fetched": "2026-10-02T15:57:22+00:00",
+   "genres": [
+    "bangla rock"
+   ],
+   "name": "Prithibi",
    "source": "lastfm"
   },
   "7xTcuBOIAAIGDOSvwYFPzk": {
