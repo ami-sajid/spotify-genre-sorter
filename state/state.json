@@ -970,6 +970,15 @@
    "name": "nihmune",
    "source": "lastfm"
   },
+  "0oOet2f43PA68X5RxKobEy": {
+   "fetched": "2026-10-04T12:24:12+00:00",
+   "genres": [
+    "bollywood",
+    "hindi"
+   ],
+   "name": "Shreya Ghoshal",
+   "source": "lastfm"
+  },
   "0oSGxfWSnnOXhD2fKuz2Gy": {
    "fetched": "2026-10-02T15:21:29+00:00",
    "genres": [
@@ -9115,8 +9124,8 @@
   }
  },
  "version": 1,
- "watermark": "2026-10-02T14:24:55Z",
+ "watermark": "2026-10-04T06:22:53Z",
  "watermark_ids": [
-  "76qrhzzY2COnCsaS0VmbIt"
+  "3zb5Omz3mP7XRl7fDfiquc"
  ]
 }
