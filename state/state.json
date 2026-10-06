@@ -5289,6 +5289,15 @@
    "name": "Goodvibes Sound",
    "source": "lastfm"
   },
+  "4UTEZqrPqLDOhBfraPNciJ": {
+   "fetched": "2026-10-06T00:04:47+00:00",
+   "genres": [
+    "j-pop",
+    "japanese"
+   ],
+   "name": "Daichi Miura",
+   "source": "lastfm"
+  },
   "4UZiqcfIggY32IYR1j13fz": {
    "fetched": "2026-10-02T15:57:02+00:00",
    "genres": [
@@ -9124,8 +9133,8 @@
   }
  },
  "version": 1,
- "watermark": "2026-10-04T12:31:58Z",
+ "watermark": "2026-10-05T19:59:34Z",
  "watermark_ids": [
-  "0sxo6s4vIkDTzmFUDhUvc8"
+  "5T0gewt2BP5PpYNNlMyAO0"
  ]
 }
