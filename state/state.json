@@ -2373,6 +2373,15 @@
    "name": "Masked Wolf",
    "source": "lastfm"
   },
+  "1udruffum7CorOphFUMB9A": {
+   "fetched": "2026-10-07T06:02:48+00:00",
+   "genres": [
+    "house",
+    "electronic"
+   ],
+   "name": "Kato",
+   "source": "lastfm"
+  },
   "1v7B6ZWa7QRQS3knn3Jvf4": {
    "fetched": "2026-10-02T15:16:29+00:00",
    "genres": [
@@ -9133,8 +9142,8 @@
   }
  },
  "version": 1,
- "watermark": "2026-10-05T19:59:34Z",
+ "watermark": "2026-10-06T21:44:11Z",
  "watermark_ids": [
-  "5T0gewt2BP5PpYNNlMyAO0"
+  "3ssyED50WJpisKCW7n6rND"
  ]
 }
