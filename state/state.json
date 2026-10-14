@@ -402,6 +402,15 @@
    "name": "vaultboy",
    "source": "lastfm"
   },
+  "0KXjJXTWZsTVzswKWbb2Xp": {
+   "fetched": "2026-10-14T11:55:38+00:00",
+   "genres": [
+    "soundtrack",
+    "ambient"
+   ],
+   "name": "Petri Alanko",
+   "source": "lastfm"
+  },
   "0Khn06ciCEk0SvcdZty81P": {
    "fetched": "2026-10-02T15:54:19+00:00",
    "genres": [
@@ -9163,8 +9172,8 @@
   }
  },
  "version": 1,
- "watermark": "2026-10-11T22:28:12Z",
+ "watermark": "2026-10-14T11:10:14Z",
  "watermark_ids": [
-  "0oVwiv3r67351gw9R2Fk8E"
+  "3pKdz7lTvrjQED9QgEx588"
  ]
 }
